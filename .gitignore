@@ -1,3 +1,8 @@
 data/raw/ile-de-france-140101.osm.pbf
 data/raw/ile-de-france-140101.osm.pbf.mapdb
 data/raw/ile-de-france-140101.osm.pbf.mapdb.p
+edges_carbike_disconnected.geojson
+nodes_carbike_disconnected.geojson
+edges_all_file.geojson
+edges_all_file.geojson
+*.geojson
