@@ -1,0 +1,979 @@
+COD_VAR;LIB_VAR;COD_MOD;LIB_MOD
+NA;Activité en 88 postes;T;TOUS SECTEURS
+NA;Activité en 88 postes;TAZ;A05-AZ-Agriculture, sylviculture et pêche
+NA;Activité en 88 postes;TAZAZ;A17-AZ-Agriculture, sylviculture et pêche
+NA;Activité en 88 postes;TAZAZAZ;A38-AZ-Agriculture, sylviculture et pêche
+NA;Activité en 88 postes;TAZAZAZ01;A88-01-Culture et production animale, chasse et services annexes
+NA;Activité en 88 postes;TAZAZAZ02;A88-02-Sylviculture et exploitation forestière
+NA;Activité en 88 postes;TAZAZAZ03;A88-03-Pêche et aquaculture
+NA;Activité en 88 postes;TBE;A05-BE-Industrie
+NA;Activité en 88 postes;TBEC1;A17-C1-Fabrication de denrées alimentaires, de boissons et de produits à base de tabac
+NA;Activité en 88 postes;TBEC1CA;A38-CA-Fabrication de denrées alimentaires, de boissons et de produits à base de tabac
+NA;Activité en 88 postes;TBEC1CA10;A88-10-Industries alimentaires
+NA;Activité en 88 postes;TBEC1CA11;A88-11-Fabrication de boissons
+NA;Activité en 88 postes;TBEC1CA12;A88-12-Fabrication de produits à base de tabac
+NA;Activité en 88 postes;TBEC2;A17-C2-Cokéfaction et raffinage
+NA;Activité en 88 postes;TBEC2CD;A38-CD-Cokéfaction et raffinage
+NA;Activité en 88 postes;TBEC2CD19;A88-19-Cokéfaction et raffinage
+NA;Activité en 88 postes;TBEC3;A17-C3-Fabrication d'équipements électriques, électroniques, informatiques, fabrication de machines
+NA;Activité en 88 postes;TBEC3CI;A38-CI-Fabrication de produits informatiques, électroniques et optiques
+NA;Activité en 88 postes;TBEC3CI26;A88-26-Fabrication de produits informatiques, électroniques et optiques
+NA;Activité en 88 postes;TBEC3CJ;A38-CJ-Fabrication d'équipements électriques
+NA;Activité en 88 postes;TBEC3CJ27;A88-27-Fabrication d'équipements électriques
+NA;Activité en 88 postes;TBEC3CK;A38-CK-Fabrication de machines et équipements n.c.a.
+NA;Activité en 88 postes;TBEC3CK28;A88-28-Fabrication de machines et équipements n.c.a.
+NA;Activité en 88 postes;TBEC4;A17-C4-Fabrication de matériels de transport
+NA;Activité en 88 postes;TBEC4CL;A38-CL-Fabrication de matériels de transport
+NA;Activité en 88 postes;TBEC4CL29;A88-29-Industrie automobile
+NA;Activité en 88 postes;TBEC4CL30;A88-30-Fabrication d'autres matériels de transport
+NA;Activité en 88 postes;TBEC5;A17-C5-Fabrication d'autres produits industriels
+NA;Activité en 88 postes;TBEC5CB;A38-CB-Fabrication de textiles, industries de l'habillement, industrie du cuir et de la chaussure
+NA;Activité en 88 postes;TBEC5CB13;A88-13-Fabrication de textiles
+NA;Activité en 88 postes;TBEC5CB14;A88-14-Industrie de l'habillement
+NA;Activité en 88 postes;TBEC5CB15;A88-15-Industrie du cuir et de la chaussure
+NA;Activité en 88 postes;TBEC5CC;A38-CC-Travail du bois, industries du papier et imprimerie
+NA;Activité en 88 postes;TBEC5CC16;A88-16-Travail du bois et fabrication d'articles en bois et en liège, à l'exception des meubles, fabrication d'articles en vannerie et sparterie
+NA;Activité en 88 postes;TBEC5CC17;A88-17-Industrie du papier et du carton
+NA;Activité en 88 postes;TBEC5CC18;A88-18-Imprimerie et reproduction d'enregistrements
+NA;Activité en 88 postes;TBEC5CE;A38-CE-Industrie chimique
+NA;Activité en 88 postes;TBEC5CE20;A88-20-Industrie chimique
+NA;Activité en 88 postes;TBEC5CF;A38-CF-Industrie pharmaceutique
+NA;Activité en 88 postes;TBEC5CF21;A88-21-Industrie pharmaceutique
+NA;Activité en 88 postes;TBEC5CG;A38-CG-Fabrication de produits en caoutchouc et en plastique ainsi que d'autres produits minéraux non métalliques
+NA;Activité en 88 postes;TBEC5CG22;A88-22-Fabrication de produits en caoutchouc et en plastique
+NA;Activité en 88 postes;TBEC5CG23;A88-23-Fabrication d'autres produits minéraux non métalliques
+NA;Activité en 88 postes;TBEC5CH;A38-CH-Métallurgie et fabrication de produits métalliques à l'exception des machines et des équipements
+NA;Activité en 88 postes;TBEC5CH24;A88-24-Métallurgie
+NA;Activité en 88 postes;TBEC5CH25;A88-25-Fabrication de produits métalliques, à l'exception des machines et des équipements
+NA;Activité en 88 postes;TBEC5CM;A38-CM-Autres industries manufacturières, réparation et installation de machines et d'équipements
+NA;Activité en 88 postes;TBEC5CM31;A88-31-Fabrication de meubles
+NA;Activité en 88 postes;TBEC5CM32;A88-32-Autres industries manufacturières
+NA;Activité en 88 postes;TBEC5CM33;A88-33-Réparation et installation de machines et d'équipements
+NA;Activité en 88 postes;TBEDE;A17-DE-Industries extractives, énergie, eau, gestion des déchets et dépollution
+NA;Activité en 88 postes;TBEDEBZ;A38-BZ-Industries extractives
+NA;Activité en 88 postes;TBEDEBZ05;A88-05-Extraction de houille et de lignite
+NA;Activité en 88 postes;TBEDEBZ06;A88-06-Extraction d'hydrocarbures
+NA;Activité en 88 postes;TBEDEBZ07;A88-07-Extraction de minerais métalliques
+NA;Activité en 88 postes;TBEDEBZ08;A88-08-Autres industries extractives
+NA;Activité en 88 postes;TBEDEBZ09;A88-09-Services de soutien aux industries extractives
+NA;Activité en 88 postes;TBEDEDZ;A38-DZ-Production et distribution d'électricité, de gaz, de vapeur et d'air conditionné
+NA;Activité en 88 postes;TBEDEDZ35;A88-35-Production et distribution d'électricité, de gaz, de vapeur et d'air conditionné
+NA;Activité en 88 postes;TBEDEEZ;A38-EZ-Production et distribution d'eau, assainissement, gestion des déchets et dépollution
+NA;Activité en 88 postes;TBEDEEZ36;A88-36-Captage, traitement et distribution d'eau
+NA;Activité en 88 postes;TBEDEEZ37;A88-37-Collecte et traitement des eaux usées
+NA;Activité en 88 postes;TBEDEEZ38;A88-38-Collecte, traitement et élimination des déchets, récupération
+NA;Activité en 88 postes;TBEDEEZ39;A88-39-Dépollution et autres services de gestion des déchets
+NA;Activité en 88 postes;TFZ;A05-FZ-Construction
+NA;Activité en 88 postes;TFZFZ;A17-FZ-Construction
+NA;Activité en 88 postes;TFZFZFZ;A38-FZ-Construction
+NA;Activité en 88 postes;TFZFZFZ41;A88-41-Construction de bâtiments
+NA;Activité en 88 postes;TFZFZFZ42;A88-42-Génie civil
+NA;Activité en 88 postes;TFZFZFZ43;A88-43-Travaux de construction spécialisés
+NA;Activité en 88 postes;TGU;A05-GU-Tertiaire marchand
+NA;Activité en 88 postes;TGUGZ;A17-GZ-Commerce, réparation d'automobiles et de motocycles
+NA;Activité en 88 postes;TGUGZGZ;A38-GZ-Commerce, réparation d'automobiles et de motocycles
+NA;Activité en 88 postes;TGUGZGZ45;A88-45-Commerce et réparation d'automobiles et de motocycles
+NA;Activité en 88 postes;TGUGZGZ46;A88-46-Commerce de gros, à l'exception des automobiles et des motocycles
+NA;Activité en 88 postes;TGUGZGZ47;A88-47-Commerce de détail, à l'exception des automobiles et des motocycles
+NA;Activité en 88 postes;TGUHZ;A17-HZ-Transports et entreposage
+NA;Activité en 88 postes;TGUHZHZ;A38-HZ-Transports et entreposage
+NA;Activité en 88 postes;TGUHZHZ49;A88-49-Transports terrestres et transport par conduites
+NA;Activité en 88 postes;TGUHZHZ50;A88-50-Transports par eau
+NA;Activité en 88 postes;TGUHZHZ51;A88-51-Transports aériens
+NA;Activité en 88 postes;TGUHZHZ52;A88-52-Entreposage et services auxiliaires des transports
+NA;Activité en 88 postes;TGUHZHZ53;A88-53-Activités de poste et de courrier
+NA;Activité en 88 postes;TGUIZ;A17-IZ-Hébergement et restauration
+NA;Activité en 88 postes;TGUIZIZ;A38-IZ-Hébergement et restauration
+NA;Activité en 88 postes;TGUIZIZ55;A88-55-Hébergement
+NA;Activité en 88 postes;TGUIZIZ56;A88-56-Restauration
+NA;Activité en 88 postes;TGUJZ;A17-JZ-Information et communication
+NA;Activité en 88 postes;TGUJZJA;A38-JA-Edition, audiovisuel et diffusion
+NA;Activité en 88 postes;TGUJZJA58;A88-58-Édition
+NA;Activité en 88 postes;TGUJZJA59;A88-59-Production de films cinématographiques, de vidéo et de programmes de télévision, enregistrement sonore et édition musicale
+NA;Activité en 88 postes;TGUJZJA60;A88-60-Programmation et diffusion
+NA;Activité en 88 postes;TGUJZJB;A38-JB-Télécommunications
+NA;Activité en 88 postes;TGUJZJB61;A88-61-Télécommunications
+NA;Activité en 88 postes;TGUJZJC;A38-JC-Activités informatiques et services d'information
+NA;Activité en 88 postes;TGUJZJC62;A88-62-Programmation, conseil et autres activités informatiques
+NA;Activité en 88 postes;TGUJZJC63;A88-63-Services d'information
+NA;Activité en 88 postes;TGUKZ;A17-KZ-Activités financières et d'assurance
+NA;Activité en 88 postes;TGUKZKZ;A38-KZ-Activités financières et d'assurance
+NA;Activité en 88 postes;TGUKZKZ64;A88-64-Activités des services financiers, hors assurance et caisses de retraite
+NA;Activité en 88 postes;TGUKZKZ65;A88-65-Assurance
+NA;Activité en 88 postes;TGUKZKZ66;A88-66-Activités auxiliaires de services financiers et d'assurance
+NA;Activité en 88 postes;TGULZ;A17-LZ-Activités immobilières
+NA;Activité en 88 postes;TGULZLZ;A38-LZ-Activités immobilières
+NA;Activité en 88 postes;TGULZLZ68;A88-68-Activités immobilières
+NA;Activité en 88 postes;TGUMN;A17-MN-Activités scientifiques et techniques, services administratifs et de soutien
+NA;Activité en 88 postes;TGUMNMA;A38-MA-Activités juridiques, comptables, de gestion, d'architecture, d'ingénierie, de contrôle et d'analyses techniques
+NA;Activité en 88 postes;TGUMNMA69;A88-69-Activités juridiques et comptables
+NA;Activité en 88 postes;TGUMNMA70;A88-70Activités des sièges sociaux, conseil de gestion
+NA;Activité en 88 postes;TGUMNMA71;A88-71-Activités d'architecture et d'ingénierie, activités de contrôle et analyses techniques
+NA;Activité en 88 postes;TGUMNMB;A38-MB-Recherche - développement scientifique
+NA;Activité en 88 postes;TGUMNMB72;A88-72-Recherche - développement scientifique
+NA;Activité en 88 postes;TGUMNMC;A38-MC-Autres activités spécialisées, scientifiques et techniques
+NA;Activité en 88 postes;TGUMNMC73;A88-73Publicité et études de marché
+NA;Activité en 88 postes;TGUMNMC74;A88-74-Autres activités spécialisées, scientifiques et techniques
+NA;Activité en 88 postes;TGUMNMC75;A88-75-Activités vétérinaires
+NA;Activité en 88 postes;TGUMNNZ;A38-NZ-Activités de services administratifs et de soutien
+NA;Activité en 88 postes;TGUMNNZ77;A88-77-Activités de location et location-bail
+NA;Activité en 88 postes;TGUMNNZ78;A88-78-Activités liées à l'emploi
+NA;Activité en 88 postes;TGUMNNZ79;A88-79-Activités des agences de voyage, voyagistes, services de réservation et activités connexes
+NA;Activité en 88 postes;TGUMNNZ80;A88-80-Enquêtes et sécurité
+NA;Activité en 88 postes;TGUMNNZ81;A88-81-Services relatifs aux bâtiments et aménagement paysager
+NA;Activité en 88 postes;TGUMNNZ82;A88-82-Activités administratives et autres activités de soutien aux entreprises
+NA;Activité en 88 postes;TGURU;A17-RU-Autres activités de services
+NA;Activité en 88 postes;TGURURZ;A38-RZ-Arts, spectacles et activités récréatives
+NA;Activité en 88 postes;TGURURZ90;A88-90-Activités créatives, artistiques et de spectacle
+NA;Activité en 88 postes;TGURURZ91;A88-91-Bibliothèques, archives, musées et autres activités culturelles
+NA;Activité en 88 postes;TGURURZ92;A88-92-Organisation de jeux de hasard et d'argent
+NA;Activité en 88 postes;TGURURZ93;A88-93-Activités sportives, récréatives et de loisirs
+NA;Activité en 88 postes;TGURUSZ;A38-SZ-Autres activités de services
+NA;Activité en 88 postes;TGURUSZ94;A88-94-Activités des organisations associatives
+NA;Activité en 88 postes;TGURUSZ95;A88-95-Réparation d'ordinateurs et de biens personnels et domestiques
+NA;Activité en 88 postes;TGURUSZ96;A88-96-Autres services personnels
+NA;Activité en 88 postes;TGURUTZ;A38-TZ-Activités des ménages en tant qu'employeurs, activités indifférenciées des ménages en tant que producteurs de biens et services pour usage propre
+NA;Activité en 88 postes;TGURUTZ97;A88-97-Activités des ménages en tant qu'employeurs de personnel domestique
+NA;Activité en 88 postes;TGURUTZ98;A88-98-Activités indifférenciées des ménages en tant que producteurs de biens et services pour usage propre
+NA;Activité en 88 postes;TGURUUZ;A38-UZ-Activités extra-territoriales
+NA;Activité en 88 postes;TGURUUZ99;A88-99-Activités des organisations et organismes extraterritoriaux
+NA;Activité en 88 postes;TOQ;A05-OQ-Tertiaire non marchand
+NA;Activité en 88 postes;TOQOQ;A17-OQ-Administration publique, enseignement, santé humaine et action sociale
+NA;Activité en 88 postes;TOQOQOZ;A38-OQ-Administration publique
+NA;Activité en 88 postes;TOQOQOZ84;A88-84-Administration publique et défense, sécurité sociale obligatoire
+NA;Activité en 88 postes;TOQOQPZ;A38-PZ-Enseignement
+NA;Activité en 88 postes;TOQOQPZ85;A88-85-Enseignement
+NA;Activité en 88 postes;TOQOQQA;A38-QAActivités pour la santé humaine
+NA;Activité en 88 postes;TOQOQQA86;A88-86-Activités pour la santé humaine
+NA;Activité en 88 postes;TOQOQQB;A38-QB-Hébergement médico - social et social et action sociale sans hébergement
+NA;Activité en 88 postes;TOQOQQB87;A88-87-Hébergement médico-social et social
+NA;Activité en 88 postes;TOQOQQB88;A88-88-Action sociale sans hébergement
+A4;Activité en 4 postes;AGR;Agriculture
+A4;Activité en 4 postes;IND;Industrie
+A4;Activité en 4 postes;CON;Construction
+A4;Activité en 4 postes;TER;Tertiaire
+A4;Activité en 4 postes;TOT;Ensemble
+AGE;Âge;ENS;Ensemble
+AGE;Âge;A1524;15 à 24 ans
+AGE;Âge;A2549;25 à 49 ans
+AGE;Âge;A50P;50 ans et plus
+ANNEE;Année;1954;1954
+ANNEE;Année;1955;1955
+ANNEE;Année;1956;1956
+ANNEE;Année;1957;1957
+ANNEE;Année;1958;1958
+ANNEE;Année;1959;1959
+ANNEE;Année;1960;1960
+ANNEE;Année;1961;1961
+ANNEE;Année;1962;1962
+ANNEE;Année;1963;1963
+ANNEE;Année;1964;1964
+ANNEE;Année;1965;1965
+ANNEE;Année;1966;1966
+ANNEE;Année;1967;1967
+ANNEE;Année;1968;1968
+ANNEE;Année;1969;1969
+ANNEE;Année;1970;1970
+ANNEE;Année;1971;1971
+ANNEE;Année;1972;1972
+ANNEE;Année;1973;1973
+ANNEE;Année;1974;1974
+ANNEE;Année;1975;1975
+ANNEE;Année;1976;1976
+ANNEE;Année;1977;1977
+ANNEE;Année;1978;1978
+ANNEE;Année;1979;1979
+ANNEE;Année;1980;1980
+ANNEE;Année;1981;1981
+ANNEE;Année;1982;1982
+ANNEE;Année;1983;1983
+ANNEE;Année;1984;1984
+ANNEE;Année;1985;1985
+ANNEE;Année;1986;1986
+ANNEE;Année;1987;1987
+ANNEE;Année;1988;1988
+ANNEE;Année;1989;1989
+ANNEE;Année;1990;1990
+ANNEE;Année;1991;1991
+ANNEE;Année;1992;1992
+ANNEE;Année;1993;1993
+ANNEE;Année;1994;1994
+ANNEE;Année;1995;1995
+ANNEE;Année;1996;1996
+ANNEE;Année;1997;1997
+ANNEE;Année;1998;1998
+ANNEE;Année;1999;1999
+ANNEE;Année;2000;2000
+ANNEE;Année;2001;2001
+ANNEE;Année;2002;2002
+ANNEE;Année;2003;2003
+ANNEE;Année;2004;2004
+ANNEE;Année;2005;2005
+ANNEE;Année;2006;2006
+ANNEE;Année;2007;2007
+ANNEE;Année;2008;2008
+ANNEE;Année;2009;2009
+ANNEE;Année;2010;2010
+ANNEE;Année;2011;2011
+ANNEE;Année;2012;2012
+ANNEE;Année;2013;2013
+ANNEE;Année;2014;2014
+ANNEE;Année;2015;2015
+ANNEE;Année;2016;2016
+ANNEE;Année;2017;2017
+ANNEE;Année;2018;2018
+ANNEE;Année;2019;2019
+ANNEE;Année;2020;2020
+ANNEE;Année;2021;2021 (p)
+ANNEE2;Année;1989;1989
+ANNEE2;Année;1990;1990
+ANNEE2;Année;1991;1991
+ANNEE2;Année;1992;1992
+ANNEE2;Année;1993;1993
+ANNEE2;Année;1994;1994
+ANNEE2;Année;1995;1995
+ANNEE2;Année;1996;1996
+ANNEE2;Année;1997;1997
+ANNEE2;Année;1998;1998
+ANNEE2;Année;1999;1999
+ANNEE2;Année;2000;2000
+ANNEE2;Année;2001;2001
+ANNEE2;Année;2002;2002
+ANNEE2;Année;2003;2003
+ANNEE2;Année;2004;2004
+ANNEE2;Année;2005;2005
+ANNEE2;Année;2006;2006
+ANNEE2;Année;2007;2007
+ANNEE2;Année;2008;2008
+ANNEE2;Année;2009;2009
+ANNEE2;Année;2010;2010
+ANNEE2;Année;2011;2011
+ANNEE2;Année;2012;2012
+ANNEE2;Année;2013;2013
+ANNEE2;Année;2014;2014
+ANNEE2;Année;2015;2015
+ANNEE2;Année;2016;2016
+ANNEE2;Année;2017;2017
+ANNEE2;Année;2018;2018
+ANNEE2;Année;2019;2019
+ANNEE2;Année;2020;2020
+ANNEE2;Année;2021;2021 (p)
+ANNEE3;Année;2008;2008
+ANNEE3;Année;2009;2009
+ANNEE3;Année;2010;2010
+ANNEE3;Année;2011;2011
+ANNEE3;Année;2012;2012
+ANNEE3;Année;2013;2013
+ANNEE3;Année;2014;2014
+ANNEE3;Année;2015;2015
+ANNEE3;Année;2016;2016
+ANNEE3;Année;2017;2017
+ANNEE3;Année;2018;2018
+ANNEE3;Année;2019;2019
+ANNEE3;Année;2020;2020
+ANNEE4;Année;1989;1989
+ANNEE4;Année;1990;1990
+ANNEE4;Année;1991;1991
+ANNEE4;Année;1992;1992
+ANNEE4;Année;1993;1993
+ANNEE4;Année;1994;1994
+ANNEE4;Année;1995;1995
+ANNEE4;Année;1996;1996
+ANNEE4;Année;1997;1997
+ANNEE4;Année;1998;1998
+ANNEE4;Année;1999;1999
+ANNEE4;Année;2000;2000
+ANNEE4;Année;2001;2001
+ANNEE4;Année;2002;2002
+ANNEE4;Année;2003;2003
+ANNEE4;Année;2004;2004
+ANNEE4;Année;2005;2005
+ANNEE4;Année;2006;2006
+ANNEE4;Année;2007;2007
+ANNEE4;Année;2008;2008
+ANNEE4;Année;2009;2009
+ANNEE4;Année;2010;2010
+ANNEE4;Année;2011;2011
+ANNEE4;Année;2012;2012
+ANNEE4;Année;2013;2013
+ANNEE4;Année;2014;2014
+ANNEE4;Année;2015;2015
+ANNEE4;Année;2016;2016
+ANNEE4;Année;2017;2017
+ANNEE4;Année;2018;2018
+ANNEE4;Année;2019;2019
+ANNEE4;Année;2020;2020
+ANNEE5;Année;1998;1998
+ANNEE5;Année;1999;1999
+ANNEE5;Année;2000;2000
+ANNEE5;Année;2001;2001
+ANNEE5;Année;2002;2002
+ANNEE5;Année;2003;2003
+ANNEE5;Année;2004;2004
+ANNEE5;Année;2005;2005
+ANNEE5;Année;2006;2006
+ANNEE5;Année;2007;2007
+ANNEE5;Année;2008;2008
+ANNEE5;Année;2009;2009
+ANNEE5;Année;2010;2010
+ANNEE5;Année;2011;2011
+ANNEE5;Année;2012;2012
+ANNEE5;Année;2013;2013
+ANNEE5;Année;2014;2014
+ANNEE5;Année;2015;2015
+ANNEE5;Année;2016;2016
+ANNEE5;Année;2017;2017
+ANNEE5;Année;2018;2018
+ANNEE5;Année;2019;2019
+ANNEE5;Année;2020;2020
+CHAMP;Champ géographique (France métropolitaine, France hors Mayotte);FE;France (hors Mayotte)
+CHAMP;Champ géographique (France métropolitaine, France hors Mayotte);FM;France métropolitaine
+EMPNAF;Secteur d’activité et employeur;ENS;Ensemble
+EMPNAF;Employeur et secteur d’activité;FP;Tous secteurs d’activité – Fonction Publique
+EMPNAF;Employeur et secteur d’activité;PR;Tous secteurs d’activité – Privé
+EMPNAF;Employeur et secteur d’activité;PRPE;Tous secteurs d’activité – Particuliers employeurs
+EMPNAF;Employeur et secteur d’activité;PRAUT;Tous secteurs d’activité – Privé hors particuliers employeurs
+EMPNAF;Employeur et secteur d’activité;AZ;A5-AZ-Agriculture
+EMPNAF;Employeur et secteur d’activité;AZFP;A5-AZ-Agriculture – Fonction Publique
+EMPNAF;Employeur et secteur d’activité;AZPR;A5-AZ-Agriculture – Privé
+EMPNAF;Employeur et secteur d’activité;BE;A5-DE-Industrie
+EMPNAF;Employeur et secteur d’activité;BEFP;A5-DE-Industrie – Fonction Publique
+EMPNAF;Employeur et secteur d’activité;BEPR;A5-DE-Industrie – Privé
+EMPNAF;Employeur et secteur d’activité;FZ;A5-FZ-Construction
+EMPNAF;Employeur et secteur d’activité;FZFP;A5-FZ-Construction – Fonction Publique
+EMPNAF;Employeur et secteur d’activité;FZPR;A5-FZ-Construction – Privé
+EMPNAF;Employeur et secteur d’activité;OQ;A5-OQ-Tertiaire non marchand
+EMPNAF;Employeur et secteur d’activité;OQFP;A5-OQ-Tertiaire non marchand – Fonction Publique
+EMPNAF;Employeur et secteur d’activité;OQPR;A5-OQ-Tertiaire non marchand – Privé
+EMPNAF;Employeur et secteur d’activité;OQPRPE;A5-OQ-Tertiaire non marchand – Particuliers employeurs
+EMPNAF;Employeur et secteur d’activité;OQPRAUT;A5-OQ-Tertiaire non marchand – Privé hors particuliers employeurs
+EMPNAF;Employeur et secteur d’activité;OZ;A38-OZ-Administration publique
+EMPNAF;Employeur et secteur d’activité;OZFP;A38-OZ-Administration publique – Fonction publique
+EMPNAF;Employeur et secteur d’activité;OZPR;A38-OZ-Administration publique – Privé
+EMPNAF;Employeur et secteur d’activité;PZ;A38-PZ-Enseignement
+EMPNAF;Employeur et secteur d’activité;PZFP;A38-PZ-Enseignement – Fonction publique
+EMPNAF;Employeur et secteur d’activité;PZPR;A38-PZ-Enseignement – Privé
+EMPNAF;Employeur et secteur d’activité;QA;A38-QA-Activités pour la santé humaine – Fonction publique
+EMPNAF;Employeur et secteur d’activité;QAFP;A38-QA-Activités pour la santé humaine – Fonction publique
+EMPNAF;Employeur et secteur d’activité;QAPR;A38-QA-Activités pour la santé humaine – Privé
+EMPNAF;Employeur et secteur d’activité;QB;A38-QB-Hébergement médico - social et social et action sociale sans hébergement
+EMPNAF;Employeur et secteur d’activité;QBFP;A38-QB – Fonction publique
+EMPNAF;Employeur et secteur d’activité;QBPR;A38-QB – Privé
+EMPNAF;Employeur et secteur d’activité;QBPRPE;A38-QB – Particuliers employeurs
+EMPNAF;Employeur et secteur d’activité;QBPRAUT;A38-QB – Privé hors particuliers employeurs
+EMPNAF;Employeur et secteur d’activité;GU;A5-GU-Tertiaire marchand
+EMPNAF;Employeur et secteur d’activité;GUFP;A5-GU-Tertiaire marchand – Fonction Publique
+EMPNAF;Employeur et secteur d’activité;GUPR;A5-GU-Tertiaire marchand – Privé
+EMPNAF;Employeur et secteur d’activité;GUPRPE;A5-GU-Tertiaire marchand – Particuliers employeurs
+EMPNAF;Employeur et secteur d’activité;GUPRAUT;A5-GU-Tertiaire marchand – Privé hors particuliers employeurs
+GEO;Niveau géographique;FE;France (hors Mayotte)
+GEO;Niveau géographique;DO;Total DOM
+GEO;Niveau géographique;D971;971-Guadeloupe
+GEO;Niveau géographique;D972;972-Martinique
+GEO;Niveau géographique;D973;973-Guyane
+GEO;Niveau géographique;D974;974-La Réunion
+GEO;Niveau géographique;FM;France métropolitaine
+GEO;Niveau géographique;F84;Auvergne-Rhône-Alpes
+GEO;Niveau géographique;F8401;01-Ain
+GEO;Niveau géographique;F8403;03-Allier
+GEO;Niveau géographique;F8407;07-Ardèche
+GEO;Niveau géographique;F8415;15-Cantal
+GEO;Niveau géographique;F8426;26-Drôme
+GEO;Niveau géographique;F8438;38-Isère
+GEO;Niveau géographique;F8442;42-Loire
+GEO;Niveau géographique;F8443;43-Haute-Loire
+GEO;Niveau géographique;F8463;63-Puy-de-Dôme
+GEO;Niveau géographique;F8469;69-Rhône
+GEO;Niveau géographique;F8473;73-Savoie
+GEO;Niveau géographique;F8474;74-Haute-Savoie
+GEO;Niveau géographique;F27;Bourgogne-Franche-Comté
+GEO;Niveau géographique;F2721;21-Côte-d'Or
+GEO;Niveau géographique;F2725;25-Doubs
+GEO;Niveau géographique;F2739;39-Jura
+GEO;Niveau géographique;F2758;58-Nièvre
+GEO;Niveau géographique;F2770;70-Haute-Saône
+GEO;Niveau géographique;F2771;71-Saône-et-Loire
+GEO;Niveau géographique;F2789;89-Yonne
+GEO;Niveau géographique;F2790;90-TerritoiredeBelfort
+GEO;Niveau géographique;F53;Bretagne
+GEO;Niveau géographique;F5322;22-Côtes-d'Armor
+GEO;Niveau géographique;F5329;29-Finistère
+GEO;Niveau géographique;F5335;35-Ille-et-Vilaine
+GEO;Niveau géographique;F5356;56-Morbihan
+GEO;Niveau géographique;F24;Centre-Val de Loire
+GEO;Niveau géographique;F2418;18-Cher
+GEO;Niveau géographique;F2428;28-Eure-et-Loir
+GEO;Niveau géographique;F2436;36-Indre
+GEO;Niveau géographique;F2437;37-Indre-et-Loire
+GEO;Niveau géographique;F2441;41-Loir-et-Cher
+GEO;Niveau géographique;F2445;45-Loiret
+GEO;Niveau géographique;F94;Corse
+GEO;Niveau géographique;F942A;2A-Corse-du-Sud
+GEO;Niveau géographique;F942B;2B-Haute-Corse
+GEO;Niveau géographique;F44;Grand Est
+GEO;Niveau géographique;F4408;08-Ardennes
+GEO;Niveau géographique;F4410;10-Aube
+GEO;Niveau géographique;F4451;51-Marne
+GEO;Niveau géographique;F4452;52-Haute-Marne
+GEO;Niveau géographique;F4454;54-Meurthe-et-Moselle
+GEO;Niveau géographique;F4455;55-Meuse
+GEO;Niveau géographique;F4457;57-Moselle
+GEO;Niveau géographique;F4467;67-Bas-Rhin
+GEO;Niveau géographique;F4468;68-Haut-Rhin
+GEO;Niveau géographique;F4488;88-Vosges
+GEO;Niveau géographique;F32;Hauts-de-France
+GEO;Niveau géographique;F3202;02-Aisne
+GEO;Niveau géographique;F3259;59-Nord
+GEO;Niveau géographique;F3260;60-Oise
+GEO;Niveau géographique;F3262;62-Pas-de-Calais
+GEO;Niveau géographique;F3280;80-Somme
+GEO;Niveau géographique;F11;Île-de-France
+GEO;Niveau géographique;F1175;75-Paris
+GEO;Niveau géographique;F1177;77-Seine-et-Marne
+GEO;Niveau géographique;F1178;78-Yvelines
+GEO;Niveau géographique;F1191;91-Essonne
+GEO;Niveau géographique;F1192;92-Hauts-de-Seine
+GEO;Niveau géographique;F1193;93-Seine-Saint-Denis
+GEO;Niveau géographique;F1194;94-Val-de-Marne
+GEO;Niveau géographique;F1195;95-Val-d'Oise
+GEO;Niveau géographique;F28;Normandie
+GEO;Niveau géographique;F2814;14-Calvados
+GEO;Niveau géographique;F2827;27-Eure
+GEO;Niveau géographique;F2850;50-Manche
+GEO;Niveau géographique;F2861;61-Orne
+GEO;Niveau géographique;F2876;76-Seine-Maritime
+GEO;Niveau géographique;F75;Nouvelle-Aquitaine
+GEO;Niveau géographique;F7516;16-Charente
+GEO;Niveau géographique;F7517;17-Charente-Maritime
+GEO;Niveau géographique;F7519;19-Corrèze
+GEO;Niveau géographique;F7523;23-Creuse
+GEO;Niveau géographique;F7524;24-Dordogne
+GEO;Niveau géographique;F7533;33-Gironde
+GEO;Niveau géographique;F7540;40-Landes
+GEO;Niveau géographique;F7547;47-Lot-et-Garonne
+GEO;Niveau géographique;F7564;64-Pyrénées-Atlantiques
+GEO;Niveau géographique;F7579;79-Deux-Sèvres
+GEO;Niveau géographique;F7586;86-Vienne
+GEO;Niveau géographique;F7587;87-Haute-Vienne
+GEO;Niveau géographique;F76;Occitanie
+GEO;Niveau géographique;F7609;09-Ariège
+GEO;Niveau géographique;F7611;11-Aude
+GEO;Niveau géographique;F7612;12-Aveyron
+GEO;Niveau géographique;F7630;30-Gard
+GEO;Niveau géographique;F7631;31-Haute-Garonne
+GEO;Niveau géographique;F7632;32-Gers
+GEO;Niveau géographique;F7634;34-Hérault
+GEO;Niveau géographique;F7646;46-Lot
+GEO;Niveau géographique;F7648;48-Lozère
+GEO;Niveau géographique;F7665;65-Hautes-Pyrénées
+GEO;Niveau géographique;F7666;66-Pyrénées-Orientales
+GEO;Niveau géographique;F7681;81-Tarn
+GEO;Niveau géographique;F7682;82-Tarn-et-Garonne
+GEO;Niveau géographique;F52;Pays de la Loire
+GEO;Niveau géographique;F5244;44-Loire-Atlantique
+GEO;Niveau géographique;F5249;49-Maine-et-Loire
+GEO;Niveau géographique;F5253;53-Mayenne
+GEO;Niveau géographique;F5272;72-Sarthe
+GEO;Niveau géographique;F5285;85-Vendée
+GEO;Niveau géographique;F93;Provence-Alpes-Côte-d'Azur
+GEO;Niveau géographique;F9304;04-Alpes-de-Haute-Provence
+GEO;Niveau géographique;F9305;05-Hautes-Alpes
+GEO;Niveau géographique;F9306;06-Alpes-Maritimes
+GEO;Niveau géographique;F9313;13-Bouches-du-Rhône
+GEO;Niveau géographique;F9383;83-Var
+GEO;Niveau géographique;F9384;84-Vaucluse
+GEOZE;Niveau géographique;FE;France (hors Mayotte)
+GEOZE;Niveau géographique;DO;Total DOM
+GEOZE;Niveau géographique;F01;01 – Guadeloupe
+GEOZE;Niveau géographique;ZER0101;0101 - Côte sous le vent
+GEOZE;Niveau géographique;ZER0102;0102 - Est Grande Terre
+GEOZE;Niveau géographique;ZER0103;0103 - Marie-Galante
+GEOZE;Niveau géographique;ZER0104;0104 - Région Pointoise
+GEOZE;Niveau géographique;ZER0105;0105 - Sud Basse-Terre
+GEOZE;Niveau géographique;F02;02 – Martinique
+GEOZE;Niveau géographique;ZER0201;0201 - Le Centre-Atlantique
+GEOZE;Niveau géographique;ZER0202;0202 - Le Centre agglomération
+GEOZE;Niveau géographique;ZER0203;0203 - Le Nord-Atlantique
+GEOZE;Niveau géographique;ZER0204;0204 - Le Nord-Caraibe
+GEOZE;Niveau géographique;ZER0205;0205 - Le Sud
+GEOZE;Niveau géographique;ZER0206;0206 - Le Sud-Caraibe
+GEOZE;Niveau géographique;F03;03 – Guyane
+GEOZE;Niveau géographique;ZER0301;0301 - Est-littoral
+GEOZE;Niveau géographique;ZER0302;0302 - Ouest-Guyanais
+GEOZE;Niveau géographique;ZER0303;0303 - Savanes 
+GEOZE;Niveau géographique;F04;04 – La Réunion
+GEOZE;Niveau géographique;ZER0401;0401 - L'Est
+GEOZE;Niveau géographique;ZER0402;0402 - L'Ouest
+GEOZE;Niveau géographique;ZER0403;0403 - Le Nord
+GEOZE;Niveau géographique;ZER0404;0404 - Le Sud
+GEOZE;Niveau géographique;FM;France métropolitaine
+GEOZE;Niveau géographique;F84;Auvergne-Rhône-Alpes
+GEOZE;Niveau géographique;ZER8401;8401 - Annecy
+GEOZE;Niveau géographique;ZER8402;8402 - Aubenas
+GEOZE;Niveau géographique;ZER8403;8403 - Aurillac
+GEOZE;Niveau géographique;ZER8404;8404 - Belley
+GEOZE;Niveau géographique;ZER8405;8405 - Bourg en Bresse
+GEOZE;Niveau géographique;ZER8406;8406 - Bourgoin-Jallieu
+GEOZE;Niveau géographique;ZER8407;8407 - Chambéry
+GEOZE;Niveau géographique;ZER8408;8408 - Clermont-Ferrand
+GEOZE;Niveau géographique;ZER8409;8409 - Grenoble
+GEOZE;Niveau géographique;ZER8410;8410 - Issoire
+GEOZE;Niveau géographique;ZER8411;8411 - La Maurienne
+GEOZE;Niveau géographique;ZER8412;8412 - La Plaine du Forez
+GEOZE;Niveau géographique;ZER8413;8413 - La Tarentaise
+GEOZE;Niveau géographique;ZER8414;8414 - La Vallée de l’Arve
+GEOZE;Niveau géographique;ZER8415;8415 - Le Chablais
+GEOZE;Niveau géographique;ZER8416;8416 - Le Genevois Français
+GEOZE;Niveau géographique;ZER8417;8417 - Le Livradois
+GEOZE;Niveau géographique;ZER8418;8418 - Le Mont Blanc
+GEOZE;Niveau géographique;ZER8419;8419 - Le Puy en Velay
+GEOZE;Niveau géographique;ZER8420;8420 - Les Sources de la Loire
+GEOZE;Niveau géographique;ZER8421;8421 - Lyon
+GEOZE;Niveau géographique;ZER8422;8422 - Montélimar
+GEOZE;Niveau géographique;ZER8423;8423 - Montluçon
+GEOZE;Niveau géographique;ZER8424;8424 - Moulins
+GEOZE;Niveau géographique;ZER8425;8425 - Oyonnax
+GEOZE;Niveau géographique;ZER8426;8426 - Roanne
+GEOZE;Niveau géographique;ZER8427;8427 - Romans sur Isère
+GEOZE;Niveau géographique;ZER8428;8428 - Saint Etienne
+GEOZE;Niveau géographique;ZER8429;8429 - Saint Flour
+GEOZE;Niveau géographique;ZER8430;8430 - Tarare
+GEOZE;Niveau géographique;ZER8431;8431 - Valence
+GEOZE;Niveau géographique;ZER8432;8432 - Vichy
+GEOZE;Niveau géographique;ZER8433;8433 - Vienne-Annonay
+GEOZE;Niveau géographique;ZER8434;8434 - Villefranche-sur-Saône
+GEOZE;Niveau géographique;ZER8435;8435 - Voiron
+GEOZE;Niveau géographique;ZER8455;8455 - Bollène-Pierrelatte - partie Auvergne Rhône Alpes
+GEOZE;Niveau géographique;ZER8459;8459 - Mâcon - partie Auvergne Rhône Alpes
+GEOZE;Niveau géographique;ZER8463;8463 - Ussel - partie Auvergne Rhône Alpes
+GEOZE;Niveau géographique;ZER8464;8464 - Valréas - partie Auvergne Rhône Alpes
+GEOZE;Niveau géographique;F27;Bourgogne-Franche-Comté
+GEOZE;Niveau géographique;ZER2701;2701 - Autun
+GEOZE;Niveau géographique;ZER2702;2702 - Auxerre
+GEOZE;Niveau géographique;ZER2703;2703 - Avallon
+GEOZE;Niveau géographique;ZER2704;2704 - Beaune
+GEOZE;Niveau géographique;ZER2705;2705 - Belfort
+GEOZE;Niveau géographique;ZER2706;2706 - Besançon
+GEOZE;Niveau géographique;ZER2707;2707 - Chalon-sur-Saône
+GEOZE;Niveau géographique;ZER2708;2708 - Charolais
+GEOZE;Niveau géographique;ZER2709;2709 - Châtillon-Montbard
+GEOZE;Niveau géographique;ZER2710;2710 - Creusot-Montceau
+GEOZE;Niveau géographique;ZER2711;2711 - Dijon
+GEOZE;Niveau géographique;ZER2712;2712 - Dole
+GEOZE;Niveau géographique;ZER2713;2713 - Lons-le-Saunier
+GEOZE;Niveau géographique;ZER2714;2714 - Montbéliard
+GEOZE;Niveau géographique;ZER2715;2715 - Pontarlier
+GEOZE;Niveau géographique;ZER2716;2716 - Saint-Claude
+GEOZE;Niveau géographique;ZER2717;2717 - Sens
+GEOZE;Niveau géographique;ZER2718;2718 - Vesoul
+GEOZE;Niveau géographique;ZER2756;2756 - Cosne-Cours-sur-Loire - partie Bourgogne Franche Comté
+GEOZE;Niveau géographique;ZER2759;2759 - Mâcon - partie Bourgogne Franche Comté
+GEOZE;Niveau géographique;ZER2760;2760 - Nevers - partie Bourgogne Franche Comté
+GEOZE;Niveau géographique;F53;Bretagne
+GEOZE;Niveau géographique;ZER5301;5301 - Auray
+GEOZE;Niveau géographique;ZER5302;5302 - Brest
+GEOZE;Niveau géographique;ZER5303;5303 - Carhaix-Plouguer
+GEOZE;Niveau géographique;ZER5304;5304 - Dinan
+GEOZE;Niveau géographique;ZER5305;5305 - Fougères
+GEOZE;Niveau géographique;ZER5306;5306 - Guingamp
+GEOZE;Niveau géographique;ZER5307;5307 - Lamballe-Armor
+GEOZE;Niveau géographique;ZER5308;5308 - Lannion
+GEOZE;Niveau géographique;ZER5309;5309 - Lorient
+GEOZE;Niveau géographique;ZER5310;5310 - Morlaix
+GEOZE;Niveau géographique;ZER5311;5311 - Ploërmel
+GEOZE;Niveau géographique;ZER5312;5312 - Pontivy-Loudéac
+GEOZE;Niveau géographique;ZER5313;5313 - Quimper
+GEOZE;Niveau géographique;ZER5314;5314 - Quimperlé
+GEOZE;Niveau géographique;ZER5315;5315 - Rennes
+GEOZE;Niveau géographique;ZER5316;5316 - Saint-Brieuc
+GEOZE;Niveau géographique;ZER5317;5317 - Saint-Malo
+GEOZE;Niveau géographique;ZER5318;5318 - Vannes
+GEOZE;Niveau géographique;ZER5319;5319 - Vitré
+GEOZE;Niveau géographique;ZER5362;5362 - Redon - partie Bretagne
+GEOZE;Niveau géographique;F24;Centre-Val de Loire
+GEOZE;Niveau géographique;ZER2401;2401 - Blois
+GEOZE;Niveau géographique;ZER2402;2402 - Bourges
+GEOZE;Niveau géographique;ZER2403;2403 - Chartres
+GEOZE;Niveau géographique;ZER2404;2404 - Châteaudun
+GEOZE;Niveau géographique;ZER2405;2405 - Châteauroux
+GEOZE;Niveau géographique;ZER2406;2406 - Chinon
+GEOZE;Niveau géographique;ZER2407;2407 - Gien
+GEOZE;Niveau géographique;ZER2408;2408 - Loches
+GEOZE;Niveau géographique;ZER2409;2409 - Montargis
+GEOZE;Niveau géographique;ZER2410;2410 - Orléans
+GEOZE;Niveau géographique;ZER2411;2411 - Pithiviers
+GEOZE;Niveau géographique;ZER2412;2412 - Romorantin-Lanthenay
+GEOZE;Niveau géographique;ZER2413;2413 - Tours
+GEOZE;Niveau géographique;ZER2414;2414 - Vendôme
+GEOZE;Niveau géographique;ZER2415;2415 - Vierzon
+GEOZE;Niveau géographique;ZER2456;2456 - Cosne-Cours-sur-Loire - partie Centre Val de Loire
+GEOZE;Niveau géographique;ZER2457;2457 - Dreux - partie Centre Val de Loire
+GEOZE;Niveau géographique;ZER2460;2460 - Nevers - partie Centre Val de Loire
+GEOZE;Niveau géographique;ZER2461;2461 - Nogent-le -Rotrou - partie Centre Val de Loire
+GEOZE;Niveau géographique;F94;Corse
+GEOZE;Niveau géographique;ZER9401;9401 - Ajaccio
+GEOZE;Niveau géographique;ZER9402;9402 - Bastia
+GEOZE;Niveau géographique;ZER9403;9403 - Calvi
+GEOZE;Niveau géographique;ZER9404;9404 - Corte
+GEOZE;Niveau géographique;ZER9405;9405 - Ghisonaccia
+GEOZE;Niveau géographique;ZER9406;9406 - Porto-Vecchio
+GEOZE;Niveau géographique;ZER9407;9407 - Propriano
+GEOZE;Niveau géographique;F44;Grand Est
+GEOZE;Niveau géographique;ZER4401;4401 - Bar-le-Duc
+GEOZE;Niveau géographique;ZER4402;4402 - Châlons-en-Champagne
+GEOZE;Niveau géographique;ZER4403;4403 - Charleville-Mezières
+GEOZE;Niveau géographique;ZER4404;4404 - Chaumont
+GEOZE;Niveau géographique;ZER4405;4405 - Colmar
+GEOZE;Niveau géographique;ZER4406;4406 - Epernay
+GEOZE;Niveau géographique;ZER4407;4407 - Epinal
+GEOZE;Niveau géographique;ZER4408;4408 - Forbach
+GEOZE;Niveau géographique;ZER4409;4409 - Haguenau
+GEOZE;Niveau géographique;ZER4410;4410 - Metz
+GEOZE;Niveau géographique;ZER4411;4411 - Mulhouse
+GEOZE;Niveau géographique;ZER4412;4412 - Nancy
+GEOZE;Niveau géographique;ZER4413;4413 - Reims
+GEOZE;Niveau géographique;ZER4414;4414 - Remiremont
+GEOZE;Niveau géographique;ZER4415;4415 - Romilly-sur-Seine
+GEOZE;Niveau géographique;ZER4416;4416 - Saint-Avold
+GEOZE;Niveau géographique;ZER4417;4417 - Saint-Dié-des-Vosges
+GEOZE;Niveau géographique;ZER4418;4418 - Saint-Louis
+GEOZE;Niveau géographique;ZER4419;4419 - Sarrebourg
+GEOZE;Niveau géographique;ZER4420;4420 - Sarreguemines
+GEOZE;Niveau géographique;ZER4421;4421 - Sedan
+GEOZE;Niveau géographique;ZER4422;4422 - Sélestat
+GEOZE;Niveau géographique;ZER4423;4423 - Strasbourg
+GEOZE;Niveau géographique;ZER4424;4424 - Thionville
+GEOZE;Niveau géographique;ZER4425;4425 - Troyes
+GEOZE;Niveau géographique;ZER4426;4426 - Verdun
+GEOZE;Niveau géographique;ZER4427;4427 - Vitry-le-François Saint-Dizier
+GEOZE;Niveau géographique;F32;Hauts-de-France
+GEOZE;Niveau géographique;ZER3201;3201 - Abbeville
+GEOZE;Niveau géographique;ZER3202;3202 - Amiens
+GEOZE;Niveau géographique;ZER3203;3203 - Arras
+GEOZE;Niveau géographique;ZER3204;3204 - Berck
+GEOZE;Niveau géographique;ZER3205;3205 - Béthune
+GEOZE;Niveau géographique;ZER3206;3206 - Boulogne-sur-Mer
+GEOZE;Niveau géographique;ZER3207;3207 - Calais
+GEOZE;Niveau géographique;ZER3208;3208 - Cambrai
+GEOZE;Niveau géographique;ZER3209;3209 - Château-Thierry
+GEOZE;Niveau géographique;ZER3210;3210 - Compiègne
+GEOZE;Niveau géographique;ZER3211;3211 - Creil
+GEOZE;Niveau géographique;ZER3212;3212 - Douai
+GEOZE;Niveau géographique;ZER3213;3213 - Dunkerque
+GEOZE;Niveau géographique;ZER3214;3214 - Laon
+GEOZE;Niveau géographique;ZER3215;3215 - Lens
+GEOZE;Niveau géographique;ZER3216;3216 - Lille
+GEOZE;Niveau géographique;ZER3217;3217 - Maubeuge
+GEOZE;Niveau géographique;ZER3218;3218 - Roubaix-Tourcoing
+GEOZE;Niveau géographique;ZER3219;3219 - Saint-Omer
+GEOZE;Niveau géographique;ZER3220;3220 - Saint-Quentin
+GEOZE;Niveau géographique;ZER3221;3221 - Soissons
+GEOZE;Niveau géographique;ZER3222;3222 - Valenciennes
+GEOZE;Niveau géographique;ZER3254;3254 - Beauvais - partie Hauts de France
+GEOZE;Niveau géographique;ZER3258;3258 - La Vallée de la Bresle - Vimeu - partie Hauts de France
+GEOZE;Niveau géographique;F11;Île-de-France
+GEOZE;Niveau géographique;ZER1101;1101 - Cergy-Vexin
+GEOZE;Niveau géographique;ZER1102;1102 - Coulommiers
+GEOZE;Niveau géographique;ZER1103;1103 - Etampes
+GEOZE;Niveau géographique;ZER1104;1104 - Evry
+GEOZE;Niveau géographique;ZER1105;1105 - Fontainebleau-Nemours
+GEOZE;Niveau géographique;ZER1106;1106 - Marne-la-Vallée
+GEOZE;Niveau géographique;ZER1107;1107 - Meaux
+GEOZE;Niveau géographique;ZER1108;1108 - Melun
+GEOZE;Niveau géographique;ZER1109;1109 - Paris
+GEOZE;Niveau géographique;ZER1110;1110 - Provins
+GEOZE;Niveau géographique;ZER1111;1111 - Rambouillet
+GEOZE;Niveau géographique;ZER1112;1112 - Roissy
+GEOZE;Niveau géographique;ZER1113;1113 - Saclay
+GEOZE;Niveau géographique;ZER1114;1114 - Seine-Yvelinoise
+GEOZE;Niveau géographique;ZER1115;1115 - Versailles-Saint-Quentin
+GEOZE;Niveau géographique;F28;Normandie
+GEOZE;Niveau géographique;ZER2801;2801 - Argentan
+GEOZE;Niveau géographique;ZER2802;2802 - Avranches
+GEOZE;Niveau géographique;ZER2803;2803 - Bernay
+GEOZE;Niveau géographique;ZER2804;2804 - Caen
+GEOZE;Niveau géographique;ZER2805;2805 - Cherbourg en Cotentin
+GEOZE;Niveau géographique;ZER2806;2806 - Coutances
+GEOZE;Niveau géographique;ZER2807;2807 - Dieppe – Caux maritime
+GEOZE;Niveau géographique;ZER2808;2808 - Evreux
+GEOZE;Niveau géographique;ZER2809;2809 - Flers
+GEOZE;Niveau géographique;ZER2810;2810 - Granville
+GEOZE;Niveau géographique;ZER2811;2811 - Honfleur Pont-Audemer
+GEOZE;Niveau géographique;ZER2812;2812 - L’Aigle
+GEOZE;Niveau géographique;ZER2813;2813 - Le Havre
+GEOZE;Niveau géographique;ZER2814;2814 - Lisieux
+GEOZE;Niveau géographique;ZER2815;2815 - Rouen
+GEOZE;Niveau géographique;ZER2816;2816 - Saint-Lô
+GEOZE;Niveau géographique;ZER2817;2817 - Vernon – Gisors
+GEOZE;Niveau géographique;ZER2818;2818 - Vire Normandie
+GEOZE;Niveau géographique;ZER2819;2819 - Yvetot – Vallée du Commerce
+GEOZE;Niveau géographique;ZER2851;2851 - Alençon - partie Normandie
+GEOZE;Niveau géographique;ZER2854;2854 - Beauvais - partie Normandie
+GEOZE;Niveau géographique;ZER2857;2857 - Dreux - partie Normandie
+GEOZE;Niveau géographique;ZER2858;2858 - La Vallée de la Bresle - Vimeu - partie Normandie
+GEOZE;Niveau géographique;ZER2861;2861 - Nogent-le -Rotrou - partie Normandie
+GEOZE;Niveau géographique;F75;Nouvelle-Aquitaine
+GEOZE;Niveau géographique;ZER7501;7501 - Agen
+GEOZE;Niveau géographique;ZER7502;7502 - Angoulême
+GEOZE;Niveau géographique;ZER7503;7503 - Bayonne
+GEOZE;Niveau géographique;ZER7504;7504 - Bergerac
+GEOZE;Niveau géographique;ZER7505;7505 - Bordeaux
+GEOZE;Niveau géographique;ZER7506;7506 - Bressuire
+GEOZE;Niveau géographique;ZER7507;7507 - Brive-la-Gaillarde
+GEOZE;Niveau géographique;ZER7508;7508 - Châtellerault
+GEOZE;Niveau géographique;ZER7509;7509 - Cognac
+GEOZE;Niveau géographique;ZER7510;7510 - Dax
+GEOZE;Niveau géographique;ZER7511;7511 - Guéret
+GEOZE;Niveau géographique;ZER7512;7512 - La Rochelle
+GEOZE;Niveau géographique;ZER7513;7513 - La Teste-de-Buch
+GEOZE;Niveau géographique;ZER7514;7514 - Langon
+GEOZE;Niveau géographique;ZER7515;7515 - Lesparre-Médoc
+GEOZE;Niveau géographique;ZER7516;7516 - Libourne
+GEOZE;Niveau géographique;ZER7517;7517 - Limoges
+GEOZE;Niveau géographique;ZER7518;7518 - Marmande
+GEOZE;Niveau géographique;ZER7519;7519 - Mont-de-Marsan
+GEOZE;Niveau géographique;ZER7520;7520 - Niort
+GEOZE;Niveau géographique;ZER7521;7521 - Oloron-Sainte-Marie
+GEOZE;Niveau géographique;ZER7522;7522 - Pau
+GEOZE;Niveau géographique;ZER7523;7523 - Périgueux
+GEOZE;Niveau géographique;ZER7524;7524 - Poitiers
+GEOZE;Niveau géographique;ZER7525;7525 - Rochefort
+GEOZE;Niveau géographique;ZER7526;7526 - Royan
+GEOZE;Niveau géographique;ZER7527;7527 - Saint-Junien
+GEOZE;Niveau géographique;ZER7528;7528 - Saintes
+GEOZE;Niveau géographique;ZER7529;7529 - Sarlat-La-Canéda
+GEOZE;Niveau géographique;ZER7530;7530 - Thouars
+GEOZE;Niveau géographique;ZER7531;7531 - Tulle
+GEOZE;Niveau géographique;ZER7532;7532 - Villeneuve-sur-Lot
+GEOZE;Niveau géographique;ZER7563;7563 - Ussel - partie Nouvelle Aquitaine
+GEOZE;Niveau géographique;F76;Occitanie
+GEOZE;Niveau géographique;ZER7601;7601 - Agde – Pézenas
+GEOZE;Niveau géographique;ZER7602;7602 - Albi
+GEOZE;Niveau géographique;ZER7603;7603 - Alès - Le Vigan
+GEOZE;Niveau géographique;ZER7604;7604 - Auch
+GEOZE;Niveau géographique;ZER7605;7605 - Bagnols-sur-Cèze
+GEOZE;Niveau géographique;ZER7606;7606 - Béziers
+GEOZE;Niveau géographique;ZER7607;7607 - Cahors
+GEOZE;Niveau géographique;ZER7608;7608 - Carcassonne - Limoux
+GEOZE;Niveau géographique;ZER7609;7609 - Castelsarrasin - Moissac
+GEOZE;Niveau géographique;ZER7610;7610 - Castres - Mazamet
+GEOZE;Niveau géographique;ZER7611;7611 - Figeac - Villefranche
+GEOZE;Niveau géographique;ZER7612;7612 - Foix - Pamiers
+GEOZE;Niveau géographique;ZER7613;7613 - Mende
+GEOZE;Niveau géographique;ZER7614;7614 - Millau
+GEOZE;Niveau géographique;ZER7615;7615 - Montauban
+GEOZE;Niveau géographique;ZER7616;7616 - Montpellier
+GEOZE;Niveau géographique;ZER7617;7617 - Narbonne
+GEOZE;Niveau géographique;ZER7618;7618 - Nîmes
+GEOZE;Niveau géographique;ZER7619;7619 - Nord-du-Lot
+GEOZE;Niveau géographique;ZER7620;7620 - Perpignan
+GEOZE;Niveau géographique;ZER7621;7621 - Rodez
+GEOZE;Niveau géographique;ZER7622;7622 - Saint-Gaudens
+GEOZE;Niveau géographique;ZER7623;7623 - Sète
+GEOZE;Niveau géographique;ZER7624;7624 - Tarbes - Lourdes
+GEOZE;Niveau géographique;ZER7625;7625 - Toulouse
+GEOZE;Niveau géographique;ZER7652;7652 - Arles - partie Occitanie
+GEOZE;Niveau géographique;ZER7653;7653 - Avignon - partie Occitanie
+GEOZE;Niveau géographique;F52;Pays de la Loire
+GEOZE;Niveau géographique;ZER5201;5201 - Ancenis
+GEOZE;Niveau géographique;ZER5202;5202 - Angers
+GEOZE;Niveau géographique;ZER5203;5203 - Challans
+GEOZE;Niveau géographique;ZER5204;5204 - Château-Gontier
+GEOZE;Niveau géographique;ZER5205;5205 - Châteaubriant
+GEOZE;Niveau géographique;ZER5206;5206 - Cholet
+GEOZE;Niveau géographique;ZER5207;5207 - Fontenay-le-Comte
+GEOZE;Niveau géographique;ZER5208;5208 - La Ferté-Bernard
+GEOZE;Niveau géographique;ZER5209;5209 - La Flèche
+GEOZE;Niveau géographique;ZER5210;5210 - La Roche-sur-Yon
+GEOZE;Niveau géographique;ZER5211;5211 - Laval
+GEOZE;Niveau géographique;ZER5212;5212 - Le Mans
+GEOZE;Niveau géographique;ZER5213;5213 - Les Herbiers - Montaigu
+GEOZE;Niveau géographique;ZER5214;5214 - Les Sables-d'Olonne
+GEOZE;Niveau géographique;ZER5215;5215 - Mayenne
+GEOZE;Niveau géographique;ZER5216;5216 - Nantes
+GEOZE;Niveau géographique;ZER5217;5217 - Pornic
+GEOZE;Niveau géographique;ZER5218;5218 - Sablé-sur-Sarthe
+GEOZE;Niveau géographique;ZER5219;5219 - Saint-Nazaire
+GEOZE;Niveau géographique;ZER5220;5220 - Saumur
+GEOZE;Niveau géographique;ZER5221;5221 - Segré-en-Anjou Bleu
+GEOZE;Niveau géographique;ZER5251;5251 - Alençon - partie Pays de la Loire
+GEOZE;Niveau géographique;ZER5262;5262 - Redon - partie Pays de la Loire
+GEOZE;Niveau géographique;F93;Provence-Alpes-Côte-d'Azur
+GEOZE;Niveau géographique;ZER9301;9301 - Aix-en-Provence
+GEOZE;Niveau géographique;ZER9302;9302 - Briançon
+GEOZE;Niveau géographique;ZER9303;9303 - Brignoles
+GEOZE;Niveau géographique;ZER9304;9304 - Cannes
+GEOZE;Niveau géographique;ZER9305;9305 - Carpentras
+GEOZE;Niveau géographique;ZER9306;9306 - Cavaillon
+GEOZE;Niveau géographique;ZER9307;9307 - Digne-les-Bains
+GEOZE;Niveau géographique;ZER9308;9308 - Draguignan
+GEOZE;Niveau géographique;ZER9309;9309 - Fréjus
+GEOZE;Niveau géographique;ZER9310;9310 - Gap
+GEOZE;Niveau géographique;ZER9311;9311 - Manosque
+GEOZE;Niveau géographique;ZER9312;9312 - Marseille
+GEOZE;Niveau géographique;ZER9313;9313 - Martigues-Salon
+GEOZE;Niveau géographique;ZER9314;9314 - Menton
+GEOZE;Niveau géographique;ZER9315;9315 - Nice
+GEOZE;Niveau géographique;ZER9316;9316 - Orange
+GEOZE;Niveau géographique;ZER9317;9317 - Sainte-Maxime
+GEOZE;Niveau géographique;ZER9318;9318 - Toulon
+GEOZE;Niveau géographique;ZER9352;9352 - Arles - partie Provence Alpes Côte d'Azur
+GEOZE;Niveau géographique;ZER9353;9353 - Avignon - partie Provence Alpes Côte d'Azur
+GEOZE;Niveau géographique;ZER9355;9355 - Bollène-Pierrelatte - partie Provence Alpes Côte d'Azur
+GEOZE;Niveau géographique;ZER9364;9364 - Valréas - partie Provence Alpes Côte d'Azur
+GEOZE;Niveau géographique;F00;Pour information : zones interrégionales (à cheval sur plusieurs régions)
+GEOZE;Niveau géographique;ZER0051;0051 - Alençon
+GEOZE;Niveau géographique;ZER0052;0052 - Arles
+GEOZE;Niveau géographique;ZER0053;0053 - Avignon
+GEOZE;Niveau géographique;ZER0054;0054 - Beauvais
+GEOZE;Niveau géographique;ZER0055;0055 - Bollène-Pierrelatte
+GEOZE;Niveau géographique;ZER0056;0056 - Cosne-Cours-sur-Loire
+GEOZE;Niveau géographique;ZER0057;0057 - Dreux
+GEOZE;Niveau géographique;ZER0058;0058 - La Vallée de la Bresle - Vimeu
+GEOZE;Niveau géographique;ZER0059;0059 - Mâcon
+GEOZE;Niveau géographique;ZER0060;0060 - Nevers
+GEOZE;Niveau géographique;ZER0061;0061 - Nogent-le -Rotrou
+GEOZE;Niveau géographique;ZER0062;0062 - Redon
+GEOZE;Niveau géographique;ZER0063;0063 - Ussel
+GEOZE;Niveau géographique;ZER0064;0064 - Valréas
+INDIC1;Indicateur;EMPTOT;Emploi total (en milliers)
+INDIC1;Indicateur;EMPSAL;Emploi salarié (en milliers)
+INDIC1;Indicateur;EMPNSAL;Emploi non salarié (en milliers)
+INDIC2;Indicateur;EFFTOT;Emploi
+INDIC3;Indicateur;EFFSAL;Emploi salarié
+NA17;Activité en 17 postes;T;Tous secteurs
+NA17;Activité en 17 postes;TAZ;TAZ-Agriculture
+NA17;Activité en 17 postes;TBE;TBE-Industrie
+NA17;Activité en 17 postes;TBEC1;TBEC1-Fabrication de denrées alimentaires,de boissons et de produits à base de tabac
+NA17;Activité en 17 postes;TBEC2;TBEC2-Cokéfaction et raffinage
+NA17;Activité en 17 postes;TBEC3;TBEC3-Fabrication d'équipements électriques, électroniques, informatiques, fabrication de machines
+NA17;Activité en 17 postes;TBEC4;TBEC4-Fabrication de matériels de transport
+NA17;Activité en 17 postes;TBEC5;TBEC5-Fabrication d'autres produits industriels
+NA17;Activité en 17 postes;TBEDE;TBEDE-Industries extractives, énergie, eau, gestion des déchets et dépollution
+NA17;Activité en 17 postes;TFZ;TFZ-Construction
+NA17;Activité en 17 postes;TGU;TGU-Tertiaire marchand
+NA17;Activité en 17 postes;TGUGZ;TGUGZ-Commerce, réparation d'automobiles et de motocycles
+NA17;Activité en 17 postes;TGUHZ;TGUHZ-Transports et entreposage
+NA17;Activité en 17 postes;TGUIZ;TGUIZ-Hébergement et restauration
+NA17;Activité en 17 postes;TGUJZ;TGUJZ-Information et communication
+NA17;Activité en 17 postes;TGUKZ;TGUKZ-Activités financières et d'assurance
+NA17;Activité en 17 postes;TGULZ;TGULZ-Activités immobilières
+NA17;Activité en 17 postes;TGUMN;TGUMN-Activités scientifiques et techniques, services administratifs et de soutien
+NA17;Activité en 17 postes;TGURU;TGURU-Autres activités de services
+NA17;Activité en 17 postes;TOQ;TOQ-Tertiaire non marchand
+NA38;Activité en 17 et 38 postes;T;Tous secteurs
+NA38;Activité en 17 et 38 postes;TAZ;TAZ-Agriculture
+NA38;Activité en 17 et 38 postes;TBE;TBE-Industrie
+NA38;Activité en 17 et 38 postes;TBEC1;TBEC1-Fabrication de denrées alimentaires,de boissons et de produits à base de tabac
+NA38;Activité en 17 et 38 postes;TBEC2;TBEC2-Cokéfaction et raffinage
+NA38;Activité en 17 et 38 postes;TBEC3;TBEC3-Fabrication d'équipements électriques, électroniques, informatiques, fabrication de machines
+NA38;Activité en 17 et 38 postes;TBEC3CI;TBEC3CI-Fabrication de produits informatiques, électroniques et optiques
+NA38;Activité en 17 et 38 postes;TBEC3CJ;TBEC3CJ-Fabrication d'équipements électriques
+NA38;Activité en 17 et 38 postes;TBEC3CK;TBEC3CK-Fabrication de machines et équipements n.c.a.
+NA38;Activité en 17 et 38 postes;TBEC4;TBEC4-Fabrication de matériels de transport
+NA38;Activité en 17 et 38 postes;TBEC5;TBEC5-Fabrication d'autres produits industriels
+NA38;Activité en 17 et 38 postes;TBEC5CB;TBEC5CB-Fabrication de textiles, industries de l'habillement, industrie du cuir et de la chaussure
+NA38;Activité en 17 et 38 postes;TBEC5CC;TBEC5CC-Travail du bois,industries du papier et imprimerie
+NA38;Activité en 17 et 38 postes;TBEC5CE;TBEC5CE-Industrie chimique
+NA38;Activité en 17 et 38 postes;TBEC5CF;TBEC5CF-Industrie pharmaceutique
+NA38;Activité en 17 et 38 postes;TBEC5CG;TBEC5CG-Fabrication de produits en caoutchouc et en plastique ainsi que d'autres produits minéraux non métalliques
+NA38;Activité en 17 et 38 postes;TBEC5CH;TBEC5CH-Métallurgie et fabrication de produits métalliques à l'exception des machines et des équipements
+NA38;Activité en 17 et 38 postes;TBEC5CM;TBEC5CM-Autres industries manufacturières, réparation et installation de machines et d'équipements
+NA38;Activité en 17 et 38 postes;TBEDE;TBEDE-Industries extractives, énergie, eau, gestion des déchets et dépollution
+NA38;Activité en 17 et 38 postes;TBEDEBZ;TBEDEBZ-Industries extractives
+NA38;Activité en 17 et 38 postes;TBEDEDZ;TBEDEDZ-Production et distribution d'électricité, de gaz,de vapeur et d'air conditionné
+NA38;Activité en 17 et 38 postes;TBEDEEZ;TBEDEEZ-Production et distribution d'eau, assainissement, gestion des déchets et dépollution
+NA38;Activité en 17 et 38 postes;TFZ;TFZ-Construction
+NA38;Activité en 17 et 38 postes;TGU;TGU-Tertiaire marchand
+NA38;Activité en 17 et 38 postes;TGUGZ;TGUGZ-Commerce, réparation d'automobiles et de motocycles
+NA38;Activité en 17 et 38 postes;TGUHZ;TGUHZ-Transports et entreposage
+NA38;Activité en 17 et 38 postes;TGUIZ;TGUIZ-Hébergement et restauration
+NA38;Activité en 17 et 38 postes;TGUJZ;TGUJZ-Information et communication
+NA38;Activité en 17 et 38 postes;TGUJZJA;TGUJZJA-Edition, audiovisuel et diffusion
+NA38;Activité en 17 et 38 postes;TGUJZJB;TGUJZJB-Télécommunications
+NA38;Activité en 17 et 38 postes;TGUJZJC;TGUJZJC-Activités informatiques et services d'information
+NA38;Activité en 17 et 38 postes;TGUKZ;TGUKZ-Activités financières et d'assurance
+NA38;Activité en 17 et 38 postes;TGULZ;TGULZ-Activités immobilières
+NA38;Activité en 17 et 38 postes;TGUMN;TGUMN-Activités scientifiques et techniques, services administratifs et de soutien
+NA38;Activité en 17 et 38 postes;TGUMNMA;TGUMNMA-Activités juridiques, comptables, de gestion, d'architecture, d'ingénierie, de contrôle et d'analyses techniques
+NA38;Activité en 17 et 38 postes;TGUMNMB;TGUMNMB-Recherche-développement scientifique
+NA38;Activité en 17 et 38 postes;TGUMNMC;TGUMNMC-Autres activités spécialisées, scientifiques et techniques
+NA38;Activité en 17 et 38 postes;TGUMNNZ;TGUMNNZ-Activités des services administratifs et de soutien
+NA38;Activité en 17 et 38 postes;TGURU;TGURU-Autres activités de services
+NA38;Activité en 17 et 38 postes;TGURURZ;TGURURZ-Arts, spectacles et activités récréatives
+NA38;Activité en 17 et 38 postes;TGURUSZ;TGURUSZ-Autres activités de services
+NA38;Activité en 17 et 38 postes;TGURUTZ;TGURUTZ-Activités des ménages en tant qu'employeurs, activités indifférenciées des ménages en tant que producteurs de biens et services pour usage propre
+NA38;Activité en 17 et 38 postes;TGURUUZ;TGURUUZ-Activités extra-territoriales
+NA38;Activité en 17 et 38 postes;TOQ;TOQ-Tertiaire non marchand
+NA38;Activité en 17 et 38 postes;TOQOQOZ;TOQOQOZ-Administration publique
+NA38;Activité en 17 et 38 postes;TOQOQPZ;TOQOQPZ-Enseignement
+NA38;Activité en 17 et 38 postes;TOQOQQA;TOQOQQA-Activités pour la santé humaine
+NA38;Activité en 17 et 38 postes;TOQOQQB;TOQOQQB-Hébergement médico-social et social et action sociale sans hébergement
+NA5;Activité en 5 postes;T;Tous secteurs
+NA5;Activité en 5 postes;TAZ;TAZ-Agriculture
+NA5;Activité en 5 postes;TBE;TBE-Industrie
+NA5;Activité en 5 postes;TFZ;TFZ-Construction
+NA5;Activité en 5 postes;TGU;TGU-Tertiaire marchand
+NA5;Activité en 5 postes;TOQ;TOQ-Tertiaire nonmarchand
+NAF;Activité en 17 et 38 postes;T17;ENSEMBLE NAF (rév.2) A17
+NAF;Activité en 17 et 38 postes;AZ;Agriculture, sylviculture et pêche
+NAF;Activité en 17 et 38 postes;AZ1;Agriculture, sylviculture et pêche
+NAF;Activité en 17 et 38 postes;C1;Fabrication de denrées alimentaires, de boissons et de produits à base de tabac
+NAF;Activité en 17 et 38 postes;CA;Fabrication de denrées alimentaires, de boissons et de produits à base de tabac
+NAF;Activité en 17 et 38 postes;C2;Cokéfaction et raffinage
+NAF;Activité en 17 et 38 postes;CD;Cokéfaction et raffinage
+NAF;Activité en 17 et 38 postes;C3;Fabrication d'équipements électriques, électroniques, informatiques, fabrication de machines
+NAF;Activité en 17 et 38 postes;CI;Fabrication de produits informatiques, électroniques et optiques
+NAF;Activité en 17 et 38 postes;CJ;Fabrication d'équipements électriques
+NAF;Activité en 17 et 38 postes;CK;Fabrication de machines et équipements n.c.a.
+NAF;Activité en 17 et 38 postes;C4;Fabrication de matériels de transport
+NAF;Activité en 17 et 38 postes;CL;Fabrication de matériels de transport
+NAF;Activité en 17 et 38 postes;C5;Fabrication d'autres produits industriels
+NAF;Activité en 17 et 38 postes;CB;Fabrication de textiles, industries de l'habillement, industrie du cuir et de la chaussure
+NAF;Activité en 17 et 38 postes;CC;Travail du bois, industries du papier et imprimerie
+NAF;Activité en 17 et 38 postes;CE;Industrie chimique
+NAF;Activité en 17 et 38 postes;CF;Industrie pharmaceutique
+NAF;Activité en 17 et 38 postes;CG;Fabrication de produits en caoutchouc et en plastique ainsi que d'autres produits minéraux non métalliques
+NAF;Activité en 17 et 38 postes;CH;Métallurgie et fabrication de produits métalliques à l'exception des machines et des équipements
+NAF;Activité en 17 et 38 postes;CM;Autres industries manufacturières, réparation et installation de machines et d'équipements
+NAF;Activité en 17 et 38 postes;DE;Industries extractives, énergie, eau, gestion des déchets et dépollution
+NAF;Activité en 17 et 38 postes;BZ;Industries extractives
+NAF;Activité en 17 et 38 postes;DZ;Production et distribution d'électricité, de gaz, de vapeur et d'air conditionné
+NAF;Activité en 17 et 38 postes;EZ;Production et distribution d'eau, assainissement, gestion des déchets et dépollution
+NAF;Activité en 17 et 38 postes;FZ;Construction
+NAF;Activité en 17 et 38 postes;FZ1;Construction
+NAF;Activité en 17 et 38 postes;GZ;Commerce, réparation d'automobiles et de motocycles
+NAF;Activité en 17 et 38 postes;GZ1;Commerce, réparation d'automobiles et de motocycles
+NAF;Activité en 17 et 38 postes;HZ;Transports et entreposage
+NAF;Activité en 17 et 38 postes;HZ1;Transports et entreposage
+NAF;Activité en 17 et 38 postes;IZ;Hébergement et restauration
+NAF;Activité en 17 et 38 postes;IZ1;Hébergement et restauration
+NAF;Activité en 17 et 38 postes;JZ;Information et communication
+NAF;Activité en 17 et 38 postes;JA;Edition, audiovisuel et diffusion
+NAF;Activité en 17 et 38 postes;JB;Télécommunications
+NAF;Activité en 17 et 38 postes;JC;Activités informatiques et services d'information
+NAF;Activité en 17 et 38 postes;KZ;Activités financières et d'assurance
+NAF;Activité en 17 et 38 postes;KZ1;Activités financières et d'assurance
+NAF;Activité en 17 et 38 postes;LZ;Activités immobilières
+NAF;Activité en 17 et 38 postes;LZ1;Activités immobilières
+NAF;Activité en 17 et 38 postes;MN;Activités scientifiques et techniques, services administratifs et de soutien
+NAF;Activité en 17 et 38 postes;MA;Activités juridiques, comptables, de gestion, d'architecture, d'ingénierie, de contrôle et d'analyses techniques
+NAF;Activité en 17 et 38 postes;MB;Recherche-développement scientifique
+NAF;Activité en 17 et 38 postes;MC;Autres activités spécialisées, scientifiques et techniques
+NAF;Activité en 17 et 38 postes;NZ;Activités de services administratifs et de soutien
+NAF;Activité en 17 et 38 postes;OQ;Administration publique, enseignement, santé humaine et action sociale
+NAF;Activité en 17 et 38 postes;OZ;Administration publique
+NAF;Activité en 17 et 38 postes;PZ;Enseignement
+NAF;Activité en 17 et 38 postes;QA;Activités pour la santé humaine
+NAF;Activité en 17 et 38 postes;QB;Hébergement médico-social et social et action sociale sans hébergement
+NAF;Activité en 17 et 38 postes;RU;Autres activités de services
+NAF;Activité en 17 et 38 postes;RZ;Arts, spectacles et activités récréatives
+NAF;Activité en 17 et 38 postes;SZ;Autres activités de services
+NAF;Activité en 17 et 38 postes;TZ;Activités des ménages en tant qu'employeurs
+NAF;Activité en 17 et 38 postes;UZ;Activités extra-territoriales
+SEXE;Sexe;T;Ensemble
+SEXE;Sexe;H;Homme
+SEXE;Sexe;F;Femme
+STATUT;Statut de l'emploi (salarié, non salarié);ENS;Emploi total
+STATUT;Statut de l'emploi (salarié, non salarié);SAL;Emploi salarié
+STATUT;Statut de l'emploi (salarié, non salarié);NSAL;Emploi non salarié
