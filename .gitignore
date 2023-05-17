@@ -6,3 +6,6 @@ nodes_carbike_disconnected.geojson
 edges_all_file.geojson
 edges_all_file.geojson
 *.geojson
+data/raw/commune-frmetdrom/COMMUNE_FRMETDROM.shp
+data/raw/communes-20220101-shp/communes-20220101.shp
+etablissements-et-effectifs-salaries-au-niveau-commune-x-ape-last.json
