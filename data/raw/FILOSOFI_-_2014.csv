@@ -1,0 +1,1938 @@
+﻿"FILOSOFI - 2014"
+"Le dispositif « Fichier Localisé Social et Fiscal » (Filosofi) remplace les anciens dispositifs « Revenus fiscaux localisés » (RFL) et « Revenus disponibles localisés » (RDL). Sa principale valeur ajoutée est d’effectuer de façon nouvelle un rapprochement des fichiers fiscaux et sociaux, ce qui permet une estimation plus précise des prestations réellement perçues par les ménages à des niveaux locaux fins. Le dispositif Filosofi permet désormais une observation du revenu disponible des ménages (ce dont ils disposent au cours d’une année pour consommer et épargner) à un niveau territorial plus fin que le département, jusqu’à l’échelon infra-communal. Au niveau national, l’enquête Revenus fiscaux et sociaux (ERFS) reste la source de référence pour l’observation du revenu disponible, des inégalités de niveaux de vie et de la pauvreté.
+
+Le millésime Filosofi de l’année N est élaboré à partir des revenus perçus l'année N qui sont déclarés l’année N+1 et de la taxe d’habitation au 1er janvier de l’année N+1. Il traite les données fiscales concernant plus de 40 millions de foyers fiscaux. 
+Pour le millésime 2014, les statistiques sont produites sur la France métropolitaine et deux départements de l’outre-mer (DOM) : La Réunion et la Martinique.
+
+Note : Au niveau communal chaque table (M_DF1) est divisées en 20 zones géographiques : 
+Arrondissement, Aire urbaine de 2010, Bassin de vie de 2012, Catégorie d'aire urbaine, Commune, Canton ou ville 2015, Département, EPCI 2015, EPCI 2016, Métropole ou DOM, Pays, Arrondissement municipal, Ile-de-France ou province, Catégorie d'aire urbaine selon la région, Catégorie d'aire urbaine selon l'ancienne région, Région, Ancienne région, Partie régionale de la zone d'emploi, Unité urbaine de 2010, et Zone d'emploi de 2010. 
+
+Au niveau infra communal les tables (O_DF1) sont divisés en 2 zones géographiques : IRIS (Ilots Regroupés pour l'Information Statistique) et QPV (Quartier Prioritaire de politique de la Ville)."
+
+
+
+
+"M_DF1_DC_[zone géographique]_A14"
+"Tables de revenu déclaré au niveau communal et supra-communal, selon la zone géographique"
+
+"Nom de la variable";Libellé;Modalités
+"[Zone geographique]";"Une des 20 zones géographiques parmi celles listées dans la description ";
+NBMEN_A14;"Nombre de ménages fiscaux";
+NBPERS_A14;"Nombre de personnes dans les ménages fiscaux";
+NBUC_A14;"Nombre d'UC dans les ménages fiscaux";
+NM_DEC_A14;"Nombre de ménages dont le revenu déclaré est positif ou nul";
+NP_DEC_A14;"Nombre de personnes dans les ménages dont le revenu déclaré est positif ou nul";
+NUC_DEC_A14;"Nombre d'UC dans les ménages dont le revenu déclaré est positif ou nul";
+NMTP40_DEC_A14;"Nombre de ménages sous le seuil de 40 % du revenu déclaré par UC médian national (France métropolitaine)";
+NMTP50_DEC_A14;"Nombre de ménages sous le seuil de 50 % du revenu déclaré par UC médian national (France métropolitaine)";
+NMTP60_DEC_A14;"Nombre de ménages sous le seuil de 60 % du revenu déclaré par UC médian national (France métropolitaine)";
+NPTP40_DEC_A14;"Nombre de personnes sous le seuil de 40 % du revenu déclaré par UC médian national (France métropolitaine)";
+NPTP50_DEC_A14;"Nombre de personnes sous le seuil de 50 % du revenu déclaré par UC médian national (France métropolitaine)";
+NPTP60_DEC_A14;"Nombre de personnes sous le seuil de 60 % du revenu déclaré par UC médian national (France métropolitaine)";
+NM_DEC_TSA_A14;"Nombre de ménages dont le revenu déclaré contient des traitements et salaires hors indemnités de chômage";
+NM_DEC_CHO_A14;"Nombre de ménages dont le revenu déclaré contient des indemnités de chômage";
+NM_DEC_PEN_A14;"Nombre de ménages dont le revenu déclaré contient des pensions, retraites et rentes";
+NM_DEC_BEN_A14;"Nombre de ménages dont le revenu déclaré contient des revenus d’activités non salariées";
+NM_DEC_AUT_A14;"Nombre de ménages dont le revenu déclaré contient des autres revenus";
+NP_DEC_TSA_A14;"Nombre de personnes dans les ménages dont le revenu déclaré contient des traitements et salaires hors indemnités de chômage";
+NP_DEC_CHO_A14;"Nombre de personnes dans les ménages dont le revenu déclaré contient des indemnités de chômage";
+NP_DEC_PEN_A14;"Nombre de personnes dans les ménages dont le revenu déclaré contient des pensions, retraites et rentes";
+NP_DEC_BEN_A14;"Nombre de personnes dans les ménages dont le revenu déclaré contient des revenus d’activités non salariées";
+NP_DEC_AUT_A14;"Nombre de personnes dans les ménages dont le revenu déclaré contient des autres revenus";
+DEC_NMIMP_A14;"Nombre de ménages imposés sur le revenu";
+DEC_NPIMP_A14;"Nombre de personnes dans les ménages imposés sur le revenu";
+DEC_PTSA_A14;"Part des salaires et traitements hors indemnités de chômage dans le revenu déclaré";
+DEC_PCHO_A14;"Part des indemnités de chômage dans le revenu déclaré";
+DEC_PPEN_A14;"Part des pensions, retraites et rentes dans le revenu déclaré";
+DEC_PBEN_A14;"Part des revenus d’activités non salariées dans le revenu déclaré";
+DEC_PAUT_A14;"Part des autres revenus dans le revenu déclaré";
+DEC_PMIMP_A14;"Part des ménages imposés sur le revenu";
+DECM_MO_A14;"Revenu déclaré par ménage : moyenne";
+TP40_DEC_A14;"Part de la population à bas revenus pour un seuil à 40 % du revenu déclaré par UC médian national (France métropolitaine)";
+TP50_DEC_A14;"Part de la population à bas revenus pour un seuil à 50 % du revenu déclaré par UC médian national (France métropolitaine)";
+TP60_DEC_A14;"Part de la population à bas revenus pour un seuil à 60 % du revenu déclaré par UC médian national (France métropolitaine)";
+DECUC_MO_A14;"Revenu déclaré par UC : moyenne";
+DECUC_ET_A14;"Revenu déclaré par UC : écart-type";
+DECUC_D1_A14;"Revenu déclaré par UC : décile 1";
+DECUC_D2_A14;"Revenu déclaré par UC : décile 2";
+DECUC_Q1_A14;"Revenu déclaré par UC : quartile 1";
+DECUC_D3_A14;"Revenu déclaré par UC : décile 3";
+DECUC_D4_A14;"Revenu déclaré par UC : décile 4";
+DECUC_Q2_A14;"Revenu déclaré par UC : médiane";
+DECUC_D6_A14;"Revenu déclaré par UC : décile 6";
+DECUC_D7_A14;"Revenu déclaré par UC : décile 7";
+DECUC_Q3_A14;"Revenu déclaré par UC : quartile 3";
+DECUC_D8_A14;"Revenu déclaré par UC : décile 8";
+DECUC_D9_A14;"Revenu déclaré par UC : décile 9";
+DECUC_S80S20_A14;"Revenu déclaré par UC : rapport S80/S20";
+TP60_DECUC_Q2_A14;"Revenu déclaré par UC pour les populations à bas revenus : médiane";
+QP_NM_DEC_A14;"Nombre de ménages dont le revenu déclaré est positif ou nul dans les quartiers prioritaires (quartiers politique de la ville)";
+QP_NP_DEC_A14;"Nombre de personnes dont le revenu déclaré est positif ou nul dans les quartiers prioritaires (quartiers politique de la ville)";
+QP_NUC_DEC_A14;"Nombre d'UC dans les ménages dont le revenu déclaré est positif ou nul dans les quartiers prioritaires (quartiers politique de la ville)";
+QP_NMTP40_DEC_A14;"Nombre de ménages sous le seuil de 40% du revenu déclaré par UC médian national (France métropolitaine) dans les QP";
+QP_NMTP50_DEC_A14;"Nombre de ménages sous le seuil de 50% du revenu déclaré par UC médian national (France métropolitaine) dans les QP";
+QP_NMTP60_DEC_A14;"Nombre de ménages sous le seuil de 60% du revenu déclaré par UC médian national (France métropolitaine) dans les QP";
+QP_NPTP40_DEC_A14;"Nombre de personnes sous le seuil de 40% du revenu déclaré par UC médian national (France métropolitaine) dans les QP";
+QP_NPTP50_DEC_A14;"Nombre de personnes sous le seuil de 50% du revenu déclaré par UC médian national (France métropolitaine) dans les QP";
+QP_NPTP60_DEC_A14;"Nombre de personnes sous le seuil de 60% du revenu déclaré par UC médian national (France métropolitaine) dans les QP";
+QP_DEC_NMIMP_A14;"Nombre de ménages imposés sur le revenu dans les QP";
+QP_DEC_NPIMP_A14;"Nombre de personnes dans les ménages imposés sur le revenu dans les QP";
+QP_NM_DEC_TSA_A14;"Nombre de ménages dont le revenu déclaré contient des traitements et salaires hors indemnités de chômage dans les QP";
+QP_NM_DEC_CHO_A14;"Nombre de ménages dont le revenu déclaré contient des indemnités de chômage dans les QP";
+QP_NM_DEC_PEN_A14;"Nombre de ménages dont le revenu déclaré contient des pensions, retraites et rentes dans les QP";
+QP_NM_DEC_BEN_A14;"Nombre de ménages dont le revenu déclaré contient des revenus d’activités non salariées dans les QP";
+QP_NM_DEC_AUT_A14;"Nombre de ménages dont le revenu déclaré contient des autres revenus dans les QP";
+QP_DEC_PTSA_A14;"Part des salaires et traitements hors indemnités de chômage dans le revenu déclaré dans les QP";
+QP_DEC_PCHO_A14;"Part des indemnités de chômage dans le revenu déclaré dans les QP";
+QP_DEC_PPEN_A14;"Part des pensions, retraites et rentes dans le revenu déclaré dans les QP";
+QP_DEC_PBEN_A14;"Part des revenus d’activités non salariées dans le revenu déclaré dans les QP";
+QP_DEC_PAUT_A14;"Part des autres revenus dans le revenu déclaré dans les QP";
+QP_DEC_PMIMP_A14;"Part des ménages imposés sur le revenu dans les QP";
+QP_DECM_MO_A14;"Revenu déclaré par ménage dans les QP : moyenne";
+QP_TP40_DEC_A14;"Part, dans les QP, de la population à bas revenus pour un seuil à 40 % du revenu déclaré par UC médian national (France métropolitaine)";
+QP_TP50_DEC_A14;"Part, dans les QP, de la population à bas revenus pour un seuil à 50 % du revenu déclaré par UC médian national (France métropolitaine)";
+QP_TP60_DEC_A14;"Part, dans les QP, de la population à bas revenus pour un seuil à 60 % du revenu déclaré par UC médian national (France métropolitaine)";
+QP_DECUC_MO_A14;"Revenu déclaré par UC dans les QP : moyenne";
+QP_DECUC_D1_A14;"Revenu déclaré par UC dans les QP : décile 1";
+QP_DECUC_D2_A14;"Revenu déclaré par UC dans les QP : décile 2";
+QP_DECUC_Q1_A14;"1er quartile du revenu déclaré par UC pour les populations résidant dans un QP";
+QP_DECUC_D3_A14;"Revenu déclaré par UC dans les QP : décile 3";
+QP_DECUC_D4_A14;"Revenu déclaré par UC dans les QP : décile 4";
+QP_DECUC_Q2_A14;"Médiane du revenu déclaré par UC pour les populations résidant dans un QP";
+QP_DECUC_D6_A14;"Revenu déclaré par UC dans les QP : décile 6";
+QP_DECUC_D7_A14;"Revenu déclaré par UC dans les QP : décile 7";
+QP_DECUC_Q3_A14;"3ème quartile du revenu déclaré par UC pour les populations résidant dans un QP";
+QP_DECUC_D8_A14;"Revenu déclaré par UC dans les QP : décile 8";
+QP_DECUC_D9_A14;"Revenu déclaré par UC dans les QP : décile 9";
+QP_DECUC_S80S20_A14;"Revenu déclaré par UC : rapport S80/S20 dans les QP";
+TP60_DECUC_IP_A14;"Indicateur d’intensité des bas revenus déclarés";
+DECUC_GI_A14;"Revenu déclaré par UC : indice de Gini";
+TP60_DECUC_GI_A14;"Indice de Gini sur les revenus déclarés par UC des populations à bas revenus déclarés";
+QP_DECUC_GI_A14;"Indice de Gini sur les revenus déclarés par UC des populations résidant dans un QP";
+TP60_DECUC_SEN_A14;"Indice de Sen du revenu déclaré par UC";
+DECUC_P1_A14;"Revenu déclaré par UC : centile P1";
+DECUC_P2_A14;"Revenu déclaré par UC : centile P2";
+DECUC_P3_A14;"Revenu déclaré par UC : centile P3";
+DECUC_P4_A14;"Revenu déclaré par UC : centile P4";
+DECUC_P5_A14;"Revenu déclaré par UC : centile P5";
+DECUC_P6_A14;"Revenu déclaré par UC : centile P6";
+DECUC_P7_A14;"Revenu déclaré par UC : centile P7";
+DECUC_P8_A14;"Revenu déclaré par UC : centile P8";
+DECUC_P9_A14;"Revenu déclaré par UC : centile P9";
+DECUC_P10_A14;"Revenu déclaré par UC : centile P10";
+DECUC_P11_A14;"Revenu déclaré par UC : centile P11";
+DECUC_P12_A14;"Revenu déclaré par UC : centile P12";
+DECUC_P13_A14;"Revenu déclaré par UC : centile P13";
+DECUC_P14_A14;"Revenu déclaré par UC : centile P14";
+DECUC_P15_A14;"Revenu déclaré par UC : centile P15";
+DECUC_P16_A14;"Revenu déclaré par UC : centile P16";
+DECUC_P17_A14;"Revenu déclaré par UC : centile P17";
+DECUC_P18_A14;"Revenu déclaré par UC : centile P18";
+DECUC_P19_A14;"Revenu déclaré par UC : centile P19";
+DECUC_P20_A14;"Revenu déclaré par UC : centile P20";
+DECUC_P21_A14;"Revenu déclaré par UC : centile P21";
+DECUC_P22_A14;"Revenu déclaré par UC : centile P22";
+DECUC_P23_A14;"Revenu déclaré par UC : centile P23";
+DECUC_P24_A14;"Revenu déclaré par UC : centile P24";
+DECUC_P25_A14;"Revenu déclaré par UC : centile P25";
+DECUC_P26_A14;"Revenu déclaré par UC : centile P26";
+DECUC_P27_A14;"Revenu déclaré par UC : centile P27";
+DECUC_P28_A14;"Revenu déclaré par UC : centile P28";
+DECUC_P29_A14;"Revenu déclaré par UC : centile P29";
+DECUC_P30_A14;"Revenu déclaré par UC : centile P30";
+DECUC_P31_A14;"Revenu déclaré par UC : centile P31";
+DECUC_P32_A14;"Revenu déclaré par UC : centile P32";
+DECUC_P33_A14;"Revenu déclaré par UC : centile P33";
+DECUC_P34_A14;"Revenu déclaré par UC : centile P34";
+DECUC_P35_A14;"Revenu déclaré par UC : centile P35";
+DECUC_P36_A14;"Revenu déclaré par UC : centile P36";
+DECUC_P37_A14;"Revenu déclaré par UC : centile P37";
+DECUC_P38_A14;"Revenu déclaré par UC : centile P38";
+DECUC_P39_A14;"Revenu déclaré par UC : centile P39";
+DECUC_P40_A14;"Revenu déclaré par UC : centile P40";
+DECUC_P41_A14;"Revenu déclaré par UC : centile P41";
+DECUC_P42_A14;"Revenu déclaré par UC : centile P42";
+DECUC_P43_A14;"Revenu déclaré par UC : centile P43";
+DECUC_P44_A14;"Revenu déclaré par UC : centile P44";
+DECUC_P45_A14;"Revenu déclaré par UC : centile P45";
+DECUC_P46_A14;"Revenu déclaré par UC : centile P46";
+DECUC_P47_A14;"Revenu déclaré par UC : centile P47";
+DECUC_P48_A14;"Revenu déclaré par UC : centile P48";
+DECUC_P49_A14;"Revenu déclaré par UC : centile P49";
+DECUC_P50_A14;"Revenu déclaré par UC : centile P50";
+DECUC_P51_A14;"Revenu déclaré par UC : centile P51";
+DECUC_P52_A14;"Revenu déclaré par UC : centile P52";
+DECUC_P53_A14;"Revenu déclaré par UC : centile P53";
+DECUC_P54_A14;"Revenu déclaré par UC : centile P54";
+DECUC_P55_A14;"Revenu déclaré par UC : centile P55";
+DECUC_P56_A14;"Revenu déclaré par UC : centile P56";
+DECUC_P57_A14;"Revenu déclaré par UC : centile P57";
+DECUC_P58_A14;"Revenu déclaré par UC : centile P58";
+DECUC_P59_A14;"Revenu déclaré par UC : centile P59";
+DECUC_P60_A14;"Revenu déclaré par UC : centile P60";
+DECUC_P61_A14;"Revenu déclaré par UC : centile P61";
+DECUC_P62_A14;"Revenu déclaré par UC : centile P62";
+DECUC_P63_A14;"Revenu déclaré par UC : centile P63";
+DECUC_P64_A14;"Revenu déclaré par UC : centile P64";
+DECUC_P65_A14;"Revenu déclaré par UC : centile P65";
+DECUC_P66_A14;"Revenu déclaré par UC : centile P66";
+DECUC_P67_A14;"Revenu déclaré par UC : centile P67";
+DECUC_P68_A14;"Revenu déclaré par UC : centile P68";
+DECUC_P69_A14;"Revenu déclaré par UC : centile P69";
+DECUC_P70_A14;"Revenu déclaré par UC : centile P70";
+DECUC_P71_A14;"Revenu déclaré par UC : centile P71";
+DECUC_P72_A14;"Revenu déclaré par UC : centile P72";
+DECUC_P73_A14;"Revenu déclaré par UC : centile P73";
+DECUC_P74_A14;"Revenu déclaré par UC : centile P74";
+DECUC_P75_A14;"Revenu déclaré par UC : centile P75";
+DECUC_P76_A14;"Revenu déclaré par UC : centile P76";
+DECUC_P77_A14;"Revenu déclaré par UC : centile P77";
+DECUC_P78_A14;"Revenu déclaré par UC : centile P78";
+DECUC_P79_A14;"Revenu déclaré par UC : centile P79";
+DECUC_P80_A14;"Revenu déclaré par UC : centile P80";
+DECUC_P81_A14;"Revenu déclaré par UC : centile P81";
+DECUC_P82_A14;"Revenu déclaré par UC : centile P82";
+DECUC_P83_A14;"Revenu déclaré par UC : centile P83";
+DECUC_P84_A14;"Revenu déclaré par UC : centile P84";
+DECUC_P85_A14;"Revenu déclaré par UC : centile P85";
+DECUC_P86_A14;"Revenu déclaré par UC : centile P86";
+DECUC_P87_A14;"Revenu déclaré par UC : centile P87";
+DECUC_P88_A14;"Revenu déclaré par UC : centile P88";
+DECUC_P89_A14;"Revenu déclaré par UC : centile P89";
+DECUC_P90_A14;"Revenu déclaré par UC : centile P90";
+DECUC_P91_A14;"Revenu déclaré par UC : centile P91";
+DECUC_P92_A14;"Revenu déclaré par UC : centile P92";
+DECUC_P93_A14;"Revenu déclaré par UC : centile P93";
+DECUC_P94_A14;"Revenu déclaré par UC : centile P94";
+DECUC_P95_A14;"Revenu déclaré par UC : centile P95";
+DECUC_P96_A14;"Revenu déclaré par UC : centile P96";
+DECUC_P97_A14;"Revenu déclaré par UC : centile P97";
+DECUC_P98_A14;"Revenu déclaré par UC : centile P98";
+DECUC_P99_A14;"Revenu déclaré par UC : centile P99";
+
+
+
+"M_DF1_DC_[zone géographique]_OCCTYPR_A14"
+"Tables de revenu déclaré au niveau communal et supra-communal, selon le statut d’occupation du logement"
+
+"Nom de la variable";Libellé;Modalités
+"[Zone geographique]";"Une des 20 zones géographiques parmi celles listées dans la description ";
+occtypR;"Statut d'occupation du logement regroupé";"1 - Propriétaire";"2 - Locataire"
+NBMEN_A14;"Nombre de ménages fiscaux";
+NBPERS_A14;"Nombre de personnes dans les ménages fiscaux";
+NBUC_A14;"Nombre d'UC dans les ménages fiscaux";
+NM_DEC_A14;"Nombre de ménages dont le revenu déclaré est positif ou nul";
+NP_DEC_A14;"Nombre de personnes dans les ménages dont le revenu déclaré est positif ou nul";
+NUC_DEC_A14;"Nombre d'UC dans les ménages dont le revenu déclaré est positif ou nul";
+NMTP40_DEC_A14;"Nombre de ménages sous le seuil de 40 % du revenu déclaré par UC médian national (France métropolitaine)";
+NMTP50_DEC_A14;"Nombre de ménages sous le seuil de 50 % du revenu déclaré par UC médian national (France métropolitaine)";
+NMTP60_DEC_A14;"Nombre de ménages sous le seuil de 60 % du revenu déclaré par UC médian national (France métropolitaine)";
+NPTP40_DEC_A14;"Nombre de personnes sous le seuil de 40 % du revenu déclaré par UC médian national (France métropolitaine)";
+NPTP50_DEC_A14;"Nombre de personnes sous le seuil de 50 % du revenu déclaré par UC médian national (France métropolitaine)";
+NPTP60_DEC_A14;"Nombre de personnes sous le seuil de 60 % du revenu déclaré par UC médian national (France métropolitaine)";
+NM_DEC_TSA_A14;"Nombre de ménages dont le revenu déclaré contient des traitements et salaires hors indemnités de chômage";
+NM_DEC_CHO_A14;"Nombre de ménages dont le revenu déclaré contient des indemnités de chômage";
+NM_DEC_PEN_A14;"Nombre de ménages dont le revenu déclaré contient des pensions, retraites et rentes";
+NM_DEC_BEN_A14;"Nombre de ménages dont le revenu déclaré contient des revenus d’activités non salariées";
+NM_DEC_AUT_A14;"Nombre de ménages dont le revenu déclaré contient des autres revenus";
+NP_DEC_TSA_A14;"Nombre de personnes dans les ménages dont le revenu déclaré contient des traitements et salaires hors indemnités de chômage";
+NP_DEC_CHO_A14;"Nombre de personnes dans les ménages dont le revenu déclaré contient des indemnités de chômage";
+NP_DEC_PEN_A14;"Nombre de personnes dans les ménages dont le revenu déclaré contient des pensions, retraites et rentes";
+NP_DEC_BEN_A14;"Nombre de personnes dans les ménages dont le revenu déclaré contient des revenus d’activités non salariées";
+NP_DEC_AUT_A14;"Nombre de personnes dans les ménages dont le revenu déclaré contient des autres revenus";
+DEC_PTSA_A14;"Part des salaires et traitements hors indemnités de chômage dans le revenu déclaré";
+DEC_PCHO_A14;"Part des indemnités de chômage dans le revenu déclaré";
+DEC_PPEN_A14;"Part des pensions, retraites et rentes dans le revenu déclaré";
+DEC_PBEN_A14;"Part des revenus d’activités non salariées dans le revenu déclaré";
+DEC_PAUT_A14;"Part des autres revenus dans le revenu déclaré";
+TP40_DEC_A14;"Part de la population à bas revenus pour un seuil à 40 % du revenu déclaré par UC médian national (France métropolitaine)";
+TP50_DEC_A14;"Part de la population à bas revenus pour un seuil à 50 % du revenu déclaré par UC médian national (France métropolitaine)";
+TP60_DEC_A14;"Part de la population à bas revenus pour un seuil à 60 % du revenu déclaré par UC médian national (France métropolitaine)";
+DECUC_D1_A14;"Revenu déclaré par UC : décile 1";
+DECUC_D2_A14;"Revenu déclaré par UC : décile 2";
+DECUC_Q1_A14;"Revenu déclaré par UC : quartile 1";
+DECUC_D3_A14;"Revenu déclaré par UC : décile 3";
+DECUC_D4_A14;"Revenu déclaré par UC : décile 4";
+DECUC_Q2_A14;"Revenu déclaré par UC : médiane";
+DECUC_D6_A14;"Revenu déclaré par UC : décile 6";
+DECUC_D7_A14;"Revenu déclaré par UC : décile 7";
+DECUC_Q3_A14;"Revenu déclaré par UC : quartile 3";
+DECUC_D8_A14;"Revenu déclaré par UC : décile 8";
+DECUC_D9_A14;"Revenu déclaré par UC : décile 9";
+DECUC_S80S20_A14;"Revenu déclaré par UC : rapport S80/S20";
+TP60_DECUC_Q2_A14;"Revenu déclaré par UC pour les populations à bas revenus : médiane";
+QP_NM_DEC_A14;"Nombre de ménages dont le revenu déclaré est positif ou nul dans les quartiers prioritaires (quartiers politique de la ville)";
+QP_NP_DEC_A14;"Nombre de personnes dont le revenu déclaré est positif ou nul dans les quartiers prioritaires (quartiers politique de la ville)";
+TP60_DECUC_IP_A14;"Indicateur d’intensité des bas revenus déclarés";
+DECUC_GI_A14;"Revenu déclaré par UC : indice de Gini";
+TP60_DECUC_GI_A14;"Indice de Gini sur les revenus déclarés par UC des populations à bas revenus déclarés";
+TP60_DECUC_SEN_A14;"Indice de Sen du revenu déclaré par UC";
+
+
+
+"M_DF1_DC_[zone géographique]_OPRDEC_A14"
+"Tables de revenu déclaré au niveau communal et supra-communal, selon l’origine des revenus déclarés"
+
+"Nom de la variable";Libellé;Modalités
+"[Zone geographique]";"Une des 20 zones géographiques parmi celles listées dans la description ";
+oprdec;"Origine principale des revenus déclarés";"1 - Salaires et traitements hors indemnités de chômage";"2 - Indemnités de chômage";"3 - Revenus des activités non salariées";"4 - Pensions, retraites et rentes";"5 - Autres revenus";"6 - Revenus déclarés nuls sur le champ des revenus déclarés ou revenus déclarés négatifs ou nuls sur le champ des revenus disponibles"
+NBMEN_A14;"Nombre de ménages fiscaux";
+NBPERS_A14;"Nombre de personnes dans les ménages fiscaux";
+NBUC_A14;"Nombre d'UC dans les ménages fiscaux";
+NM_DEC_A14;"Nombre de ménages dont le revenu déclaré est positif ou nul";
+NP_DEC_A14;"Nombre de personnes dans les ménages dont le revenu déclaré est positif ou nul";
+NUC_DEC_A14;"Nombre d'UC dans les ménages dont le revenu déclaré est positif ou nul";
+NMTP40_DEC_A14;"Nombre de ménages sous le seuil de 40 % du revenu déclaré par UC médian national (France métropolitaine)";
+NMTP50_DEC_A14;"Nombre de ménages sous le seuil de 50 % du revenu déclaré par UC médian national (France métropolitaine)";
+NMTP60_DEC_A14;"Nombre de ménages sous le seuil de 60 % du revenu déclaré par UC médian national (France métropolitaine)";
+NPTP40_DEC_A14;"Nombre de personnes sous le seuil de 40 % du revenu déclaré par UC médian national (France métropolitaine)";
+NPTP50_DEC_A14;"Nombre de personnes sous le seuil de 50 % du revenu déclaré par UC médian national (France métropolitaine)";
+NPTP60_DEC_A14;"Nombre de personnes sous le seuil de 60 % du revenu déclaré par UC médian national (France métropolitaine)";
+NM_DEC_TSA_A14;"Nombre de ménages dont le revenu déclaré contient des traitements et salaires hors indemnités de chômage";
+NM_DEC_CHO_A14;"Nombre de ménages dont le revenu déclaré contient des indemnités de chômage";
+NM_DEC_PEN_A14;"Nombre de ménages dont le revenu déclaré contient des pensions, retraites et rentes";
+NM_DEC_BEN_A14;"Nombre de ménages dont le revenu déclaré contient des revenus d’activités non salariées";
+NM_DEC_AUT_A14;"Nombre de ménages dont le revenu déclaré contient des autres revenus";
+NP_DEC_TSA_A14;"Nombre de personnes dans les ménages dont le revenu déclaré contient des traitements et salaires hors indemnités de chômage";
+NP_DEC_CHO_A14;"Nombre de personnes dans les ménages dont le revenu déclaré contient des indemnités de chômage";
+NP_DEC_PEN_A14;"Nombre de personnes dans les ménages dont le revenu déclaré contient des pensions, retraites et rentes";
+NP_DEC_BEN_A14;"Nombre de personnes dans les ménages dont le revenu déclaré contient des revenus d’activités non salariées";
+NP_DEC_AUT_A14;"Nombre de personnes dans les ménages dont le revenu déclaré contient des autres revenus";
+DEC_PTSA_A14;"Part des salaires et traitements hors indemnités de chômage dans le revenu déclaré";
+DEC_PCHO_A14;"Part des indemnités de chômage dans le revenu déclaré";
+DEC_PPEN_A14;"Part des pensions, retraites et rentes dans le revenu déclaré";
+DEC_PBEN_A14;"Part des revenus d’activités non salariées dans le revenu déclaré";
+DEC_PAUT_A14;"Part des autres revenus dans le revenu déclaré";
+TP40_DEC_A14;"Part de la population à bas revenus pour un seuil à 40 % du revenu déclaré par UC médian national (France métropolitaine)";
+TP50_DEC_A14;"Part de la population à bas revenus pour un seuil à 50 % du revenu déclaré par UC médian national (France métropolitaine)";
+TP60_DEC_A14;"Part de la population à bas revenus pour un seuil à 60 % du revenu déclaré par UC médian national (France métropolitaine)";
+DECUC_D1_A14;"Revenu déclaré par UC : décile 1";
+DECUC_D2_A14;"Revenu déclaré par UC : décile 2";
+DECUC_Q1_A14;"Revenu déclaré par UC : quartile 1";
+DECUC_D3_A14;"Revenu déclaré par UC : décile 3";
+DECUC_D4_A14;"Revenu déclaré par UC : décile 4";
+DECUC_Q2_A14;"Revenu déclaré par UC : médiane";
+DECUC_D6_A14;"Revenu déclaré par UC : décile 6";
+DECUC_D7_A14;"Revenu déclaré par UC : décile 7";
+DECUC_Q3_A14;"Revenu déclaré par UC : quartile 3";
+DECUC_D8_A14;"Revenu déclaré par UC : décile 8";
+DECUC_D9_A14;"Revenu déclaré par UC : décile 9";
+DECUC_S80S20_A14;"Revenu déclaré par UC : rapport S80/S20";
+TP60_DECUC_Q2_A14;"Revenu déclaré par UC pour les populations à bas revenus : médiane";
+QP_NM_DEC_A14;"Nombre de ménages dont le revenu déclaré est positif ou nul dans les quartiers prioritaires (quartiers politique de la ville)";
+QP_NP_DEC_A14;"Nombre de personnes dont le revenu déclaré est positif ou nul dans les quartiers prioritaires (quartiers politique de la ville)";
+TP60_DECUC_IP_A14;"Indicateur d’intensité des bas revenus déclarés";
+DECUC_GI_A14;"Revenu déclaré par UC : indice de Gini";
+TP60_DECUC_GI_A14;"Indice de Gini sur les revenus déclarés par UC des populations à bas revenus déclarés";
+TP60_DECUC_SEN_A14;"Indice de Sen du revenu déclaré par UC";
+
+
+
+"M_DF1_DC_[zone géographique]_TAILLEM_A14"
+"Tables de revenu déclaré au niveau communal et supra-communal, selon la taille du ménage"
+
+"Nom de la variable";Libellé;Modalités
+"[Zone geographique]";"Une des 20 zones géographiques parmi celles listées dans la description ";
+taillem;"Taille du ménage";"1 - 1 personne";"2 - 2 personnes";"3 - 3 personnes";"4 - 4 personnes";"5 - 5 personnes et plus"
+NBMEN_A14;"Nombre de ménages fiscaux";
+NBPERS_A14;"Nombre de personnes dans les ménages fiscaux";
+NBUC_A14;"Nombre d'UC dans les ménages fiscaux";
+NM_DEC_A14;"Nombre de ménages dont le revenu déclaré est positif ou nul";
+NP_DEC_A14;"Nombre de personnes dans les ménages dont le revenu déclaré est positif ou nul";
+NUC_DEC_A14;"Nombre d'UC dans les ménages dont le revenu déclaré est positif ou nul";
+NMTP40_DEC_A14;"Nombre de ménages sous le seuil de 40 % du revenu déclaré par UC médian national (France métropolitaine)";
+NMTP50_DEC_A14;"Nombre de ménages sous le seuil de 50 % du revenu déclaré par UC médian national (France métropolitaine)";
+NMTP60_DEC_A14;"Nombre de ménages sous le seuil de 60 % du revenu déclaré par UC médian national (France métropolitaine)";
+NPTP40_DEC_A14;"Nombre de personnes sous le seuil de 40 % du revenu déclaré par UC médian national (France métropolitaine)";
+NPTP50_DEC_A14;"Nombre de personnes sous le seuil de 50 % du revenu déclaré par UC médian national (France métropolitaine)";
+NPTP60_DEC_A14;"Nombre de personnes sous le seuil de 60 % du revenu déclaré par UC médian national (France métropolitaine)";
+NM_DEC_TSA_A14;"Nombre de ménages dont le revenu déclaré contient des traitements et salaires hors indemnités de chômage";
+NM_DEC_CHO_A14;"Nombre de ménages dont le revenu déclaré contient des indemnités de chômage";
+NM_DEC_PEN_A14;"Nombre de ménages dont le revenu déclaré contient des pensions, retraites et rentes";
+NM_DEC_BEN_A14;"Nombre de ménages dont le revenu déclaré contient des revenus d’activités non salariées";
+NM_DEC_AUT_A14;"Nombre de ménages dont le revenu déclaré contient des autres revenus";
+NP_DEC_TSA_A14;"Nombre de personnes dans les ménages dont le revenu déclaré contient des traitements et salaires hors indemnités de chômage";
+NP_DEC_CHO_A14;"Nombre de personnes dans les ménages dont le revenu déclaré contient des indemnités de chômage";
+NP_DEC_PEN_A14;"Nombre de personnes dans les ménages dont le revenu déclaré contient des pensions, retraites et rentes";
+NP_DEC_BEN_A14;"Nombre de personnes dans les ménages dont le revenu déclaré contient des revenus d’activités non salariées";
+NP_DEC_AUT_A14;"Nombre de personnes dans les ménages dont le revenu déclaré contient des autres revenus";
+DEC_PTSA_A14;"Part des salaires et traitements hors indemnités de chômage dans le revenu déclaré";
+DEC_PCHO_A14;"Part des indemnités de chômage dans le revenu déclaré";
+DEC_PPEN_A14;"Part des pensions, retraites et rentes dans le revenu déclaré";
+DEC_PBEN_A14;"Part des revenus d’activités non salariées dans le revenu déclaré";
+DEC_PAUT_A14;"Part des autres revenus dans le revenu déclaré";
+TP40_DEC_A14;"Part de la population à bas revenus pour un seuil à 40 % du revenu déclaré par UC médian national (France métropolitaine)";
+TP50_DEC_A14;"Part de la population à bas revenus pour un seuil à 50 % du revenu déclaré par UC médian national (France métropolitaine)";
+TP60_DEC_A14;"Part de la population à bas revenus pour un seuil à 60 % du revenu déclaré par UC médian national (France métropolitaine)";
+DECUC_D1_A14;"Revenu déclaré par UC : décile 1";
+DECUC_D2_A14;"Revenu déclaré par UC : décile 2";
+DECUC_Q1_A14;"Revenu déclaré par UC : quartile 1";
+DECUC_D3_A14;"Revenu déclaré par UC : décile 3";
+DECUC_D4_A14;"Revenu déclaré par UC : décile 4";
+DECUC_Q2_A14;"Revenu déclaré par UC : médiane";
+DECUC_D6_A14;"Revenu déclaré par UC : décile 6";
+DECUC_D7_A14;"Revenu déclaré par UC : décile 7";
+DECUC_Q3_A14;"Revenu déclaré par UC : quartile 3";
+DECUC_D8_A14;"Revenu déclaré par UC : décile 8";
+DECUC_D9_A14;"Revenu déclaré par UC : décile 9";
+DECUC_S80S20_A14;"Revenu déclaré par UC : rapport S80/S20";
+TP60_DECUC_Q2_A14;"Revenu déclaré par UC pour les populations à bas revenus : médiane";
+QP_NM_DEC_A14;"Nombre de ménages dont le revenu déclaré est positif ou nul dans les quartiers prioritaires (quartiers politique de la ville)";
+QP_NP_DEC_A14;"Nombre de personnes dont le revenu déclaré est positif ou nul dans les quartiers prioritaires (quartiers politique de la ville)";
+TP60_DECUC_IP_A14;"Indicateur d’intensité des bas revenus déclarés";
+DECUC_GI_A14;"Revenu déclaré par UC : indice de Gini";
+TP60_DECUC_GI_A14;"Indice de Gini sur les revenus déclarés par UC des populations à bas revenus déclarés";
+TP60_DECUC_SEN_A14;"Indice de Sen du revenu déclaré par UC";
+
+
+
+"M_DF1_DC_[zone géographique]_TRAGERF_A14"
+"Tables de revenu déclaré au niveau communal et supra-communal, selon la tranche d’âge du référent fiscal"
+
+"Nom de la variable";Libellé;Modalités
+"[Zone geographique]";"Une des 20 zones géographiques parmi celles listées dans la description";
+trageRF;"Tranche d'âge du référent fiscal";"1 - Moins de 30 ans";"2 - 30-39 ans";"3 - 40-49 ans";"4 - 50-59 ans";"5 - 60-74 ans";"6 - 75 ans et plus"
+NBMEN_A14;"Nombre de ménages fiscaux";
+NBPERS_A14;"Nombre de personnes dans les ménages fiscaux";
+NBUC_A14;"Nombre d'UC dans les ménages fiscaux";
+NM_DEC_A14;"Nombre de ménages dont le revenu déclaré est positif ou nul";
+NP_DEC_A14;"Nombre de personnes dans les ménages dont le revenu déclaré est positif ou nul";
+NUC_DEC_A14;"Nombre d'UC dans les ménages dont le revenu déclaré est positif ou nul";
+NMTP40_DEC_A14;"Nombre de ménages sous le seuil de 40 % du revenu déclaré par UC médian national (France métropolitaine)";
+NMTP50_DEC_A14;"Nombre de ménages sous le seuil de 50 % du revenu déclaré par UC médian national (France métropolitaine)";
+NMTP60_DEC_A14;"Nombre de ménages sous le seuil de 60 % du revenu déclaré par UC médian national (France métropolitaine)";
+NPTP40_DEC_A14;"Nombre de personnes sous le seuil de 40 % du revenu déclaré par UC médian national (France métropolitaine)";
+NPTP50_DEC_A14;"Nombre de personnes sous le seuil de 50 % du revenu déclaré par UC médian national (France métropolitaine)";
+NPTP60_DEC_A14;"Nombre de personnes sous le seuil de 60 % du revenu déclaré par UC médian national (France métropolitaine)";
+NM_DEC_TSA_A14;"Nombre de ménages dont le revenu déclaré contient des traitements et salaires hors indemnités de chômage";
+NM_DEC_CHO_A14;"Nombre de ménages dont le revenu déclaré contient des indemnités de chômage";
+NM_DEC_PEN_A14;"Nombre de ménages dont le revenu déclaré contient des pensions, retraites et rentes";
+NM_DEC_BEN_A14;"Nombre de ménages dont le revenu déclaré contient des revenus d’activités non salariées";
+NM_DEC_AUT_A14;"Nombre de ménages dont le revenu déclaré contient des autres revenus";
+NP_DEC_TSA_A14;"Nombre de personnes dans les ménages dont le revenu déclaré contient des traitements et salaires hors indemnités de chômage";
+NP_DEC_CHO_A14;"Nombre de personnes dans les ménages dont le revenu déclaré contient des indemnités de chômage";
+NP_DEC_PEN_A14;"Nombre de personnes dans les ménages dont le revenu déclaré contient des pensions, retraites et rentes";
+NP_DEC_BEN_A14;"Nombre de personnes dans les ménages dont le revenu déclaré contient des revenus d’activités non salariées";
+NP_DEC_AUT_A14;"Nombre de personnes dans les ménages dont le revenu déclaré contient des autres revenus";
+DEC_PTSA_A14;"Part des salaires et traitements hors indemnités de chômage dans le revenu déclaré";
+DEC_PCHO_A14;"Part des indemnités de chômage dans le revenu déclaré";
+DEC_PPEN_A14;"Part des pensions, retraites et rentes dans le revenu déclaré";
+DEC_PBEN_A14;"Part des revenus d’activités non salariées dans le revenu déclaré";
+DEC_PAUT_A14;"Part des autres revenus dans le revenu déclaré";
+TP40_DEC_A14;"Part de la population à bas revenus pour un seuil à 40 % du revenu déclaré par UC médian national (France métropolitaine)";
+TP50_DEC_A14;"Part de la population à bas revenus pour un seuil à 50 % du revenu déclaré par UC médian national (France métropolitaine)";
+TP60_DEC_A14;"Part de la population à bas revenus pour un seuil à 60 % du revenu déclaré par UC médian national (France métropolitaine)";
+DECUC_D1_A14;"Revenu déclaré par UC : décile 1";
+DECUC_D2_A14;"Revenu déclaré par UC : décile 2";
+DECUC_Q1_A14;"Revenu déclaré par UC : quartile 1";
+DECUC_D3_A14;"Revenu déclaré par UC : décile 3";
+DECUC_D4_A14;"Revenu déclaré par UC : décile 4";
+DECUC_Q2_A14;"Revenu déclaré par UC : médiane";
+DECUC_D6_A14;"Revenu déclaré par UC : décile 6";
+DECUC_D7_A14;"Revenu déclaré par UC : décile 7";
+DECUC_Q3_A14;"Revenu déclaré par UC : quartile 3";
+DECUC_D8_A14;"Revenu déclaré par UC : décile 8";
+DECUC_D9_A14;"Revenu déclaré par UC : décile 9";
+DECUC_S80S20_A14;"Revenu déclaré par UC : rapport S80/S20";
+TP60_DECUC_Q2_A14;"Revenu déclaré par UC pour les populations à bas revenus : médiane";
+QP_NM_DEC_A14;"Nombre de ménages dont le revenu déclaré est positif ou nul dans les quartiers prioritaires (quartiers politique de la ville)";
+QP_NP_DEC_A14;"Nombre de personnes dont le revenu déclaré est positif ou nul dans les quartiers prioritaires (quartiers politique de la ville)";
+TP60_DECUC_IP_A14;"Indicateur d’intensité des bas revenus déclarés";
+DECUC_GI_A14;"Revenu déclaré par UC : indice de Gini";
+TP60_DECUC_GI_A14;"Indice de Gini sur les revenus déclarés par UC des populations à bas revenus déclarés";
+TP60_DECUC_SEN_A14;"Indice de Sen du revenu déclaré par UC";
+
+
+
+"M_DF1_DC_[zone géographique]_TRDEC_A14"
+"Tables de revenu déclaré au niveau communal et supra-communal, selon la tranche de revenus"
+
+"Nom de la variable";Libellé;Modalités
+"[Zone geographique]";"Une des 20 zones géographiques parmi celles listées dans la description";
+decile_dec;"Tranche de revenu déclaré par UC dans laquelle se trouve le ménage (découpage : déciles)";"1 - Revenus déclarés/disponibles par UC inférieurs au 1er décile";"2 - Revenus déclarés/disponibles par UC compris entre D1 et D2";"3 - Revenus déclarés/disponibles par UC compris entre D2 et D3";"4 - Revenus déclarés/disponibles par UC compris entre D3 et D4";"5 - Revenus déclarés/disponibles par UC compris entre D4 et D5";"6 - Revenus déclarés/disponibles par UC compris entre D5 et D6";"7 - Revenus déclarés/disponibles par UC compris entre D6 et D7";"8 - Revenus déclarés/disponibles par UC compris entre D7 et D8";"9 - Revenus déclarés/disponibles par UC compris entre D8 et D9";"10 - Revenus déclarés/disponibles par UC supérieurs au 9ème décile"
+NM_DEC_A14;"Nombre de ménages dont le revenu déclaré est positif ou nul";
+NP_DEC_A14;"Nombre de personnes dans les ménages dont le revenu déclaré est positif ou nul";
+NM_DEC_TSA_A14;"Nombre de ménages dont le revenu déclaré contient des traitements et salaires hors indemnités de chômage";
+NM_DEC_CHO_A14;"Nombre de ménages dont le revenu déclaré contient des indemnités de chômage";
+NM_DEC_PEN_A14;"Nombre de ménages dont le revenu déclaré contient des pensions, retraites et rentes";
+NM_DEC_BEN_A14;"Nombre de ménages dont le revenu déclaré contient des revenus d’activités non salariées";
+NM_DEC_AUT_A14;"Nombre de ménages dont le revenu déclaré contient des autres revenus";
+DEC_PTSA_A14;"Part des salaires et traitements hors indemnités de chômage dans le revenu déclaré";
+DEC_PCHO_A14;"Part des indemnités de chômage dans le revenu déclaré";
+DEC_PPEN_A14;"Part des pensions, retraites et rentes dans le revenu déclaré";
+DEC_PBEN_A14;"Part des revenus d’activités non salariées dans le revenu déclaré";
+DEC_PAUT_A14;"Part des autres revenus dans le revenu déclaré";
+
+
+
+"M_DF1_DC_[zone géographique]TYPMENR_A14"
+"Tables de revenu déclaré au niveau communal et supra-communal, selon le type de ménage"
+
+"Nom de la variable";Libellé;Modalités
+"[Zone geographique]";"Une des 20 zones géographiques parmi celles listées dans la description";
+typmenR;"Type de ménage regroupé";"1 - Homme seul";"2 - Femme seul";"3 - Couple sans enfant";"4 - Couple avec enfant(s)";"5 - Famille monoparentale";"6 - Ménage complexe"
+NBMEN_A14;"Nombre de ménages fiscaux";
+NBPERS_A14;"Nombre de personnes dans les ménages fiscaux";
+NBUC_A14;"Nombre d'UC dans les ménages fiscaux";
+NM_DEC_A14;"Nombre de ménages dont le revenu déclaré est positif ou nul";
+NP_DEC_A14;"Nombre de personnes dans les ménages dont le revenu déclaré est positif ou nul";
+NUC_DEC_A14;"Nombre d'UC dans les ménages dont le revenu déclaré est positif ou nul";
+NMTP40_DEC_A14;"Nombre de ménages sous le seuil de 40 % du revenu déclaré par UC médian national (France métropolitaine)";
+NMTP50_DEC_A14;"Nombre de ménages sous le seuil de 50 % du revenu déclaré par UC médian national (France métropolitaine)";
+NMTP60_DEC_A14;"Nombre de ménages sous le seuil de 60 % du revenu déclaré par UC médian national (France métropolitaine)";
+NPTP40_DEC_A14;"Nombre de personnes sous le seuil de 40 % du revenu déclaré par UC médian national (France métropolitaine)";
+NPTP50_DEC_A14;"Nombre de personnes sous le seuil de 50 % du revenu déclaré par UC médian national (France métropolitaine)";
+NPTP60_DEC_A14;"Nombre de personnes sous le seuil de 60 % du revenu déclaré par UC médian national (France métropolitaine)";
+NM_DEC_TSA_A14;"Nombre de ménages dont le revenu déclaré contient des traitements et salaires hors indemnités de chômage";
+NM_DEC_CHO_A14;"Nombre de ménages dont le revenu déclaré contient des indemnités de chômage";
+NM_DEC_PEN_A14;"Nombre de ménages dont le revenu déclaré contient des pensions, retraites et rentes";
+NM_DEC_BEN_A14;"Nombre de ménages dont le revenu déclaré contient des revenus d’activités non salariées";
+NM_DEC_AUT_A14;"Nombre de ménages dont le revenu déclaré contient des autres revenus";
+NP_DEC_TSA_A14;"Nombre de personnes dans les ménages dont le revenu déclaré contient des traitements et salaires hors indemnités de chômage";
+NP_DEC_CHO_A14;"Nombre de personnes dans les ménages dont le revenu déclaré contient des indemnités de chômage";
+NP_DEC_PEN_A14;"Nombre de personnes dans les ménages dont le revenu déclaré contient des pensions, retraites et rentes";
+NP_DEC_BEN_A14;"Nombre de personnes dans les ménages dont le revenu déclaré contient des revenus d’activités non salariées";
+NP_DEC_AUT_A14;"Nombre de personnes dans les ménages dont le revenu déclaré contient des autres revenus";
+DEC_PTSA_A14;"Part des salaires et traitements hors indemnités de chômage dans le revenu déclaré";
+DEC_PCHO_A14;"Part des indemnités de chômage dans le revenu déclaré";
+DEC_PPEN_A14;"Part des pensions, retraites et rentes dans le revenu déclaré";
+DEC_PBEN_A14;"Part des revenus d’activités non salariées dans le revenu déclaré";
+DEC_PAUT_A14;"Part des autres revenus dans le revenu déclaré";
+TP40_DEC_A14;"Part de la population à bas revenus pour un seuil à 40 % du revenu déclaré par UC médian national (France métropolitaine)";
+TP50_DEC_A14;"Part de la population à bas revenus pour un seuil à 50 % du revenu déclaré par UC médian national (France métropolitaine)";
+TP60_DEC_A14;"Part de la population à bas revenus pour un seuil à 60 % du revenu déclaré par UC médian national (France métropolitaine)";
+DECUC_D1_A14;"Revenu déclaré par UC : décile 1";
+DECUC_D2_A14;"Revenu déclaré par UC : décile 2";
+DECUC_Q1_A14;"Revenu déclaré par UC : quartile 1";
+DECUC_D3_A14;"Revenu déclaré par UC : décile 3";
+DECUC_D4_A14;"Revenu déclaré par UC : décile 4";
+DECUC_Q2_A14;"Revenu déclaré par UC : médiane";
+DECUC_D6_A14;"Revenu déclaré par UC : décile 6";
+DECUC_D7_A14;"Revenu déclaré par UC : décile 7";
+DECUC_Q3_A14;"Revenu déclaré par UC : quartile 3";
+DECUC_D8_A14;"Revenu déclaré par UC : décile 8";
+DECUC_D9_A14;"Revenu déclaré par UC : décile 9";
+DECUC_S80S20_A14;"Revenu déclaré par UC : rapport S80/S20";
+TP60_DECUC_Q2_A14;"Revenu déclaré par UC pour les populations à bas revenus : médiane";
+QP_NM_DEC_A14;"Nombre de ménages dont le revenu déclaré est positif ou nul dans les quartiers prioritaires (quartiers politique de la ville)";
+QP_NP_DEC_A14;"Nombre de personnes dont le revenu déclaré est positif ou nul dans les quartiers prioritaires (quartiers politique de la ville)";
+TP60_DECUC_IP_A14;"Indicateur d’intensité des bas revenus déclarés";
+DECUC_GI_A14;"Revenu déclaré par UC : indice de Gini";
+TP60_DECUC_GI_A14;"Indice de Gini sur les revenus déclarés par UC des populations à bas revenus déclarés";
+TP60_DECUC_SEN_A14;"Indice de Sen du revenu déclaré par UC";
+
+
+
+"M_df1_dp_[zone géographique]_a14"
+"Tables de revenu disponible au niveau communal et supra-communal, selon la zone géographique"
+
+"Nom de la variable";Libellé;Modalités
+"[Zone geographique]";"Une des 20 zones géographiques parmi celles listées dans la description";
+NBMEN_A14;"Nombre de ménages fiscaux";
+NBPERS_A14;"Nombre de personnes dans les ménages fiscaux";
+NBUC_A14;"Nombre d'UC dans les ménages fiscaux";
+NM_DISP_A14;"Nombre de ménages dont le revenu disponible est positif ou nul";
+NP_DISP_A14;"Nombre de personnes dans les ménages dont le revenu disponible est positif ou nul";
+NUC_DISP_A14;"Nombre d'UC dans les ménages dont le revenu disponible est positif ou nul";
+NMTP40_A14;"Nombre de ménages sous le seuil de 40 % du niveau de vie médian national (France métropolitaine)";
+NMTP50_A14;"Nombre de ménages sous le seuil de 50 % du niveau de vie médian national (France métropolitaine)";
+NMTP60_A14;"Nombre de ménages sous le seuil de 60 % du niveau de vie médian national (France métropolitaine)";
+NPTP40_A14;"Nombre de personnes sous le seuil de 40 % du niveau de vie médian national (France métropolitaine)";
+NPTP50_A14;"Nombre de personnes sous le seuil de 50 % du niveau de vie médian national (France métropolitaine)";
+NPTP60_A14;"Nombre de personnes sous le seuil de 60 % du niveau de vie médian national (France métropolitaine)";
+NM_DISP_TSAC_A14;"Nombre de ménages dont le revenu disponible contient des salaires, traitements ou indemnités de chômage";
+NM_DISP_PEN_A14;"Nombre de ménages dont le revenu disponible contient des pensions, retraites et rentes";
+NM_DISP_BEN_A14;"Nombre de ménages dont le revenu disponible contient des revenus d’activités non salariées";
+NM_DISP_PSOC_A14;"Nombre de ménages dont le revenu disponible contient des prestations sociales";
+NM_DISP_PFAM_A14;"Nombre de ménages dont le revenu disponible contient des prestations familiales";
+NM_DISP_PLOGT_A14;"Nombre de ménages dont le revenu disponible contient des prestations logements";
+NM_DISP_PMINI_A14;"Nombre de ménages dont le revenu disponible contient des minima sociaux";
+NM_DISP_IMPOT_A14;"Nombre de ménages dont la composante de revenu contient des impôts";
+NM_DISP_PAT_A14;"Nombre de ménages dont le revenu disponible contient des revenus du patrimoine et autres revenus";
+NP_DISP_TSAC_A14;"Nombre de personnes dans les ménages dont le revenu disponible contient des salaires, traitements ou indemnités de chômage";
+NP_DISP_PEN_A14;"Nombre de personnes dans les ménages dont le revenu disponible contient des pensions, retraites et rentes";
+NP_DISP_BEN_A14;"Nombre de personnes dans les ménages dont le revenu disponible contient des revenus d’activités non salariées";
+NP_DISP_PSOC_A14;"Nombre de personnes dans les ménages dont le revenu disponible contient des prestations sociales";
+NP_DISP_PFAM_A14;"Nombre de personnes dans les ménages dont le revenu disponible contient des prestations familiales";
+NP_DISP_PLOGT_A14;"Nombre de personnes dans les ménages dont le revenu disponible contient des prestations logements";
+NP_DISP_PMINI_A14;"Nombre de personnes dans les ménages dont le revenu disponible contient des minima sociaux";
+NP_DISP_IMPOT_A14;"Nombre de personnes dans les ménages dont la composante de revenu contient des impôts";
+NP_DISP_PAT_A14;"Nombre de personnes dans les ménages dont le revenu disponible contient des revenus du patrimoine et autres revenus";
+TP60_NM_IP_MINI_A14;"Nombre de ménages pauvres et bénéficiaires de minima sociaux";
+TP60_NP_IP_MINI_A14;"Nombre de personnes dans les ménages pauvres et bénéficiaires de minima sociaux";
+NPTP60_MENF_A14;"Nombre de personnes dans les ménages pauvres avec enfant(s) de moins de 18 ans";
+NP_MENF_A14;"Nombre de personnes dans les ménages avec enfant(s) de moins de 18 ans";
+NBENF_TP60_A14;"Nombre d'enfants de moins de 18 ans vivant dans des ménages pauvres";
+NBENF_A14;"Nombre d'enfants de moins de 18 ans";
+NPTP60_AVIMPPREST_MENF_A14;"Nombre de personnes vivant dans les ménages avec enfant(s) de moins de 18 ans dont le revenu disponible par UC avant impact du système socio-fiscal est inférieur à 60% de la médiane métropolitaine";
+NBENF_TP60_AVIMPPREST_A14;"Nombre d'enfants de moins de 18 ans vivant dans des ménages dont le revenu disponible par UC avant impact du système socio-fiscal est inférieur à 60% de la médiane métropolitaine";
+NBENF3_TP60_GARD_A14;"Nombre d'enfants de moins de 3 ans vivant dans des ménages pauvres et déclarant une déduction fiscale relative au mode de garde";
+NBENF3_GARD_A14;"Nombre d'enfants de moins de 3 ans vivant dans des ménages déclarant une déduction fiscale relative au mode de garde";
+NBENF3_TP60_A14;"Nombre d'enfants de moins de 3 ans vivant dans des ménages pauvres";
+NM_MENF_A14;"Nombre de ménages avec enfant(s) de moins de 18 ans";
+NMTP60_MENF_A14;"Nombre de ménages pauvres avec enfant(s) de moins de 18 ans";
+NMTP60_AVIMPPREST_MENF_A14;"Nombre de ménages avec enfant(s) de moins de 18 ans dont le revenu disponible par UC avant impact du système socio-fiscal est inférieur à 60% de la médiane métropolitaine";
+DISP_PTSAC_A14;"Part des salaires, traitements ou indemnités de chômage dans le revenu disponible";
+DISP_PPEN_A14;"Part des pensions, retraites et rentes dans le revenu disponible";
+DISP_PBEN_A14;"Part des revenus des activités non salariées dans le revenu disponible";
+DISP_PPSOC_A14;"Part de l’ensemble des prestations sociales dans le revenu disponible";
+DISP_PPFAM_A14;"Part des prestations familiales dans le revenu disponible";
+DISP_PPMINI_A14;"Part des minima sociaux dans le revenu disponible";
+DISP_PPLOGT_A14;"Part des prestations logement dans le revenu disponible";
+DISP_PIMPOT_A14;"Part de l'ensemble des impôts dans le revenu disponible";
+DISP_PPAT_A14;"Part des revenus du patrimoine et autres revenus dans le revenu disponible";
+DISPM_MO_A14;"Revenu disponible par ménage : moyenne";
+TP40_A14;"Taux de pauvreté pour un seuil à 40 % du niveau de vie médian national (France métropolitaine)";
+TP50_A14;"Taux de pauvreté pour un seuil à 50 % du niveau de vie médian national (France métropolitaine)";
+TP60_A14;"Taux de pauvreté pour un seuil à 60 % du niveau de vie médian national (France métropolitaine)";
+TP60_MENF_A14;"Taux de pauvreté des personnes vivant dans un ménage avec enfant(s) de moins de 18 ans après impact du système socio-fiscal";
+TP60_MENF_AVIMPPREST_A14;"Taux de pauvreté des personnes vivant dans un ménage avec enfant(s) de moins de 18 ans avant impact du système socio-fiscal";
+TP60_ENF_A14;"Taux de pauvreté des enfants de moins de 18 ans après impact du système socio-fiscal";
+TP60_ENF_AVIMPPREST_A14;"Taux de pauvreté des enfants de moins de 18 ans avant impact du système socio-fiscal";
+TP60_ENFGARD_GARD_A14;"Part des enfants de moins de 3 ans vivant dans un ménage pauvre et déclarant une déduction fiscale relative au mode de garde parmi les enfants de moins de 3 ans vivant dans un ménage déclarant une déduction fiscale relative au mode de garde";
+TP60_ENFGARD_PAUV_A14;"Part des enfants de moins de 3 ans vivant dans un ménage pauvre et déclarant une déduction fiscale relative au mode de garde parmi les enfants de moins de 3 ans vivant dans un ménage pauvre";
+NIVVIE_MO_A14;"Revenu disponible par UC : moyenne";
+NIVVIE_ET_A14;"Revenu disponible par UC : écart-type";
+NIVVIE_D1_A14;"Revenu disponible par UC : décile 1";
+NIVVIE_D2_A14;"Revenu disponible par UC : décile 2";
+NIVVIE_Q1_A14;"Revenu disponible par UC : quartile 1";
+NIVVIE_D3_A14;"Revenu disponible par UC : décile 3";
+NIVVIE_D4_A14;"Revenu disponible par UC : décile 4";
+NIVVIE_Q2_A14;"Revenu disponible par UC : médiane";
+NIVVIE_D6_A14;"Revenu disponible par UC : décile 6";
+NIVVIE_D7_A14;"Revenu disponible par UC : décile 7";
+NIVVIE_Q3_A14;"Revenu disponible par UC : quartile 3";
+NIVVIE_D8_A14;"Revenu disponible par UC : décile 8";
+NIVVIE_D9_A14;"Revenu disponible par UC : décile 9";
+NIVVIE_S80S20_A14;"Revenu disponible par UC : rapport S80/S20";
+NIVVIEAVIMP_MO_A14;"Revenu disponible avant impôts par UC : moyenne";
+NIVVIEAVIMP_Q2_A14;"Revenu disponible avant impôts par UC : médiane";
+TP60_NIVVIE_Q2_A14;"Revenu disponible par UC pour les populations sous le seuil de pauvreté : médiane";
+QP_NM_DISP_A14;"Nombre de ménages dont le revenu disponible est positif ou nul dans les quartiers prioritaires (quartiers politique de la ville)";
+QP_NP_DISP_A14;"Nombre de personnes dont le revenu disponible est positif ou nul dans les quartiers prioritaires (quartiers politique de la ville)";
+QP_NUC_DISP_A14;"Nombre d'UC dans les ménages dont le revenu disponible est positif ou nul dans les quartiers prioritaires (quartiers politique de la ville)";
+QP_NMTP40_A14;"Nombre de ménages sous le seuil de 40% du niveau de vie médian national (France métropolitaine) dans les QP";
+QP_NMTP50_A14;"Nombre de ménages sous le seuil de 50% du niveau de vie médian national (France métropolitaine) dans les QP";
+QP_NMTP60_A14;"Nombre de ménages sous le seuil de 60% du niveau de vie médian national (France métropolitaine) dans les QP";
+QP_NPTP40_A14;"Nombre de personnes sous le seuil de 40% du niveau de vie médian national (France métropolitaine) dans les QP";
+QP_NPTP50_A14;"Nombre de personnes sous le seuil de 50% du niveau de vie médian national (France métropolitaine) dans les QP";
+QP_NPTP60_A14;"Nombre de personnes sous le seuil de 60% du niveau de vie médian national (France métropolitaine) dans les QP";
+QP_NM_DISP_TSAC_A14;"Nombre de ménages dont le revenu disponible contient des salaires, traitements ou indemnités de chômage dans les QP";
+QP_NM_DISP_PEN_A14;"Nombre de ménages dont le revenu disponible contient des pensions, retraites et rentes dans les QP";
+QP_NM_DISP_BEN_A14;"Nombre de ménages dont le revenu disponible contient des revenus d’activités non salariées dans les QP";
+QP_NM_DISP_PSOC_A14;"Nombre de ménages dont le revenu disponible contient des prestations sociales dans les QP";
+QP_NM_DISP_PFAM_A14;"Nombre de ménages dont le revenu disponible contient des prestations familiales dans les QP";
+QP_NM_DISP_PLOGT_A14;"Nombre de ménages dont le revenu disponible contient des prestations logements dans les QP";
+QP_NM_DISP_PMINI_A14;"Nombre de ménages dont le revenu disponible contient des minima sociaux dans les QP";
+QP_NM_DISP_IMPOT_A14;"Nombre de ménages dont la composante de revenu contient des impôts dans les QP";
+QP_NM_DISP_PAT_A14;"Nombre de ménages dont le revenu disponible contient des revenus du patrimoine et autres revenus dans les QP";
+QP_DISP_PTSAC_A14;"Part des salaires, traitements ou indemnités de chômage dans le revenu disponible dans les QP";
+QP_DISP_PPEN_A14;"Part des pensions, retraites et rentes dans le revenu disponible dans les QP";
+QP_DISP_PBEN_A14;"Part des revenus des activités non salariées dans le revenu disponible dans les QP";
+QP_DISP_PPSOC_A14;"Part de l’ensemble des prestations sociales dans le revenu disponible dans les QP";
+QP_DISP_PPFAM_A14;"Part des prestations familiales dans le revenu disponible dans les QP";
+QP_DISP_PPMINI_A14;"Part des minima sociaux dans le revenu disponible dans les QP";
+QP_DISP_PPLOGT_A14;"Part des prestations logement dans le revenu disponible dans les QP";
+QP_DISP_PIMPOT_A14;"Part de l’ensemble des impôts dans les QP";
+QP_DISP_PPAT_A14;"Part des revenus du patrimoine et autres revenus dans le revenu disponible dans les QP";
+QP_DISPM_MO_A14;"Revenu disponible par ménage dans les QP : moyenne";
+QP_TP40_A14;"Taux de pauvreté dans les QP pour un seuil à 40 % du niveau de vie médian national (France métropolitaine)";
+QP_TP50_A14;"Taux de pauvreté dans les QP pour un seuil à 50 % du niveau de vie médian national (France métropolitaine)";
+QP_TP60_A14;"Taux de pauvreté dans les QP pour un seuil à 60 % du niveau de vie médian national (France métropolitaine)";
+QP_NIVVIE_MO_A14;"Revenu disponible par UC dans les QP : moyenne";
+QP_NIVVIE_D1_A14;"Revenu disponible par UC dans les QP : décile 1";
+QP_NIVVIE_D2_A14;"Revenu disponible par UC dans les QP : décile 2";
+QP_NIVVIE_Q1_A14;"1er quartile du revenu disponible par UC pour les populations résidant dans un QP";
+QP_NIVVIE_D3_A14;"Revenu disponible par UC dans les QP : décile 3";
+QP_NIVVIE_D4_A14;"Revenu disponible par UC dans les QP : décile 4";
+QP_NIVVIE_Q2_A14;"Médiane du revenu disponible par UC pour les populations résidant dans un QP";
+QP_NIVVIE_D6_A14;"Revenu disponible par UC dans les QP : décile 6";
+QP_NIVVIE_D7_A14;"Revenu disponible par UC dans les QP : décile 7";
+QP_NIVVIE_Q3_A14;"3ème quartile du revenu disponible par UC pour les populations résidant dans un QP";
+QP_NIVVIE_D8_A14;"Revenu disponible par UC dans les QP : décile 8";
+QP_NIVVIE_D9_A14;"Revenu disponible par UC dans les QP : décile 9";
+QP_NIVVIE_S80S20_A14;"Revenu disponible par UC : rapport S80/S20 dans les QP";
+TP60_NIVVIE_IP_A14;"Intensité de la pauvreté";
+TP60_NIVVIE_IP_MINI_A14;"Intensité de la pauvreté des bénéficiaires de minima sociaux";
+NIVVIE_GI_A14;"Revenu disponible par UC : indice de Gini";
+TP60_NIVVIE_GI_A14;"Indice de Gini sur les niveaux de vie des populations pauvres";
+QP_NIVVIE_GI_A14;"Indice de Gini sur les revenus disponibles par UC des populations résidant dans un QP";
+TP60_NIVVIE_SEN_A14;"Indice de Sen du niveau de vie";
+NIVVIE_P1_A14;"Revenu disponible par UC = centile P1";
+NIVVIE_P2_A14;"Revenu disponible par UC = centile P2";
+NIVVIE_P3_A14;"Revenu disponible par UC = centile P3";
+NIVVIE_P4_A14;"Revenu disponible par UC = centile P4";
+NIVVIE_P5_A14;"Revenu disponible par UC = centile P5";
+NIVVIE_P6_A14;"Revenu disponible par UC = centile P6";
+NIVVIE_P7_A14;"Revenu disponible par UC = centile P7";
+NIVVIE_P8_A14;"Revenu disponible par UC = centile P8";
+NIVVIE_P9_A14;"Revenu disponible par UC = centile P9";
+NIVVIE_P10_A14;"Revenu disponible par UC = centile P10";
+NIVVIE_P11_A14;"Revenu disponible par UC = centile P11";
+NIVVIE_P12_A14;"Revenu disponible par UC = centile P12";
+NIVVIE_P13_A14;"Revenu disponible par UC = centile P13";
+NIVVIE_P14_A14;"Revenu disponible par UC = centile P14";
+NIVVIE_P15_A14;"Revenu disponible par UC = centile P15";
+NIVVIE_P16_A14;"Revenu disponible par UC = centile P16";
+NIVVIE_P17_A14;"Revenu disponible par UC = centile P17";
+NIVVIE_P18_A14;"Revenu disponible par UC = centile P18";
+NIVVIE_P19_A14;"Revenu disponible par UC = centile P19";
+NIVVIE_P20_A14;"Revenu disponible par UC = centile P20";
+NIVVIE_P21_A14;"Revenu disponible par UC = centile P21";
+NIVVIE_P22_A14;"Revenu disponible par UC = centile P22";
+NIVVIE_P23_A14;"Revenu disponible par UC = centile P23";
+NIVVIE_P24_A14;"Revenu disponible par UC = centile P24";
+NIVVIE_P25_A14;"Revenu disponible par UC = centile P25";
+NIVVIE_P26_A14;"Revenu disponible par UC = centile P26";
+NIVVIE_P27_A14;"Revenu disponible par UC = centile P27";
+NIVVIE_P28_A14;"Revenu disponible par UC = centile P28";
+NIVVIE_P29_A14;"Revenu disponible par UC = centile P29";
+NIVVIE_P30_A14;"Revenu disponible par UC = centile P30";
+NIVVIE_P31_A14;"Revenu disponible par UC = centile P31";
+NIVVIE_P32_A14;"Revenu disponible par UC = centile P32";
+NIVVIE_P33_A14;"Revenu disponible par UC = centile P33";
+NIVVIE_P34_A14;"Revenu disponible par UC = centile P34";
+NIVVIE_P35_A14;"Revenu disponible par UC = centile P35";
+NIVVIE_P36_A14;"Revenu disponible par UC = centile P36";
+NIVVIE_P37_A14;"Revenu disponible par UC = centile P37";
+NIVVIE_P38_A14;"Revenu disponible par UC = centile P38";
+NIVVIE_P39_A14;"Revenu disponible par UC = centile P39";
+NIVVIE_P40_A14;"Revenu disponible par UC = centile P40";
+NIVVIE_P41_A14;"Revenu disponible par UC = centile P41";
+NIVVIE_P42_A14;"Revenu disponible par UC = centile P42";
+NIVVIE_P43_A14;"Revenu disponible par UC = centile P43";
+NIVVIE_P44_A14;"Revenu disponible par UC = centile P44";
+NIVVIE_P45_A14;"Revenu disponible par UC = centile P45";
+NIVVIE_P46_A14;"Revenu disponible par UC = centile P46";
+NIVVIE_P47_A14;"Revenu disponible par UC = centile P47";
+NIVVIE_P48_A14;"Revenu disponible par UC = centile P48";
+NIVVIE_P49_A14;"Revenu disponible par UC = centile P49";
+NIVVIE_P50_A14;"Revenu disponible par UC = centile P50";
+NIVVIE_P51_A14;"Revenu disponible par UC = centile P51";
+NIVVIE_P52_A14;"Revenu disponible par UC = centile P52";
+NIVVIE_P53_A14;"Revenu disponible par UC = centile P53";
+NIVVIE_P54_A14;"Revenu disponible par UC = centile P54";
+NIVVIE_P55_A14;"Revenu disponible par UC = centile P55";
+NIVVIE_P56_A14;"Revenu disponible par UC = centile P56";
+NIVVIE_P57_A14;"Revenu disponible par UC = centile P57";
+NIVVIE_P58_A14;"Revenu disponible par UC = centile P58";
+NIVVIE_P59_A14;"Revenu disponible par UC = centile P59";
+NIVVIE_P60_A14;"Revenu disponible par UC = centile P60";
+NIVVIE_P61_A14;"Revenu disponible par UC = centile P61";
+NIVVIE_P62_A14;"Revenu disponible par UC = centile P62";
+NIVVIE_P63_A14;"Revenu disponible par UC = centile P63";
+NIVVIE_P64_A14;"Revenu disponible par UC = centile P64";
+NIVVIE_P65_A14;"Revenu disponible par UC = centile P65";
+NIVVIE_P66_A14;"Revenu disponible par UC = centile P66";
+NIVVIE_P67_A14;"Revenu disponible par UC = centile P67";
+NIVVIE_P68_A14;"Revenu disponible par UC = centile P68";
+NIVVIE_P69_A14;"Revenu disponible par UC = centile P69";
+NIVVIE_P70_A14;"Revenu disponible par UC = centile P70";
+NIVVIE_P71_A14;"Revenu disponible par UC = centile P71";
+NIVVIE_P72_A14;"Revenu disponible par UC = centile P72";
+NIVVIE_P73_A14;"Revenu disponible par UC = centile P73";
+NIVVIE_P74_A14;"Revenu disponible par UC = centile P74";
+NIVVIE_P75_A14;"Revenu disponible par UC = centile P75";
+NIVVIE_P76_A14;"Revenu disponible par UC = centile P76";
+NIVVIE_P77_A14;"Revenu disponible par UC = centile P77";
+NIVVIE_P78_A14;"Revenu disponible par UC = centile P78";
+NIVVIE_P79_A14;"Revenu disponible par UC = centile P79";
+NIVVIE_P80_A14;"Revenu disponible par UC = centile P80";
+NIVVIE_P81_A14;"Revenu disponible par UC = centile P81";
+NIVVIE_P82_A14;"Revenu disponible par UC = centile P82";
+NIVVIE_P83_A14;"Revenu disponible par UC = centile P83";
+NIVVIE_P84_A14;"Revenu disponible par UC = centile P84";
+NIVVIE_P85_A14;"Revenu disponible par UC = centile P85";
+NIVVIE_P86_A14;"Revenu disponible par UC = centile P86";
+NIVVIE_P87_A14;"Revenu disponible par UC = centile P87";
+NIVVIE_P88_A14;"Revenu disponible par UC = centile P88";
+NIVVIE_P89_A14;"Revenu disponible par UC = centile P89";
+NIVVIE_P90_A14;"Revenu disponible par UC = centile P90";
+NIVVIE_P91_A14;"Revenu disponible par UC = centile P91";
+NIVVIE_P92_A14;"Revenu disponible par UC = centile P92";
+NIVVIE_P93_A14;"Revenu disponible par UC = centile P93";
+NIVVIE_P94_A14;"Revenu disponible par UC = centile P94";
+NIVVIE_P95_A14;"Revenu disponible par UC = centile P95";
+NIVVIE_P96_A14;"Revenu disponible par UC = centile P96";
+NIVVIE_P97_A14;"Revenu disponible par UC = centile P97";
+NIVVIE_P98_A14;"Revenu disponible par UC = centile P98";
+NIVVIE_P99_A14;"Revenu disponible par UC = centile P99";
+
+
+
+"M_df1_dp_[zone géographique]_occtypr_a14"
+"Tables de revenu disponible au niveau communal et supra-communal, selon le statut d’occupation du logement"
+
+"Nom de la variable";Libellé;Modalités
+"[Zone geographique]";"Une des 20 zones géographiques parmi celles listées dans la description";
+occtypR;"Statut d'occupation du logement regroupé";"1 - Propriétaire";"2 - Locataire"
+NBMEN_A14;"Nombre de ménages fiscaux";
+NBPERS_A14;"Nombre de personnes dans les ménages fiscaux";
+NBUC_A14;"Nombre d'UC dans les ménages fiscaux";
+NM_DISP_A14;"Nombre de ménages dont le revenu disponible est positif ou nul";
+NP_DISP_A14;"Nombre de personnes dans les ménages dont le revenu disponible est positif ou nul";
+NUC_DISP_A14;"Nombre d'UC dans les ménages dont le revenu disponible est positif ou nul";
+NMTP40_A14;"Nombre de ménages sous le seuil de 40 % du niveau de vie médian national (France métropolitaine)";
+NMTP50_A14;"Nombre de ménages sous le seuil de 50 % du niveau de vie médian national (France métropolitaine)";
+NMTP60_A14;"Nombre de ménages sous le seuil de 60 % du niveau de vie médian national (France métropolitaine)";
+NPTP40_A14;"Nombre de personnes sous le seuil de 40 % du niveau de vie médian national (France métropolitaine)";
+NPTP50_A14;"Nombre de personnes sous le seuil de 50 % du niveau de vie médian national (France métropolitaine)";
+NPTP60_A14;"Nombre de personnes sous le seuil de 60 % du niveau de vie médian national (France métropolitaine)";
+NM_DISP_TSAC_A14;"Nombre de ménages dont le revenu disponible contient des salaires, traitements ou indemnités de chômage";
+NM_DISP_PEN_A14;"Nombre de ménages dont le revenu disponible contient des pensions, retraites et rentes";
+NM_DISP_BEN_A14;"Nombre de ménages dont le revenu disponible contient des revenus d’activités non salariées";
+NM_DISP_PSOC_A14;"Nombre de ménages dont le revenu disponible contient des prestations sociales";
+NM_DISP_PFAM_A14;"Nombre de ménages dont le revenu disponible contient des prestations familiales";
+NM_DISP_PLOGT_A14;"Nombre de ménages dont le revenu disponible contient des prestations logements";
+NM_DISP_PMINI_A14;"Nombre de ménages dont le revenu disponible contient des minima sociaux";
+NM_DISP_IMPOT_A14;"Nombre de ménages dont la composante de revenu contient des impôts";
+NM_DISP_PAT_A14;"Nombre de ménages dont le revenu disponible contient des revenus du patrimoine et autres revenus";
+NP_DISP_TSAC_A14;"Nombre de personnes dans les ménages dont le revenu disponible contient des salaires, traitements ou indemnités de chômage";
+NP_DISP_PEN_A14;"Nombre de personnes dans les ménages dont le revenu disponible contient des pensions, retraites et rentes";
+NP_DISP_BEN_A14;"Nombre de personnes dans les ménages dont le revenu disponible contient des revenus d’activités non salariées";
+NP_DISP_PSOC_A14;"Nombre de personnes dans les ménages dont le revenu disponible contient des prestations sociales";
+NP_DISP_PFAM_A14;"Nombre de personnes dans les ménages dont le revenu disponible contient des prestations familiales";
+NP_DISP_PLOGT_A14;"Nombre de personnes dans les ménages dont le revenu disponible contient des prestations logements";
+NP_DISP_PMINI_A14;"Nombre de personnes dans les ménages dont le revenu disponible contient des minima sociaux";
+NP_DISP_IMPOT_A14;"Nombre de personnes dans les ménages dont la composante de revenu contient des impôts";
+NP_DISP_PAT_A14;"Nombre de personnes dans les ménages dont le revenu disponible contient des revenus du patrimoine et autres revenus";
+DISP_PTSAC_A14;"Part des salaires, traitements ou indemnités de chômage dans le revenu disponible";
+DISP_PPEN_A14;"Part des pensions, retraites et rentes dans le revenu disponible";
+DISP_PBEN_A14;"Part des revenus des activités non salariées dans le revenu disponible";
+DISP_PPSOC_A14;"Part de l’ensemble des prestations sociales dans le revenu disponible";
+DISP_PPFAM_A14;"Part des prestations familiales dans le revenu disponible";
+DISP_PPMINI_A14;"Part des minima sociaux dans le revenu disponible";
+DISP_PPLOGT_A14;"Part des prestations logement dans le revenu disponible";
+DISP_PIMPOT_A14;"Part de l'ensemble des impôts dans le revenu disponible";
+DISP_PPAT_A14;"Part des revenus du patrimoine et autres revenus dans le revenu disponible";
+TP40_A14;"Taux de pauvreté pour un seuil à 40 % du niveau de vie médian national (France métropolitaine)";
+TP50_A14;"Taux de pauvreté pour un seuil à 50 % du niveau de vie médian national (France métropolitaine)";
+TP60_A14;"Taux de pauvreté pour un seuil à 60 % du niveau de vie médian national (France métropolitaine)";
+NIVVIE_D1_A14;"Revenu disponible par UC : décile 1";
+NIVVIE_D2_A14;"Revenu disponible par UC : décile 2";
+NIVVIE_Q1_A14;"Revenu disponible par UC : quartile 1";
+NIVVIE_D3_A14;"Revenu disponible par UC : décile 3";
+NIVVIE_D4_A14;"Revenu disponible par UC : décile 4";
+NIVVIE_Q2_A14;"Revenu disponible par UC : médiane";
+NIVVIE_D6_A14;"Revenu disponible par UC : décile 6";
+NIVVIE_D7_A14;"Revenu disponible par UC : décile 7";
+NIVVIE_Q3_A14;"Revenu disponible par UC : quartile 3";
+NIVVIE_D8_A14;"Revenu disponible par UC : décile 8";
+NIVVIE_D9_A14;"Revenu disponible par UC : décile 9";
+NIVVIE_S80S20_A14;"Revenu disponible par UC : rapport S80/S20";
+TP60_NIVVIE_Q2_A14;"Revenu disponible par UC pour les populations sous le seuil de pauvreté : médiane";
+QP_NM_DISP_A14;"Nombre de ménages dont le revenu disponible est positif ou nul dans les quartiers prioritaires (quartiers politique de la ville)";
+QP_NP_DISP_A14;"Nombre de personnes dont le revenu disponible est positif ou nul dans les quartiers prioritaires (quartiers politique de la ville)";
+TP60_NIVVIE_IP_A14;"Intensité de la pauvreté";
+NIVVIE_GI_A14;"Revenu disponible par UC : indice de Gini";
+TP60_NIVVIE_GI_A14;"Indice de Gini sur les niveaux de vie des populations pauvres";
+TP60_NIVVIE_SEN_A14;"Indice de Sen du niveau de vie";
+
+
+
+"M_df1_dp_[zone géographique]_oprdec_a14"
+"Tables de revenu disponible au niveau communal et supra-communal, selon l’origine des revenus déclarés"
+
+"Nom de la variable";Libellé;Modalités
+"[Zone geographique]";"Une des 20 zones géographiques parmi celles listées dans la description ";
+oprdec;"Origine principale des revenus déclarés";"1 - Salaires et traitements hors indemnités de chômage";"2 - Indemnités de chômage";"3 - Revenus des activités non salariées";"4 - Pensions, retraites et rentes";"5 - Autres revenus";"6 - Revenus déclarés nuls sur le champ des revenus déclarés ou revenus déclarés négatifs ou nuls sur le champ des revenus disponibles"
+NBMEN_A14;"Nombre de ménages fiscaux";
+NBPERS_A14;"Nombre de personnes dans les ménages fiscaux";
+NBUC_A14;"Nombre d'UC dans les ménages fiscaux";
+NM_DISP_A14;"Nombre de ménages dont le revenu disponible est positif ou nul";
+NP_DISP_A14;"Nombre de personnes dans les ménages dont le revenu disponible est positif ou nul";
+NUC_DISP_A14;"Nombre d'UC dans les ménages dont le revenu disponible est positif ou nul";
+NMTP40_A14;"Nombre de ménages sous le seuil de 40 % du niveau de vie médian national (France métropolitaine)";
+NMTP50_A14;"Nombre de ménages sous le seuil de 50 % du niveau de vie médian national (France métropolitaine)";
+NMTP60_A14;"Nombre de ménages sous le seuil de 60 % du niveau de vie médian national (France métropolitaine)";
+NPTP40_A14;"Nombre de personnes sous le seuil de 40 % du niveau de vie médian national (France métropolitaine)";
+NPTP50_A14;"Nombre de personnes sous le seuil de 50 % du niveau de vie médian national (France métropolitaine)";
+NPTP60_A14;"Nombre de personnes sous le seuil de 60 % du niveau de vie médian national (France métropolitaine)";
+NM_DISP_TSAC_A14;"Nombre de ménages dont le revenu disponible contient des salaires, traitements ou indemnités de chômage";
+NM_DISP_PEN_A14;"Nombre de ménages dont le revenu disponible contient des pensions, retraites et rentes";
+NM_DISP_BEN_A14;"Nombre de ménages dont le revenu disponible contient des revenus d’activités non salariées";
+NM_DISP_PSOC_A14;"Nombre de ménages dont le revenu disponible contient des prestations sociales";
+NM_DISP_PFAM_A14;"Nombre de ménages dont le revenu disponible contient des prestations familiales";
+NM_DISP_PLOGT_A14;"Nombre de ménages dont le revenu disponible contient des prestations logements";
+NM_DISP_PMINI_A14;"Nombre de ménages dont le revenu disponible contient des minima sociaux";
+NM_DISP_IMPOT_A14;"Nombre de ménages dont la composante de revenu contient des impôts";
+NM_DISP_PAT_A14;"Nombre de ménages dont le revenu disponible contient des revenus du patrimoine et autres revenus";
+NP_DISP_TSAC_A14;"Nombre de personnes dans les ménages dont le revenu disponible contient des salaires, traitements ou indemnités de chômage";
+NP_DISP_PEN_A14;"Nombre de personnes dans les ménages dont le revenu disponible contient des pensions, retraites et rentes";
+NP_DISP_BEN_A14;"Nombre de personnes dans les ménages dont le revenu disponible contient des revenus d’activités non salariées";
+NP_DISP_PSOC_A14;"Nombre de personnes dans les ménages dont le revenu disponible contient des prestations sociales";
+NP_DISP_PFAM_A14;"Nombre de personnes dans les ménages dont le revenu disponible contient des prestations familiales";
+NP_DISP_PLOGT_A14;"Nombre de personnes dans les ménages dont le revenu disponible contient des prestations logements";
+NP_DISP_PMINI_A14;"Nombre de personnes dans les ménages dont le revenu disponible contient des minima sociaux";
+NP_DISP_IMPOT_A14;"Nombre de personnes dans les ménages dont la composante de revenu contient des impôts";
+NP_DISP_PAT_A14;"Nombre de personnes dans les ménages dont le revenu disponible contient des revenus du patrimoine et autres revenus";
+DISP_PTSAC_A14;"Part des salaires, traitements ou indemnités de chômage dans le revenu disponible";
+DISP_PPEN_A14;"Part des pensions, retraites et rentes dans le revenu disponible";
+DISP_PBEN_A14;"Part des revenus des activités non salariées dans le revenu disponible";
+DISP_PPSOC_A14;"Part de l’ensemble des prestations sociales dans le revenu disponible";
+DISP_PPFAM_A14;"Part des prestations familiales dans le revenu disponible";
+DISP_PPMINI_A14;"Part des minima sociaux dans le revenu disponible";
+DISP_PPLOGT_A14;"Part des prestations logement dans le revenu disponible";
+DISP_PIMPOT_A14;"Part de l'ensemble des impôts dans le revenu disponible";
+DISP_PPAT_A14;"Part des revenus du patrimoine et autres revenus dans le revenu disponible";
+TP40_A14;"Taux de pauvreté pour un seuil à 40 % du niveau de vie médian national (France métropolitaine)";
+TP50_A14;"Taux de pauvreté pour un seuil à 50 % du niveau de vie médian national (France métropolitaine)";
+TP60_A14;"Taux de pauvreté pour un seuil à 60 % du niveau de vie médian national (France métropolitaine)";
+NIVVIE_D1_A14;"Revenu disponible par UC : décile 1";
+NIVVIE_D2_A14;"Revenu disponible par UC : décile 2";
+NIVVIE_Q1_A14;"Revenu disponible par UC : quartile 1";
+NIVVIE_D3_A14;"Revenu disponible par UC : décile 3";
+NIVVIE_D4_A14;"Revenu disponible par UC : décile 4";
+NIVVIE_Q2_A14;"Revenu disponible par UC : médiane";
+NIVVIE_D6_A14;"Revenu disponible par UC : décile 6";
+NIVVIE_D7_A14;"Revenu disponible par UC : décile 7";
+NIVVIE_Q3_A14;"Revenu disponible par UC : quartile 3";
+NIVVIE_D8_A14;"Revenu disponible par UC : décile 8";
+NIVVIE_D9_A14;"Revenu disponible par UC : décile 9";
+NIVVIE_S80S20_A14;"Revenu disponible par UC : rapport S80/S20";
+TP60_NIVVIE_Q2_A14;"Revenu disponible par UC pour les populations sous le seuil de pauvreté : médiane";
+QP_NM_DISP_A14;"Nombre de ménages dont le revenu disponible est positif ou nul dans les quartiers prioritaires (quartiers politique de la ville)";
+QP_NP_DISP_A14;"Nombre de personnes dont le revenu disponible est positif ou nul dans les quartiers prioritaires (quartiers politique de la ville)";
+TP60_NIVVIE_IP_A14;"Intensité de la pauvreté";
+NIVVIE_GI_A14;"Revenu disponible par UC : indice de Gini";
+TP60_NIVVIE_GI_A14;"Indice de Gini sur les niveaux de vie des populations pauvres";
+TP60_NIVVIE_SEN_A14;"Indice de Sen du niveau de vie";
+
+
+
+"M_df1_dp_[zone géographique]_taillem_a14"
+"Tables de revenu disponible au niveau communal et supra-communal, selon la taille du ménage"
+
+"Nom de la variable";Libellé;Modalités
+"[Zone geographique]";"Une des 20 zones géographiques parmi celles listées dans la description ";
+taillem;"Taille du ménage";"1 - 1 personne";"2 - 2 personnes";"3 - 3 personnes";"4 - 4 personnes";"5 - 5 personnes et plus"
+NBMEN_A14;"Nombre de ménages fiscaux";
+NBPERS_A14;"Nombre de personnes dans les ménages fiscaux";
+NBUC_A14;"Nombre d'UC dans les ménages fiscaux";
+NM_DISP_A14;"Nombre de ménages dont le revenu disponible est positif ou nul";
+NP_DISP_A14;"Nombre de personnes dans les ménages dont le revenu disponible est positif ou nul";
+NUC_DISP_A14;"Nombre d'UC dans les ménages dont le revenu disponible est positif ou nul";
+NMTP40_A14;"Nombre de ménages sous le seuil de 40 % du niveau de vie médian national (France métropolitaine)";
+NMTP50_A14;"Nombre de ménages sous le seuil de 50 % du niveau de vie médian national (France métropolitaine)";
+NMTP60_A14;"Nombre de ménages sous le seuil de 60 % du niveau de vie médian national (France métropolitaine)";
+NPTP40_A14;"Nombre de personnes sous le seuil de 40 % du niveau de vie médian national (France métropolitaine)";
+NPTP50_A14;"Nombre de personnes sous le seuil de 50 % du niveau de vie médian national (France métropolitaine)";
+NPTP60_A14;"Nombre de personnes sous le seuil de 60 % du niveau de vie médian national (France métropolitaine)";
+NM_DISP_TSAC_A14;"Nombre de ménages dont le revenu disponible contient des salaires, traitements ou indemnités de chômage";
+NM_DISP_PEN_A14;"Nombre de ménages dont le revenu disponible contient des pensions, retraites et rentes";
+NM_DISP_BEN_A14;"Nombre de ménages dont le revenu disponible contient des revenus d’activités non salariées";
+NM_DISP_PSOC_A14;"Nombre de ménages dont le revenu disponible contient des prestations sociales";
+NM_DISP_PFAM_A14;"Nombre de ménages dont le revenu disponible contient des prestations familiales";
+NM_DISP_PLOGT_A14;"Nombre de ménages dont le revenu disponible contient des prestations logements";
+NM_DISP_PMINI_A14;"Nombre de ménages dont le revenu disponible contient des minima sociaux";
+NM_DISP_IMPOT_A14;"Nombre de ménages dont la composante de revenu contient des impôts";
+NM_DISP_PAT_A14;"Nombre de ménages dont le revenu disponible contient des revenus du patrimoine et autres revenus";
+NP_DISP_TSAC_A14;"Nombre de personnes dans les ménages dont le revenu disponible contient des salaires, traitements ou indemnités de chômage";
+NP_DISP_PEN_A14;"Nombre de personnes dans les ménages dont le revenu disponible contient des pensions, retraites et rentes";
+NP_DISP_BEN_A14;"Nombre de personnes dans les ménages dont le revenu disponible contient des revenus d’activités non salariées";
+NP_DISP_PSOC_A14;"Nombre de personnes dans les ménages dont le revenu disponible contient des prestations sociales";
+NP_DISP_PFAM_A14;"Nombre de personnes dans les ménages dont le revenu disponible contient des prestations familiales";
+NP_DISP_PLOGT_A14;"Nombre de personnes dans les ménages dont le revenu disponible contient des prestations logements";
+NP_DISP_PMINI_A14;"Nombre de personnes dans les ménages dont le revenu disponible contient des minima sociaux";
+NP_DISP_IMPOT_A14;"Nombre de personnes dans les ménages dont la composante de revenu contient des impôts";
+NP_DISP_PAT_A14;"Nombre de personnes dans les ménages dont le revenu disponible contient des revenus du patrimoine et autres revenus";
+DISP_PTSAC_A14;"Part des salaires, traitements ou indemnités de chômage dans le revenu disponible";
+DISP_PPEN_A14;"Part des pensions, retraites et rentes dans le revenu disponible";
+DISP_PBEN_A14;"Part des revenus des activités non salariées dans le revenu disponible";
+DISP_PPSOC_A14;"Part de l’ensemble des prestations sociales dans le revenu disponible";
+DISP_PPFAM_A14;"Part des prestations familiales dans le revenu disponible";
+DISP_PPMINI_A14;"Part des minima sociaux dans le revenu disponible";
+DISP_PPLOGT_A14;"Part des prestations logement dans le revenu disponible";
+DISP_PIMPOT_A14;"Part de l'ensemble des impôts dans le revenu disponible";
+DISP_PPAT_A14;"Part des revenus du patrimoine et autres revenus dans le revenu disponible";
+TP40_A14;"Taux de pauvreté pour un seuil à 40 % du niveau de vie médian national (France métropolitaine)";
+TP50_A14;"Taux de pauvreté pour un seuil à 50 % du niveau de vie médian national (France métropolitaine)";
+TP60_A14;"Taux de pauvreté pour un seuil à 60 % du niveau de vie médian national (France métropolitaine)";
+NIVVIE_D1_A14;"Revenu disponible par UC : décile 1";
+NIVVIE_D2_A14;"Revenu disponible par UC : décile 2";
+NIVVIE_Q1_A14;"Revenu disponible par UC : quartile 1";
+NIVVIE_D3_A14;"Revenu disponible par UC : décile 3";
+NIVVIE_D4_A14;"Revenu disponible par UC : décile 4";
+NIVVIE_Q2_A14;"Revenu disponible par UC : médiane";
+NIVVIE_D6_A14;"Revenu disponible par UC : décile 6";
+NIVVIE_D7_A14;"Revenu disponible par UC : décile 7";
+NIVVIE_Q3_A14;"Revenu disponible par UC : quartile 3";
+NIVVIE_D8_A14;"Revenu disponible par UC : décile 8";
+NIVVIE_D9_A14;"Revenu disponible par UC : décile 9";
+NIVVIE_S80S20_A14;"Revenu disponible par UC : rapport S80/S20";
+TP60_NIVVIE_Q2_A14;"Revenu disponible par UC pour les populations sous le seuil de pauvreté : médiane";
+QP_NM_DISP_A14;"Nombre de ménages dont le revenu disponible est positif ou nul dans les quartiers prioritaires (quartiers politique de la ville)";
+QP_NP_DISP_A14;"Nombre de personnes dont le revenu disponible est positif ou nul dans les quartiers prioritaires (quartiers politique de la ville)";
+TP60_NIVVIE_IP_A14;"Intensité de la pauvreté";
+NIVVIE_GI_A14;"Revenu disponible par UC : indice de Gini";
+TP60_NIVVIE_GI_A14;"Indice de Gini sur les niveaux de vie des populations pauvres";
+TP60_NIVVIE_SEN_A14;"Indice de Sen du niveau de vie";
+
+
+
+"M_df1_dp_[zone géographique]_tragerf_a14"
+"Tables de revenu disponible au niveau communal et supra-communal, selon la tranche d’âge du référent fiscal"
+
+"Nom de la variable";Libellé;Modalités
+"[Zone geographique]";"Une des 20 zones géographiques parmi celles listées dans la description ";
+trageRF;"Tranche d'âge du référent fiscal";"1 - Moins de 30 ans";"2 - 30-39 ans";"3 - 40-49 ans";"4 - 50-59 ans";"5 - 60-74 ans";"6 - 75 ans et plus"
+NBMEN_A14;"Nombre de ménages fiscaux";
+NBPERS_A14;"Nombre de personnes dans les ménages fiscaux";
+NBUC_A14;"Nombre d'UC dans les ménages fiscaux";
+NM_DISP_A14;"Nombre de ménages dont le revenu disponible est positif ou nul";
+NP_DISP_A14;"Nombre de personnes dans les ménages dont le revenu disponible est positif ou nul";
+NUC_DISP_A14;"Nombre d'UC dans les ménages dont le revenu disponible est positif ou nul";
+NMTP40_A14;"Nombre de ménages sous le seuil de 40 % du niveau de vie médian national (France métropolitaine)";
+NMTP50_A14;"Nombre de ménages sous le seuil de 50 % du niveau de vie médian national (France métropolitaine)";
+NMTP60_A14;"Nombre de ménages sous le seuil de 60 % du niveau de vie médian national (France métropolitaine)";
+NPTP40_A14;"Nombre de personnes sous le seuil de 40 % du niveau de vie médian national (France métropolitaine)";
+NPTP50_A14;"Nombre de personnes sous le seuil de 50 % du niveau de vie médian national (France métropolitaine)";
+NPTP60_A14;"Nombre de personnes sous le seuil de 60 % du niveau de vie médian national (France métropolitaine)";
+NM_DISP_TSAC_A14;"Nombre de ménages dont le revenu disponible contient des salaires, traitements ou indemnités de chômage";
+NM_DISP_PEN_A14;"Nombre de ménages dont le revenu disponible contient des pensions, retraites et rentes";
+NM_DISP_BEN_A14;"Nombre de ménages dont le revenu disponible contient des revenus d’activités non salariées";
+NM_DISP_PSOC_A14;"Nombre de ménages dont le revenu disponible contient des prestations sociales";
+NM_DISP_PFAM_A14;"Nombre de ménages dont le revenu disponible contient des prestations familiales";
+NM_DISP_PLOGT_A14;"Nombre de ménages dont le revenu disponible contient des prestations logements";
+NM_DISP_PMINI_A14;"Nombre de ménages dont le revenu disponible contient des minima sociaux";
+NM_DISP_IMPOT_A14;"Nombre de ménages dont la composante de revenu contient des impôts";
+NM_DISP_PAT_A14;"Nombre de ménages dont le revenu disponible contient des revenus du patrimoine et autres revenus";
+NP_DISP_TSAC_A14;"Nombre de personnes dans les ménages dont le revenu disponible contient des salaires, traitements ou indemnités de chômage";
+NP_DISP_PEN_A14;"Nombre de personnes dans les ménages dont le revenu disponible contient des pensions, retraites et rentes";
+NP_DISP_BEN_A14;"Nombre de personnes dans les ménages dont le revenu disponible contient des revenus d’activités non salariées";
+NP_DISP_PSOC_A14;"Nombre de personnes dans les ménages dont le revenu disponible contient des prestations sociales";
+NP_DISP_PFAM_A14;"Nombre de personnes dans les ménages dont le revenu disponible contient des prestations familiales";
+NP_DISP_PLOGT_A14;"Nombre de personnes dans les ménages dont le revenu disponible contient des prestations logements";
+NP_DISP_PMINI_A14;"Nombre de personnes dans les ménages dont le revenu disponible contient des minima sociaux";
+NP_DISP_IMPOT_A14;"Nombre de personnes dans les ménages dont la composante de revenu contient des impôts";
+NP_DISP_PAT_A14;"Nombre de personnes dans les ménages dont le revenu disponible contient des revenus du patrimoine et autres revenus";
+DISP_PTSAC_A14;"Part des salaires, traitements ou indemnités de chômage dans le revenu disponible";
+DISP_PPEN_A14;"Part des pensions, retraites et rentes dans le revenu disponible";
+DISP_PBEN_A14;"Part des revenus des activités non salariées dans le revenu disponible";
+DISP_PPSOC_A14;"Part de l’ensemble des prestations sociales dans le revenu disponible";
+DISP_PPFAM_A14;"Part des prestations familiales dans le revenu disponible";
+DISP_PPMINI_A14;"Part des minima sociaux dans le revenu disponible";
+DISP_PPLOGT_A14;"Part des prestations logement dans le revenu disponible";
+DISP_PIMPOT_A14;"Part de l'ensemble des impôts dans le revenu disponible";
+DISP_PPAT_A14;"Part des revenus du patrimoine et autres revenus dans le revenu disponible";
+TP40_A14;"Taux de pauvreté pour un seuil à 40 % du niveau de vie médian national (France métropolitaine)";
+TP50_A14;"Taux de pauvreté pour un seuil à 50 % du niveau de vie médian national (France métropolitaine)";
+TP60_A14;"Taux de pauvreté pour un seuil à 60 % du niveau de vie médian national (France métropolitaine)";
+NIVVIE_D1_A14;"Revenu disponible par UC : décile 1";
+NIVVIE_D2_A14;"Revenu disponible par UC : décile 2";
+NIVVIE_Q1_A14;"Revenu disponible par UC : quartile 1";
+NIVVIE_D3_A14;"Revenu disponible par UC : décile 3";
+NIVVIE_D4_A14;"Revenu disponible par UC : décile 4";
+NIVVIE_Q2_A14;"Revenu disponible par UC : médiane";
+NIVVIE_D6_A14;"Revenu disponible par UC : décile 6";
+NIVVIE_D7_A14;"Revenu disponible par UC : décile 7";
+NIVVIE_Q3_A14;"Revenu disponible par UC : quartile 3";
+NIVVIE_D8_A14;"Revenu disponible par UC : décile 8";
+NIVVIE_D9_A14;"Revenu disponible par UC : décile 9";
+NIVVIE_S80S20_A14;"Revenu disponible par UC : rapport S80/S20";
+TP60_NIVVIE_Q2_A14;"Revenu disponible par UC pour les populations sous le seuil de pauvreté : médiane";
+QP_NM_DISP_A14;"Nombre de ménages dont le revenu disponible est positif ou nul dans les quartiers prioritaires (quartiers politique de la ville)";
+QP_NP_DISP_A14;"Nombre de personnes dont le revenu disponible est positif ou nul dans les quartiers prioritaires (quartiers politique de la ville)";
+TP60_NIVVIE_IP_A14;"Intensité de la pauvreté";
+NIVVIE_GI_A14;"Revenu disponible par UC : indice de Gini";
+TP60_NIVVIE_GI_A14;"Indice de Gini sur les niveaux de vie des populations pauvres";
+TP60_NIVVIE_SEN_A14;"Indice de Sen du niveau de vie";
+
+
+
+"M_df1_dp_[zone géographique]_trdec_a14"
+"Tables de revenu disponible au niveau communal et supra-communal, selon la tranche de revenus"
+
+"Nom de la variable";Libellé;Modalités
+"[Zone geographique]";"Une des 20 zones géographiques parmi celles listées dans la description ";
+decile_nivvie;"Tranche de niveau de vie dans laquelle se trouve le ménage (découpage : déciles)";"1 - Revenus déclarés/disponibles par UC inférieurs au 1er décile";"2 - Revenus déclarés/disponibles par UC compris entre D1 et D2";"3 - Revenus déclarés/disponibles par UC compris entre D2 et D3";"4 - Revenus déclarés/disponibles par UC compris entre D3 et D4";"5 - Revenus déclarés/disponibles par UC compris entre D4 et D5";"6 - Revenus déclarés/disponibles par UC compris entre D5 et D6";"7 - Revenus déclarés/disponibles par UC compris entre D6 et D7";"8 - Revenus déclarés/disponibles par UC compris entre D7 et D8";"9 - Revenus déclarés/disponibles par UC compris entre D8 et D9";"10 - Revenus déclarés/disponibles par UC supérieurs au 9ème décile"
+NM_DISP_A14;"Nombre de ménages dont le revenu disponible est positif ou nul";
+NP_DISP_A14;"Nombre de personnes dans les ménages dont le revenu disponible est positif ou nul";
+NM_DISP_TSAC_A14;"Nombre de ménages dont le revenu disponible contient des salaires, traitements ou indemnités de chômage";
+NM_DISP_PEN_A14;"Nombre de ménages dont le revenu disponible contient des pensions, retraites et rentes";
+NM_DISP_BEN_A14;"Nombre de ménages dont le revenu disponible contient des revenus d’activités non salariées";
+NM_DISP_PAT_A14;"Nombre de ménages dont le revenu disponible contient des revenus du patrimoine et autres revenus";
+NM_DISP_PSOC_A14;"Nombre de ménages dont le revenu disponible contient des prestations sociales";
+NM_DISP_PFAM_A14;"Nombre de ménages dont le revenu disponible contient des prestations familiales";
+NM_DISP_PLOGT_A14;"Nombre de ménages dont le revenu disponible contient des prestations logements";
+NM_DISP_PMINI_A14;"Nombre de ménages dont le revenu disponible contient des minima sociaux";
+NM_DISP_IMPOT_A14;"Nombre de ménages dont la composante de revenu contient des impôts";
+DISP_PTSAC_A14;"Part des salaires, traitements ou chômage dans le revenu disponible";
+DISP_PPEN_A14;"Part des pensions, retraites et rentes dans le revenu disponible";
+DISP_PBEN_A14;"Part des revenus des activités non salariées dans le revenu disponible";
+DISP_PPSOC_A14;"Part de l’ensemble des prestations sociales dans le revenu disponible";
+DISP_PPFAM_A14;"Part des prestations familiales dans le revenu disponible";
+DISP_PPMINI_A14;"Part des minima sociaux dans le revenu disponible";
+DISP_PPLOGT_A14;"Part des prestations logement dans le revenu disponible";
+DISP_PIMPOT_A14;"Part de l'ensemble des impôts";
+DISP_PPAT_A14;"Part des revenus du patrimoine dans le revenu disponible";
+
+
+
+"M_df1_dp_[zone géographique]_typmenr_a14"
+"Tables de revenu disponible au niveau communal et supra-communal, selon le type de ménage"
+
+"Nom de la variable";Libellé;Modalités
+"[Zone geographique]";"Une des 20 zones géographiques parmi celles listées dans la description ";
+typmenR;"Type de ménage regroupé";"1 - Homme seul";"2 - Femme seul";"3 - Couple sans enfant";"4 - Couple avec enfant(s)";"5 - Famille monoparentale";"6 - Ménage complexe"
+NBMEN_A14;"Nombre de ménages fiscaux";
+NBPERS_A14;"Nombre de personnes dans les ménages fiscaux";
+NBUC_A14;"Nombre d'UC dans les ménages fiscaux";
+NM_DISP_A14;"Nombre de ménages dont le revenu disponible est positif ou nul";
+NP_DISP_A14;"Nombre de personnes dans les ménages dont le revenu disponible est positif ou nul";
+NUC_DISP_A14;"Nombre d'UC dans les ménages dont le revenu disponible est positif ou nul";
+NMTP40_A14;"Nombre de ménages sous le seuil de 40 % du niveau de vie médian national (France métropolitaine)";
+NMTP50_A14;"Nombre de ménages sous le seuil de 50 % du niveau de vie médian national (France métropolitaine)";
+NMTP60_A14;"Nombre de ménages sous le seuil de 60 % du niveau de vie médian national (France métropolitaine)";
+NPTP40_A14;"Nombre de personnes sous le seuil de 40 % du niveau de vie médian national (France métropolitaine)";
+NPTP50_A14;"Nombre de personnes sous le seuil de 50 % du niveau de vie médian national (France métropolitaine)";
+NPTP60_A14;"Nombre de personnes sous le seuil de 60 % du niveau de vie médian national (France métropolitaine)";
+NM_DISP_TSAC_A14;"Nombre de ménages dont le revenu disponible contient des salaires, traitements ou indemnités de chômage";
+NM_DISP_PEN_A14;"Nombre de ménages dont le revenu disponible contient des pensions, retraites et rentes";
+NM_DISP_BEN_A14;"Nombre de ménages dont le revenu disponible contient des revenus d’activités non salariées";
+NM_DISP_PSOC_A14;"Nombre de ménages dont le revenu disponible contient des prestations sociales";
+NM_DISP_PFAM_A14;"Nombre de ménages dont le revenu disponible contient des prestations familiales";
+NM_DISP_PLOGT_A14;"Nombre de ménages dont le revenu disponible contient des prestations logements";
+NM_DISP_PMINI_A14;"Nombre de ménages dont le revenu disponible contient des minima sociaux";
+NM_DISP_IMPOT_A14;"Nombre de ménages dont la composante de revenu contient des impôts";
+NM_DISP_PAT_A14;"Nombre de ménages dont le revenu disponible contient des revenus du patrimoine et autres revenus";
+NP_DISP_TSAC_A14;"Nombre de personnes dans les ménages dont le revenu disponible contient des salaires, traitements ou indemnités de chômage";
+NP_DISP_PEN_A14;"Nombre de personnes dans les ménages dont le revenu disponible contient des pensions, retraites et rentes";
+NP_DISP_BEN_A14;"Nombre de personnes dans les ménages dont le revenu disponible contient des revenus d’activités non salariées";
+NP_DISP_PSOC_A14;"Nombre de personnes dans les ménages dont le revenu disponible contient des prestations sociales";
+NP_DISP_PFAM_A14;"Nombre de personnes dans les ménages dont le revenu disponible contient des prestations familiales";
+NP_DISP_PLOGT_A14;"Nombre de personnes dans les ménages dont le revenu disponible contient des prestations logements";
+NP_DISP_PMINI_A14;"Nombre de personnes dans les ménages dont le revenu disponible contient des minima sociaux";
+NP_DISP_IMPOT_A14;"Nombre de personnes dans les ménages dont la composante de revenu contient des impôts";
+NP_DISP_PAT_A14;"Nombre de personnes dans les ménages dont le revenu disponible contient des revenus du patrimoine et autres revenus";
+DISP_PTSAC_A14;"Part des salaires, traitements ou indemnités de chômage dans le revenu disponible";
+DISP_PPEN_A14;"Part des pensions, retraites et rentes dans le revenu disponible";
+DISP_PBEN_A14;"Part des revenus des activités non salariées dans le revenu disponible";
+DISP_PPSOC_A14;"Part de l’ensemble des prestations sociales dans le revenu disponible";
+DISP_PPFAM_A14;"Part des prestations familiales dans le revenu disponible";
+DISP_PPMINI_A14;"Part des minima sociaux dans le revenu disponible";
+DISP_PPLOGT_A14;"Part des prestations logement dans le revenu disponible";
+DISP_PIMPOT_A14;"Part de l'ensemble des impôts dans le revenu disponible";
+DISP_PPAT_A14;"Part des revenus du patrimoine et autres revenus dans le revenu disponible";
+TP40_A14;"Taux de pauvreté pour un seuil à 40 % du niveau de vie médian national (France métropolitaine)";
+TP50_A14;"Taux de pauvreté pour un seuil à 50 % du niveau de vie médian national (France métropolitaine)";
+TP60_A14;"Taux de pauvreté pour un seuil à 60 % du niveau de vie médian national (France métropolitaine)";
+NIVVIE_D1_A14;"Revenu disponible par UC : décile 1";
+NIVVIE_D2_A14;"Revenu disponible par UC : décile 2";
+NIVVIE_Q1_A14;"Revenu disponible par UC : quartile 1";
+NIVVIE_D3_A14;"Revenu disponible par UC : décile 3";
+NIVVIE_D4_A14;"Revenu disponible par UC : décile 4";
+NIVVIE_Q2_A14;"Revenu disponible par UC : médiane";
+NIVVIE_D6_A14;"Revenu disponible par UC : décile 6";
+NIVVIE_D7_A14;"Revenu disponible par UC : décile 7";
+NIVVIE_Q3_A14;"Revenu disponible par UC : quartile 3";
+NIVVIE_D8_A14;"Revenu disponible par UC : décile 8";
+NIVVIE_D9_A14;"Revenu disponible par UC : décile 9";
+NIVVIE_S80S20_A14;"Revenu disponible par UC : rapport S80/S20";
+TP60_NIVVIE_Q2_A14;"Revenu disponible par UC pour les populations sous le seuil de pauvreté : médiane";
+QP_NM_DISP_A14;"Nombre de ménages dont le revenu disponible est positif ou nul dans les quartiers prioritaires (quartiers politique de la ville)";
+QP_NP_DISP_A14;"Nombre de personnes dont le revenu disponible est positif ou nul dans les quartiers prioritaires (quartiers politique de la ville)";
+TP60_NIVVIE_IP_A14;"Intensité de la pauvreté";
+NIVVIE_GI_A14;"Revenu disponible par UC : indice de Gini";
+TP60_NIVVIE_GI_A14;"Indice de Gini sur les niveaux de vie des populations pauvres";
+TP60_NIVVIE_SEN_A14;"Indice de Sen du niveau de vie";
+
+
+
+"O_df1_dp_[zone géographique]_a14"
+"Tables de revenu disponible au niveau infra-communal, selon la CSD (Caractéristique sociodémographique) et selon la tranche de revenus"
+
+"Nom de la variable";Libellé;Modalités
+"[Zone geographique]";"IRIS ou QPV";"Code IRIS - <a href='https://www.insee.fr/fr/information/2017499' target=""_blank""> cliquer ici</a>";"Code QPV - <a href='https://www.insee.fr/fr/statistiques/2500431?sommaire=2500477' target=""_blank""> cliquer ici</a>"
+NBMEN_A14;"Nombre de ménages fiscaux";
+NBUC_A14;"Nombre d'UC dans les ménages fiscaux";
+NBPERS_A14;"Nombre de personnes dans les ménages fiscaux";
+NM_DISP_A14;"Nombre de ménages dont le revenu disponible est positif ou nul";
+NP_DISP_A14;"Nombre de personnes dans les ménages dont le revenu disponible est positif ou nul";
+NUC_DISP_A14;"Nombre d'UC dans les ménages dont le revenu disponible est positif ou nul";
+NMTP40_A14;"Nombre de ménages sous le seuil de 40 % du niveau de vie médian national (France métropolitaine)";
+NMTP50_A14;"Nombre de ménages sous le seuil de 50 % du niveau de vie médian national (France métropolitaine)";
+NMTP60_A14;"Nombre de ménages sous le seuil de 60 % du niveau de vie médian national (France métropolitaine)";
+NPTP40_A14;"Nombre de personnes sous le seuil de 40 % du niveau de vie médian national (France métropolitaine)";
+NPTP50_A14;"Nombre de personnes sous le seuil de 50 % du niveau de vie médian national (France métropolitaine)";
+NPTP60_A14;"Nombre de personnes sous le seuil de 60 % du niveau de vie médian national (France métropolitaine)";
+NM_DISP_TSAC_A14;"Nombre de ménages dont le revenu disponible contient des salaires, traitements ou indemnités de chômage";
+NM_DISP_PEN_A14;"Nombre de ménages dont le revenu disponible contient des pensions, retraites et rentes";
+NM_DISP_BEN_A14;"Nombre de ménages dont le revenu disponible contient des revenus d’activités non salariées";
+NM_DISP_PSOC_A14;"Nombre de ménages dont le revenu disponible contient des prestations sociales";
+NM_DISP_PFAM_A14;"Nombre de ménages dont le revenu disponible contient des prestations familiales";
+NM_DISP_PLOGT_A14;"Nombre de ménages dont le revenu disponible contient des prestations logements";
+NM_DISP_PMINI_A14;"Nombre de ménages dont le revenu disponible contient des minima sociaux";
+NM_DISP_IMPOT_A14;"Nombre de ménages dont la composante de revenu contient des impôts";
+NM_DISP_PAT_A14;"Nombre de ménages dont le revenu disponible contient des revenus du patrimoine et autres revenus";
+NP_DISP_TSAC_A14;"Nombre de personnes dans les ménages dont le revenu disponible contient des salaires, traitements ou indemnités de chômage";
+NP_DISP_PEN_A14;"Nombre de personnes dans les ménages dont le revenu disponible contient des pensions, retraites et rentes";
+NP_DISP_BEN_A14;"Nombre de personnes dans les ménages dont le revenu disponible contient des revenus d’activités non salariées";
+NP_DISP_PSOC_A14;"Nombre de personnes dans les ménages dont le revenu disponible contient des prestations sociales";
+NP_DISP_PFAM_A14;"Nombre de personnes dans les ménages dont le revenu disponible contient des prestations familiales";
+NP_DISP_PLOGT_A14;"Nombre de personnes dans les ménages dont le revenu disponible contient des prestations logements";
+NP_DISP_PMINI_A14;"Nombre de personnes dans les ménages dont le revenu disponible contient des minima sociaux";
+NP_DISP_IMPOT_A14;"Nombre de personnes dans les ménages dont la composante de revenu contient des impôts";
+NP_DISP_PAT_A14;"Nombre de personnes dans les ménages dont le revenu disponible contient des revenus du patrimoine et autres revenus";
+DISP_PTSAC_A14;"Part des salaires, traitements ou indemnités de chômage dans le revenu disponible";
+DISP_PPEN_A14;"Part des pensions, retraites et rentes dans le revenu disponible";
+DISP_PBEN_A14;"Part des revenus des activités non salariées dans le revenu disponible";
+DISP_PPSOC_A14;"Part de l’ensemble des prestations sociales dans le revenu disponible";
+DISP_PPFAM_A14;"Part des prestations familiales dans le revenu disponible";
+DISP_PPMINI_A14;"Part des minima sociaux dans le revenu disponible";
+DISP_PPLOGT_A14;"Part des prestations logement dans le revenu disponible";
+DISP_PIMPOT_A14;"Part de l'ensemble des impôts dans le revenu disponible";
+DISP_PPAT_A14;"Part des revenus du patrimoine et autres revenus dans le revenu disponible";
+DISPM_MO_A14;"Revenu disponible par ménage : moyenne";
+TP40_A14;"Taux de pauvreté pour un seuil à 40 % du niveau de vie médian national (France métropolitaine)";
+TP50_A14;"Taux de pauvreté pour un seuil à 50 % du niveau de vie médian national (France métropolitaine)";
+TP60_A14;"Taux de pauvreté pour un seuil à 60 % du niveau de vie médian national (France métropolitaine)";
+NIVVIE_MO_A14;"Revenu disponible par UC : moyenne";
+NIVVIE_ET_A14;"Revenu disponible par UC : écart-type";
+NIVVIE_D1_A14;"Revenu disponible par UC : décile 1";
+NIVVIE_D2_A14;"Revenu disponible par UC : décile 2";
+NIVVIE_Q1_A14;"Revenu disponible par UC : quartile 1";
+NIVVIE_D3_A14;"Revenu disponible par UC : décile 3";
+NIVVIE_D4_A14;"Revenu disponible par UC : décile 4";
+NIVVIE_Q2_A14;"Revenu disponible par UC : médiane";
+NIVVIE_D6_A14;"Revenu disponible par UC : décile 6";
+NIVVIE_D7_A14;"Revenu disponible par UC : décile 7";
+NIVVIE_Q3_A14;"Revenu disponible par UC : quartile 3";
+NIVVIE_D8_A14;"Revenu disponible par UC : décile 8";
+NIVVIE_D9_A14;"Revenu disponible par UC : décile 9";
+NIVVIE_S80S20_A14;"Revenu disponible par UC : rapport S80/S20";
+TP60_NIVVIE_Q2_A14;"Revenu disponible par UC pour les populations sous le seuil de pauvreté : médiane";
+TP60_NIVVIE_IP_A14;"Intensité de la pauvreté";
+NIVVIE_GI_A14;"Revenu disponible par UC : indice de Gini";
+TP60_NIVVIE_GI_A14;"Indice de Gini sur les niveaux de vie des populations pauvres";
+TP60_NIVVIE_SEN_A14;"Indice de Sen du niveau de vie";
+
+
+
+"O_df1_dp_[zone géographique]_occtypr_a14"
+"Tables de revenu déclaré au niveau infra-communal, selon le statut d’occupation du logement"
+
+"Nom de la variable";Libellé;Modalités
+"[Zone geographique]";"IRIS ou QPV";"Code IRIS - <a href='https://www.insee.fr/fr/information/2017499' target=""_blank""> cliquer ici</a>";"Code QPV - <a href='https://www.insee.fr/fr/statistiques/2500431?sommaire=2500477' target=""_blank""> cliquer ici</a>"
+occtypR;"Statut d'occupation du logement regroupé";"1 - Propriétaire";"2 - Locataire"
+NBMEN_A14;"Nombre de ménages fiscaux";
+NBUC_A14;"Nombre d'UC dans les ménages fiscaux";
+NBPERS_A14;"Nombre de personnes dans les ménages fiscaux";
+NM_DISP_A14;"Nombre de ménages dont le revenu disponible est positif ou nul";
+NP_DISP_A14;"Nombre de personnes dans les ménages dont le revenu disponible est positif ou nul";
+NUC_DISP_A14;"Nombre d'UC dans les ménages dont le revenu disponible est positif ou nul";
+NMTP40_A14;"Nombre de ménages sous le seuil de 40 % du niveau de vie médian national (France métropolitaine)";
+NMTP50_A14;"Nombre de ménages sous le seuil de 50 % du niveau de vie médian national (France métropolitaine)";
+NMTP60_A14;"Nombre de ménages sous le seuil de 60 % du niveau de vie médian national (France métropolitaine)";
+NPTP40_A14;"Nombre de personnes sous le seuil de 40 % du niveau de vie médian national (France métropolitaine)";
+NPTP50_A14;"Nombre de personnes sous le seuil de 50 % du niveau de vie médian national (France métropolitaine)";
+NPTP60_A14;"Nombre de personnes sous le seuil de 60 % du niveau de vie médian national (France métropolitaine)";
+DISP_PTSAC_A14;"Part des salaires, traitements ou indemnités de chômage dans le revenu disponible";
+DISP_PPEN_A14;"Part des pensions, retraites et rentes dans le revenu disponible";
+DISP_PBEN_A14;"Part des revenus des activités non salariées dans le revenu disponible";
+DISP_PPSOC_A14;"Part de l’ensemble des prestations sociales dans le revenu disponible";
+DISP_PPFAM_A14;"Part des prestations familiales dans le revenu disponible";
+DISP_PPMINI_A14;"Part des minima sociaux dans le revenu disponible";
+DISP_PPLOGT_A14;"Part des prestations logement dans le revenu disponible";
+DISP_PIMPOT_A14;"Part de l'ensemble des impôts dans le revenu disponible";
+DISP_PPAT_A14;"Part des revenus du patrimoine et autres revenus dans le revenu disponible";
+TP40_A14;"Taux de pauvreté pour un seuil à 40 % du niveau de vie médian national (France métropolitaine)";
+TP50_A14;"Taux de pauvreté pour un seuil à 50 % du niveau de vie médian national (France métropolitaine)";
+TP60_A14;"Taux de pauvreté pour un seuil à 60 % du niveau de vie médian national (France métropolitaine)";
+NIVVIE_D1_A14;"Revenu disponible par UC : décile 1";
+NIVVIE_D2_A14;"Revenu disponible par UC : décile 2";
+NIVVIE_Q1_A14;"Revenu disponible par UC : quartile 1";
+NIVVIE_D3_A14;"Revenu disponible par UC : décile 3";
+NIVVIE_D4_A14;"Revenu disponible par UC : décile 4";
+NIVVIE_Q2_A14;"Revenu disponible par UC : médiane";
+NIVVIE_D6_A14;"Revenu disponible par UC : décile 6";
+NIVVIE_D7_A14;"Revenu disponible par UC : décile 7";
+NIVVIE_Q3_A14;"Revenu disponible par UC : quartile 3";
+NIVVIE_D8_A14;"Revenu disponible par UC : décile 8";
+NIVVIE_D9_A14;"Revenu disponible par UC : décile 9";
+NIVVIE_S80S20_A14;"Revenu disponible par UC : rapport S80/S20";
+TP60_NIVVIE_Q2_A14;"Revenu disponible par UC pour les populations sous le seuil de pauvreté : médiane";
+TP60_NIVVIE_IP_A14;"Intensité de la pauvreté";
+NIVVIE_GI_A14;"Revenu disponible par UC : indice de Gini";
+TP60_NIVVIE_GI_A14;"Indice de Gini sur les niveaux de vie des populations pauvres";
+TP60_NIVVIE_SEN_A14;"Indice de Sen du niveau de vie";
+
+
+
+"O_df1_dp_[zone géographique]_oprdec_a14"
+"Tables de revenu disponible au niveau infra-communal, selon l’origine des revenus déclarés"
+
+"Nom de la variable";Libellé;Modalités
+"[Zone geographique]";"IRIS ou QPV";"Code IRIS - <a href='https://www.insee.fr/fr/information/2017499' target=""_blank""> cliquer ici</a>";"Code QPV - <a href='https://www.insee.fr/fr/statistiques/2500431?sommaire=2500477' target=""_blank""> cliquer ici</a>"
+oprdec;"Origine principale des revenus déclarés";"1 - Salaires et traitements hors indemnités de chômage";"2 - Indemnités de chômage";"3 - Revenus des activités non salariées";"4 - Pensions, retraites et rentes";"5 - Autres revenus";"6 - Revenus déclarés nuls sur le champ des revenus déclarés ou revenus déclarés négatifs ou nuls sur le champ des revenus disponibles"
+NBMEN_A14;"Nombre de ménages fiscaux";
+NBUC_A14;"Nombre d'UC dans les ménages fiscaux";
+NBPERS_A14;"Nombre de personnes dans les ménages fiscaux";
+NM_DISP_A14;"Nombre de ménages dont le revenu disponible est positif ou nul";
+NP_DISP_A14;"Nombre de personnes dans les ménages dont le revenu disponible est positif ou nul";
+NUC_DISP_A14;"Nombre d'UC dans les ménages dont le revenu disponible est positif ou nul";
+NMTP40_A14;"Nombre de ménages sous le seuil de 40 % du niveau de vie médian national (France métropolitaine)";
+NMTP50_A14;"Nombre de ménages sous le seuil de 50 % du niveau de vie médian national (France métropolitaine)";
+NMTP60_A14;"Nombre de ménages sous le seuil de 60 % du niveau de vie médian national (France métropolitaine)";
+NPTP40_A14;"Nombre de personnes sous le seuil de 40 % du niveau de vie médian national (France métropolitaine)";
+NPTP50_A14;"Nombre de personnes sous le seuil de 50 % du niveau de vie médian national (France métropolitaine)";
+NPTP60_A14;"Nombre de personnes sous le seuil de 60 % du niveau de vie médian national (France métropolitaine)";
+DISP_PTSAC_A14;"Part des salaires, traitements ou indemnités de chômage dans le revenu disponible";
+DISP_PPEN_A14;"Part des pensions, retraites et rentes dans le revenu disponible";
+DISP_PBEN_A14;"Part des revenus des activités non salariées dans le revenu disponible";
+DISP_PPSOC_A14;"Part de l’ensemble des prestations sociales dans le revenu disponible";
+DISP_PPFAM_A14;"Part des prestations familiales dans le revenu disponible";
+DISP_PPMINI_A14;"Part des minima sociaux dans le revenu disponible";
+DISP_PPLOGT_A14;"Part des prestations logement dans le revenu disponible";
+DISP_PIMPOT_A14;"Part de l'ensemble des impôts dans le revenu disponible";
+DISP_PPAT_A14;"Part des revenus du patrimoine et autres revenus dans le revenu disponible";
+TP40_A14;"Taux de pauvreté pour un seuil à 40 % du niveau de vie médian national (France métropolitaine)";
+TP50_A14;"Taux de pauvreté pour un seuil à 50 % du niveau de vie médian national (France métropolitaine)";
+TP60_A14;"Taux de pauvreté pour un seuil à 60 % du niveau de vie médian national (France métropolitaine)";
+NIVVIE_D1_A14;"Revenu disponible par UC : décile 1";
+NIVVIE_D2_A14;"Revenu disponible par UC : décile 2";
+NIVVIE_Q1_A14;"Revenu disponible par UC : quartile 1";
+NIVVIE_D3_A14;"Revenu disponible par UC : décile 3";
+NIVVIE_D4_A14;"Revenu disponible par UC : décile 4";
+NIVVIE_Q2_A14;"Revenu disponible par UC : médiane";
+NIVVIE_D6_A14;"Revenu disponible par UC : décile 6";
+NIVVIE_D7_A14;"Revenu disponible par UC : décile 7";
+NIVVIE_Q3_A14;"Revenu disponible par UC : quartile 3";
+NIVVIE_D8_A14;"Revenu disponible par UC : décile 8";
+NIVVIE_D9_A14;"Revenu disponible par UC : décile 9";
+NIVVIE_S80S20_A14;"Revenu disponible par UC : rapport S80/S20";
+TP60_NIVVIE_Q2_A14;"Revenu disponible par UC pour les populations sous le seuil de pauvreté : médiane";
+TP60_NIVVIE_IP_A14;"Intensité de la pauvreté";
+NIVVIE_GI_A14;"Revenu disponible par UC : indice de Gini";
+TP60_NIVVIE_GI_A14;"Indice de Gini sur les niveaux de vie des populations pauvres";
+TP60_NIVVIE_SEN_A14;"Indice de Sen du niveau de vie";
+
+
+
+"O_df1_dp_[zone géographique]_taillem_a14"
+"Tables de revenu disponible au niveau infra-communal, selon la taille du ménage"
+
+"Nom de la variable";Libellé;Modalités
+"[Zone geographique]";"IRIS ou QPV";"Code IRIS - <a href='https://www.insee.fr/fr/information/2017499' target=""_blank""> cliquer ici</a>";"Code QPV - <a href='https://www.insee.fr/fr/statistiques/2500431?sommaire=2500477' target=""_blank""> cliquer ici</a>"
+taillem;"Taille du ménage";"1 - 1 personne";"2 - 2 personnes";"3 - 3 personnes";"4 - 4 personnes";"5 - 5 personnes et plus"
+NBMEN_A14;"Nombre de ménages fiscaux";
+NBUC_A14;"Nombre d'UC dans les ménages fiscaux";
+NBPERS_A14;"Nombre de personnes dans les ménages fiscaux";
+NM_DISP_A14;"Nombre de ménages dont le revenu disponible est positif ou nul";
+NP_DISP_A14;"Nombre de personnes dans les ménages dont le revenu disponible est positif ou nul";
+NUC_DISP_A14;"Nombre d'UC dans les ménages dont le revenu disponible est positif ou nul";
+NMTP40_A14;"Nombre de ménages sous le seuil de 40 % du niveau de vie médian national (France métropolitaine)";
+NMTP50_A14;"Nombre de ménages sous le seuil de 50 % du niveau de vie médian national (France métropolitaine)";
+NMTP60_A14;"Nombre de ménages sous le seuil de 60 % du niveau de vie médian national (France métropolitaine)";
+NPTP40_A14;"Nombre de personnes sous le seuil de 40 % du niveau de vie médian national (France métropolitaine)";
+NPTP50_A14;"Nombre de personnes sous le seuil de 50 % du niveau de vie médian national (France métropolitaine)";
+NPTP60_A14;"Nombre de personnes sous le seuil de 60 % du niveau de vie médian national (France métropolitaine)";
+DISP_PTSAC_A14;"Part des salaires, traitements ou indemnités de chômage dans le revenu disponible";
+DISP_PPEN_A14;"Part des pensions, retraites et rentes dans le revenu disponible";
+DISP_PBEN_A14;"Part des revenus des activités non salariées dans le revenu disponible";
+DISP_PPSOC_A14;"Part de l’ensemble des prestations sociales dans le revenu disponible";
+DISP_PPFAM_A14;"Part des prestations familiales dans le revenu disponible";
+DISP_PPMINI_A14;"Part des minima sociaux dans le revenu disponible";
+DISP_PPLOGT_A14;"Part des prestations logement dans le revenu disponible";
+DISP_PIMPOT_A14;"Part de l'ensemble des impôts dans le revenu disponible";
+DISP_PPAT_A14;"Part des revenus du patrimoine et autres revenus dans le revenu disponible";
+TP40_A14;"Taux de pauvreté pour un seuil à 40 % du niveau de vie médian national (France métropolitaine)";
+TP50_A14;"Taux de pauvreté pour un seuil à 50 % du niveau de vie médian national (France métropolitaine)";
+TP60_A14;"Taux de pauvreté pour un seuil à 60 % du niveau de vie médian national (France métropolitaine)";
+NIVVIE_D1_A14;"Revenu disponible par UC : décile 1";
+NIVVIE_D2_A14;"Revenu disponible par UC : décile 2";
+NIVVIE_Q1_A14;"Revenu disponible par UC : quartile 1";
+NIVVIE_D3_A14;"Revenu disponible par UC : décile 3";
+NIVVIE_D4_A14;"Revenu disponible par UC : décile 4";
+NIVVIE_Q2_A14;"Revenu disponible par UC : médiane";
+NIVVIE_D6_A14;"Revenu disponible par UC : décile 6";
+NIVVIE_D7_A14;"Revenu disponible par UC : décile 7";
+NIVVIE_Q3_A14;"Revenu disponible par UC : quartile 3";
+NIVVIE_D8_A14;"Revenu disponible par UC : décile 8";
+NIVVIE_D9_A14;"Revenu disponible par UC : décile 9";
+NIVVIE_S80S20_A14;"Revenu disponible par UC : rapport S80/S20";
+TP60_NIVVIE_Q2_A14;"Revenu disponible par UC pour les populations sous le seuil de pauvreté : médiane";
+TP60_NIVVIE_IP_A14;"Intensité de la pauvreté";
+NIVVIE_GI_A14;"Revenu disponible par UC : indice de Gini";
+TP60_NIVVIE_GI_A14;"Indice de Gini sur les niveaux de vie des populations pauvres";
+TP60_NIVVIE_SEN_A14;"Indice de Sen du niveau de vie";
+
+
+
+"O_df1_dp_[zone géographique]_tragerf_a14"
+"Tables de revenu disponible au niveau infra-communal, selon la tranche d’âge du référent fiscal"
+
+"Nom de la variable";Libellé;Modalités
+"[Zone geographique]";"IRIS ou QPV";"Code IRIS - <a href='https://www.insee.fr/fr/information/2017499' target=""_blank""> cliquer ici</a>";"Code QPV - <a href='https://www.insee.fr/fr/statistiques/2500431?sommaire=2500477' target=""_blank""> cliquer ici</a>"
+trageRF;"Tranche d'âge du référent fiscal";"1 - Moins de 30 ans";"2 - 30-39 ans";"3 - 40-49 ans";"4 - 50-59 ans";"5 - 60-74 ans";"6 - 75 ans et plus"
+NBMEN_A14;"Nombre de ménages fiscaux";
+NBUC_A14;"Nombre d'UC dans les ménages fiscaux";
+NBPERS_A14;"Nombre de personnes dans les ménages fiscaux";
+NM_DISP_A14;"Nombre de ménages dont le revenu disponible est positif ou nul";
+NP_DISP_A14;"Nombre de personnes dans les ménages dont le revenu disponible est positif ou nul";
+NUC_DISP_A14;"Nombre d'UC dans les ménages dont le revenu disponible est positif ou nul";
+NMTP40_A14;"Nombre de ménages sous le seuil de 40 % du niveau de vie médian national (France métropolitaine)";
+NMTP50_A14;"Nombre de ménages sous le seuil de 50 % du niveau de vie médian national (France métropolitaine)";
+NMTP60_A14;"Nombre de ménages sous le seuil de 60 % du niveau de vie médian national (France métropolitaine)";
+NPTP40_A14;"Nombre de personnes sous le seuil de 40 % du niveau de vie médian national (France métropolitaine)";
+NPTP50_A14;"Nombre de personnes sous le seuil de 50 % du niveau de vie médian national (France métropolitaine)";
+NPTP60_A14;"Nombre de personnes sous le seuil de 60 % du niveau de vie médian national (France métropolitaine)";
+DISP_PTSAC_A14;"Part des salaires, traitements ou indemnités de chômage dans le revenu disponible";
+DISP_PPEN_A14;"Part des pensions, retraites et rentes dans le revenu disponible";
+DISP_PBEN_A14;"Part des revenus des activités non salariées dans le revenu disponible";
+DISP_PPSOC_A14;"Part de l’ensemble des prestations sociales dans le revenu disponible";
+DISP_PPFAM_A14;"Part des prestations familiales dans le revenu disponible";
+DISP_PPMINI_A14;"Part des minima sociaux dans le revenu disponible";
+DISP_PPLOGT_A14;"Part des prestations logement dans le revenu disponible";
+DISP_PIMPOT_A14;"Part de l'ensemble des impôts dans le revenu disponible";
+DISP_PPAT_A14;"Part des revenus du patrimoine et autres revenus dans le revenu disponible";
+TP40_A14;"Taux de pauvreté pour un seuil à 40 % du niveau de vie médian national (France métropolitaine)";
+TP50_A14;"Taux de pauvreté pour un seuil à 50 % du niveau de vie médian national (France métropolitaine)";
+TP60_A14;"Taux de pauvreté pour un seuil à 60 % du niveau de vie médian national (France métropolitaine)";
+NIVVIE_D1_A14;"Revenu disponible par UC : décile 1";
+NIVVIE_D2_A14;"Revenu disponible par UC : décile 2";
+NIVVIE_Q1_A14;"Revenu disponible par UC : quartile 1";
+NIVVIE_D3_A14;"Revenu disponible par UC : décile 3";
+NIVVIE_D4_A14;"Revenu disponible par UC : décile 4";
+NIVVIE_Q2_A14;"Revenu disponible par UC : médiane";
+NIVVIE_D6_A14;"Revenu disponible par UC : décile 6";
+NIVVIE_D7_A14;"Revenu disponible par UC : décile 7";
+NIVVIE_Q3_A14;"Revenu disponible par UC : quartile 3";
+NIVVIE_D8_A14;"Revenu disponible par UC : décile 8";
+NIVVIE_D9_A14;"Revenu disponible par UC : décile 9";
+NIVVIE_S80S20_A14;"Revenu disponible par UC : rapport S80/S20";
+TP60_NIVVIE_Q2_A14;"Revenu disponible par UC pour les populations sous le seuil de pauvreté : médiane";
+TP60_NIVVIE_IP_A14;"Intensité de la pauvreté";
+NIVVIE_GI_A14;"Revenu disponible par UC : indice de Gini";
+TP60_NIVVIE_GI_A14;"Indice de Gini sur les niveaux de vie des populations pauvres";
+TP60_NIVVIE_SEN_A14;"Indice de Sen du niveau de vie";
+
+
+
+"O_df1_dp_[zone géographique]_trdec_a14"
+"Tables de revenu disponible au niveau infra-communal, selon la tranche de revenus"
+
+"Nom de la variable";Libellé;Modalités
+"[Zone geographique]";"IRIS ou PQV";"Code IRIS - <a href='https://www.insee.fr/fr/information/2017499' target=""_blank""> cliquer ici</a>";"Code QPV - <a href='https://www.insee.fr/fr/statistiques/2500431?sommaire=2500477' target=""_blank""> cliquer ici</a>"
+decile_nivvie;"Tranche de niveau de vie dans laquelle se trouve le ménage (découpage : déciles)";"1 - Revenus déclarés/disponibles par UC inférieurs au 1er décile";"2 - Revenus déclarés/disponibles par UC compris entre D1 et D2";"3 - Revenus déclarés/disponibles par UC compris entre D2 et D3";"4 - Revenus déclarés/disponibles par UC compris entre D3 et D4";"5 - Revenus déclarés/disponibles par UC compris entre D4 et D5";"6 - Revenus déclarés/disponibles par UC compris entre D5 et D6";"7 - Revenus déclarés/disponibles par UC compris entre D6 et D7";"8 - Revenus déclarés/disponibles par UC compris entre D7 et D8";"9 - Revenus déclarés/disponibles par UC compris entre D8 et D9";"10 - Revenus déclarés/disponibles par UC supérieurs au 9ème décile"
+NM_DISP_A14;"Nombre de ménages dont le revenu disponible est positif ou nul";
+NP_DISP_A14;"Nombre de personnes dans les ménages dont le revenu disponible est positif ou nul";
+DISP_PTSAC_A14;"Part des salaires, traitements ou chômage dans le revenu disponible";
+DISP_PPEN_A14;"Part des pensions, retraites et rentes dans le revenu disponible";
+DISP_PBEN_A14;"Part des revenus des activités non salariées dans le revenu disponible";
+DISP_PPSOC_A14;"Part de l’ensemble des prestations sociales dans le revenu disponible";
+DISP_PPFAM_A14;"Part des prestations familiales dans le revenu disponible";
+DISP_PPMINI_A14;"Part des minima sociaux dans le revenu disponible";
+DISP_PPLOGT_A14;"Part des prestations logement dans le revenu disponible";
+DISP_PIMPOT_A14;"Part de l'ensemble des impôts";
+DISP_PPAT_A14;"Part des revenus du patrimoine et autres revenus dans le revenu disponible";
+
+
+
+"O_df1_dp_[zone géographique]_typmenr_a14"
+"Tables de revenu disponible au niveau infra-communal, selon le type de ménage"
+
+"Nom de la variable";Libellé;Modalités
+"[Zone geographique]";"IRIS ou QPV";"Code IRIS - <a href='https://www.insee.fr/fr/information/2017499' target=""_blank""> cliquer ici</a>";"Code QPV - <a href='https://www.insee.fr/fr/statistiques/2500431?sommaire=2500477' target=""_blank""> cliquer ici</a>"
+typmenR;"Type de ménage regroupé";"1 - Homme seul";"2 - Femme seul";"3 - Couple sans enfant";"4 - Couple avec enfant(s)";"5 - Famille monoparentale";"6 - Ménage complexe"
+NBMEN_A14;"Nombre de ménages fiscaux";
+NBUC_A14;"Nombre d'UC dans les ménages fiscaux";
+NBPERS_A14;"Nombre de personnes dans les ménages fiscaux";
+NM_DISP_A14;"Nombre de ménages dont le revenu disponible est positif ou nul";
+NP_DISP_A14;"Nombre de personnes dans les ménages dont le revenu disponible est positif ou nul";
+NUC_DISP_A14;"Nombre d'UC dans les ménages dont le revenu disponible est positif ou nul";
+NMTP40_A14;"Nombre de ménages sous le seuil de 40 % du niveau de vie médian national (France métropolitaine)";
+NMTP50_A14;"Nombre de ménages sous le seuil de 50 % du niveau de vie médian national (France métropolitaine)";
+NMTP60_A14;"Nombre de ménages sous le seuil de 60 % du niveau de vie médian national (France métropolitaine)";
+NPTP40_A14;"Nombre de personnes sous le seuil de 40 % du niveau de vie médian national (France métropolitaine)";
+NPTP50_A14;"Nombre de personnes sous le seuil de 50 % du niveau de vie médian national (France métropolitaine)";
+NPTP60_A14;"Nombre de personnes sous le seuil de 60 % du niveau de vie médian national (France métropolitaine)";
+DISP_PTSAC_A14;"Part des salaires, traitements ou indemnités de chômage dans le revenu disponible";
+DISP_PPEN_A14;"Part des pensions, retraites et rentes dans le revenu disponible";
+DISP_PBEN_A14;"Part des revenus des activités non salariées dans le revenu disponible";
+DISP_PPSOC_A14;"Part de l’ensemble des prestations sociales dans le revenu disponible";
+DISP_PPFAM_A14;"Part des prestations familiales dans le revenu disponible";
+DISP_PPMINI_A14;"Part des minima sociaux dans le revenu disponible";
+DISP_PPLOGT_A14;"Part des prestations logement dans le revenu disponible";
+DISP_PIMPOT_A14;"Part de l'ensemble des impôts dans le revenu disponible";
+DISP_PPAT_A14;"Part des revenus du patrimoine et autres revenus dans le revenu disponible";
+TP40_A14;"Taux de pauvreté pour un seuil à 40 % du niveau de vie médian national (France métropolitaine)";
+TP50_A14;"Taux de pauvreté pour un seuil à 50 % du niveau de vie médian national (France métropolitaine)";
+TP60_A14;"Taux de pauvreté pour un seuil à 60 % du niveau de vie médian national (France métropolitaine)";
+NIVVIE_D1_A14;"Revenu disponible par UC : décile 1";
+NIVVIE_D2_A14;"Revenu disponible par UC : décile 2";
+NIVVIE_Q1_A14;"Revenu disponible par UC : quartile 1";
+NIVVIE_D3_A14;"Revenu disponible par UC : décile 3";
+NIVVIE_D4_A14;"Revenu disponible par UC : décile 4";
+NIVVIE_Q2_A14;"Revenu disponible par UC : médiane";
+NIVVIE_D6_A14;"Revenu disponible par UC : décile 6";
+NIVVIE_D7_A14;"Revenu disponible par UC : décile 7";
+NIVVIE_Q3_A14;"Revenu disponible par UC : quartile 3";
+NIVVIE_D8_A14;"Revenu disponible par UC : décile 8";
+NIVVIE_D9_A14;"Revenu disponible par UC : décile 9";
+NIVVIE_S80S20_A14;"Revenu disponible par UC : rapport S80/S20";
+TP60_NIVVIE_Q2_A14;"Revenu disponible par UC pour les populations sous le seuil de pauvreté : médiane";
+TP60_NIVVIE_IP_A14;"Intensité de la pauvreté";
+NIVVIE_GI_A14;"Revenu disponible par UC : indice de Gini";
+TP60_NIVVIE_GI_A14;"Indice de Gini sur les niveaux de vie des populations pauvres";
+TP60_NIVVIE_SEN_A14;"Indice de Sen du niveau de vie";
+
+
+
+"O_df1_dc_[zone géographique]_a14"
+"Tables de revenu déclaré au niveau infra-communal, selon la CSD (Caractéristique sociodémographique) et selon la tranche de revenus"
+
+"Nom de la variable";Libellé;Modalités
+"[Zone geographique]";"IRIS ou QPV ";"Code IRIS - <a href='https://www.insee.fr/fr/information/2017499' target=""_blank""> cliquer ici</a>";"Code QPV - <a href='https://www.insee.fr/fr/statistiques/2500431?sommaire=2500477' target=""_blank""> cliquer ici</a>"
+NBMEN_A14;"Nombre de ménages fiscaux";
+NBUC_A14;"Nombre d'UC dans les ménages fiscaux";
+NBPERS_A14;"Nombre de personnes dans les ménages fiscaux";
+NM_DEC_A14;"Nombre de ménages dont le revenu déclaré est positif ou nul";
+NP_DEC_A14;"Nombre de personnes dans les ménages dont le revenu déclaré est positif ou nul";
+NUC_DEC_A14;"Nombre d'UC dans les ménages dont le revenu déclaré est positif ou nul /";
+NMTP40_DEC_A14;"Nombre de ménages sous le seuil de 40 % du revenu déclaré par UC médian national (France métropolitaine)";
+NMTP50_DEC_A14;"Nombre de ménages sous le seuil de 50 % du revenu déclaré par UC médian national (France métropolitaine)";
+NMTP60_DEC_A14;"Nombre de ménages sous le seuil de 60 % du revenu déclaré par UC médian national (France métropolitaine)";
+NPTP40_DEC_A14;"Nombre de personnes sous le seuil de 40 % du revenu déclaré par UC médian national (France métropolitaine)";
+NPTP50_DEC_A14;"Nombre de personnes sous le seuil de 50 % du revenu déclaré par UC médian national (France métropolitaine)";
+NPTP60_DEC_A14;"Nombre de personnes sous le seuil de 60 % du revenu déclaré par UC médian national (France métropolitaine)";
+NM_DEC_TSA_A14;"Nombre de ménages dont le revenu déclaré contient des traitements et salaires hors indemnités de chômage";
+NM_DEC_CHO_A14;"Nombre de ménages dont le revenu déclaré contient des indemnités de chômage";
+NM_DEC_PEN_A14;"Nombre de ménages dont le revenu déclaré contient des pensions, retraites et rentes";
+NM_DEC_BEN_A14;"Nombre de ménages dont le revenu déclaré contient des revenus d’activités non salariées";
+NM_DEC_AUT_A14;"Nombre de ménages dont le revenu déclaré contient des autres revenus";
+NP_DEC_TSA_A14;"Nombre de personnes dans les ménages dont le revenu déclaré contient des traitements et salaires hors indemnités de chômage";
+NP_DEC_CHO_A14;"Nombre de personnes dans les ménages dont le revenu déclaré contient des indemnités de chômage";
+NP_DEC_PEN_A14;"Nombre de personnes dans les ménages dont le revenu déclaré contient des pensions, retraites et rentes";
+NP_DEC_BEN_A14;"Nombre de personnes dans les ménages dont le revenu déclaré contient des revenus d’activités non salariées";
+NP_DEC_AUT_A14;"Nombre de personnes dans les ménages dont le revenu déclaré contient des autres revenus";
+DEC_NMIMP_A14;"Nombre de ménages imposés sur le revenu";
+DEC_NPIMP_A14;"Nombre de personnes dans les ménages imposés sur le revenu";
+DEC_PTSA_A14;"Part des salaires et traitements hors indemnités de chômage dans le revenu déclaré";
+DEC_PCHO_A14;"Part des indemnités de chômage dans le revenu déclaré";
+DEC_PPEN_A14;"Part des pensions, retraites et rentes dans le revenu déclaré";
+DEC_PBEN_A14;"Part des revenus d’activités non salariées dans le revenu déclaré";
+DEC_PAUT_A14;"Part des autres revenus dans le revenu déclaré";
+DEC_PMIMP_A14;"Part des ménages imposés sur le revenu";
+DECM_MO_A14;"Revenu déclaré par ménage : moyenne";
+TP40_DEC_A14;"Part de la population à bas revenus pour un seuil à 40 % du revenu déclaré par UC médian national (France métropolitaine)";
+TP50_DEC_A14;"Part de la population à bas revenus pour un seuil à 50 % du revenu déclaré par UC médian national (France métropolitaine)";
+TP60_DEC_A14;"Part de la population à bas revenus pour un seuil à 60 % du revenu déclaré par UC médian national (France métropolitaine)";
+DECUC_MO_A14;"Revenu déclaré par UC : moyenne";
+DECUC_ET_A14;"Revenu déclaré par UC : écart-type";
+DECUC_D1_A14;"Revenu déclaré par UC : décile 1";
+DECUC_D2_A14;"Revenu déclaré par UC : décile 2";
+DECUC_Q1_A14;"Revenu déclaré par UC : quartile 1";
+DECUC_D3_A14;"Revenu déclaré par UC : décile 3";
+DECUC_D4_A14;"Revenu déclaré par UC : décile 4";
+DECUC_Q2_A14;"Revenu déclaré par UC : médiane";
+DECUC_D6_A14;"Revenu déclaré par UC : décile 6";
+DECUC_D7_A14;"Revenu déclaré par UC : décile 7";
+DECUC_Q3_A14;"Revenu déclaré par UC : quartile 3";
+DECUC_D8_A14;"Revenu déclaré par UC : décile 8";
+DECUC_D9_A14;"Revenu déclaré par UC : décile 9";
+DECUC_S80S20_A14;"Revenu déclaré par UC : rapport S80/S20";
+TP60_DECUC_Q2_A14;"Revenu déclaré par UC pour les populations à bas revenus : médiane";
+TP60_DECUC_IP_A14;"Indicateur d’intensité des bas revenus déclarés";
+DECUC_GI_A14;"Revenu déclaré par UC : indice de Gini";
+TP60_DECUC_GI_A14;"Indice de Gini sur les revenus déclarés par UC des populations à bas revenus déclarés";
+TP60_DECUC_SEN_A14;"Indice de Sen du revenu déclaré par UC";
+
+
+
+"O_df1_dc_[zone géographique]_occtypr_a14"
+"Tables de revenu déclaré au niveau infra-communal, selon le statut d’occupation du logement"
+
+"Nom de la variable";Libellé;Modalités
+"[Zone geographique]";"IRIS ou QPV ";"Code IRIS - <a href='https://www.insee.fr/fr/information/2017499' target=""_blank""> cliquer ici</a>";"Code QPV - <a href='https://www.insee.fr/fr/statistiques/2500431?sommaire=2500477' target=""_blank""> cliquer ici</a>"
+occtypR;"Statut d'occupation du logement regroupé";"1 - Propriétaire";"2 - Locataire"
+NBMEN_A14;"Nombre de ménages fiscaux";
+NBUC_A14;"Nombre d'UC dans les ménages fiscaux";
+NBPERS_A14;"Nombre de personnes dans les ménages fiscaux";
+NM_DEC_A14;"Nombre de ménages dont le revenu déclaré est positif ou nul";
+NP_DEC_A14;"Nombre de personnes dans les ménages dont le revenu déclaré est positif ou nul";
+NUC_DEC_A14;"Nombre d'UC dans les ménages dont le revenu déclaré est positif ou nul /";
+NMTP40_DEC_A14;"Nombre de ménages sous le seuil de 40 % du revenu déclaré par UC médian national (France métropolitaine)";
+NMTP50_DEC_A14;"Nombre de ménages sous le seuil de 50 % du revenu déclaré par UC médian national (France métropolitaine)";
+NMTP60_DEC_A14;"Nombre de ménages sous le seuil de 60 % du revenu déclaré par UC médian national (France métropolitaine)";
+NPTP40_DEC_A14;"Nombre de personnes sous le seuil de 40 % du revenu déclaré par UC médian national (France métropolitaine)";
+NPTP50_DEC_A14;"Nombre de personnes sous le seuil de 50 % du revenu déclaré par UC médian national (France métropolitaine)";
+NPTP60_DEC_A14;"Nombre de personnes sous le seuil de 60 % du revenu déclaré par UC médian national (France métropolitaine)";
+DEC_PTSA_A14;"Part des salaires et traitements hors indemnités de chômage dans le revenu déclaré";
+DEC_PCHO_A14;"Part des indemnités de chômage dans le revenu déclaré";
+DEC_PPEN_A14;"Part des pensions, retraites et rentes dans le revenu déclaré";
+DEC_PBEN_A14;"Part des revenus d’activités non salariées dans le revenu déclaré";
+DEC_PAUT_A14;"Part des autres revenus dans le revenu déclaré";
+TP40_DEC_A14;"Part de la population à bas revenus pour un seuil à 40 % du revenu déclaré par UC médian national (France métropolitaine)";
+TP50_DEC_A14;"Part de la population à bas revenus pour un seuil à 50 % du revenu déclaré par UC médian national (France métropolitaine)";
+TP60_DEC_A14;"Part de la population à bas revenus pour un seuil à 60 % du revenu déclaré par UC médian national (France métropolitaine)";
+DECUC_D1_A14;"Revenu déclaré par UC : décile 1";
+DECUC_D2_A14;"Revenu déclaré par UC : décile 2";
+DECUC_Q1_A14;"Revenu déclaré par UC : quartile 1";
+DECUC_D3_A14;"Revenu déclaré par UC : décile 3";
+DECUC_D4_A14;"Revenu déclaré par UC : décile 4";
+DECUC_Q2_A14;"Revenu déclaré par UC : médiane";
+DECUC_D6_A14;"Revenu déclaré par UC : décile 6";
+DECUC_D7_A14;"Revenu déclaré par UC : décile 7";
+DECUC_Q3_A14;"Revenu déclaré par UC : quartile 3";
+DECUC_D8_A14;"Revenu déclaré par UC : décile 8";
+DECUC_D9_A14;"Revenu déclaré par UC : décile 9";
+DECUC_S80S20_A14;"Revenu déclaré par UC : rapport S80/S20";
+TP60_DECUC_Q2_A14;"Revenu déclaré par UC pour les populations à bas revenus : médiane";
+TP60_DECUC_IP_A14;"Indicateur d’intensité des bas revenus déclarés";
+DECUC_GI_A14;"Revenu déclaré par UC : indice de Gini";
+TP60_DECUC_GI_A14;"Indice de Gini sur les revenus déclarés par UC des populations à bas revenus déclarés";
+TP60_DECUC_SEN_A14;"Indice de Sen du revenu déclaré par UC";
+
+
+
+"O_df1_dc_[zone géographique]_oprdec_a14"
+"Tables de revenu déclaré au niveau infra-communal, selon l’origine des revenus déclarés"
+
+"Nom de la variable";Libellé;Modalités
+"[Zone geographique]";"IRIS ou QPV";"Code IRIS - <a href='https://www.insee.fr/fr/information/2017499' target=""_blank""> cliquer ici</a>";"Code QPV - <a href='https://www.insee.fr/fr/statistiques/2500431?sommaire=2500477' target=""_blank""> cliquer ici</a>"
+oprdec;"Origine principale des revenus déclarés";"1 - Salaires et traitements hors indemnités de chômage";"2 - Indemnités de chômage";"3 - Revenus des activités non salariées";"4 - Pensions, retraites et rentes";"5 - Autres revenus";"6 - Revenus déclarés nuls sur le champ des revenus déclarés ou revenus déclarés négatifs ou nuls sur le champ des revenus disponibles"
+NBMEN_A14;"Nombre de ménages fiscaux";
+NBUC_A14;"Nombre d'UC dans les ménages fiscaux";
+NBPERS_A14;"Nombre de personnes dans les ménages fiscaux";
+NM_DEC_A14;"Nombre de ménages dont le revenu déclaré est positif ou nul";
+NP_DEC_A14;"Nombre de personnes dans les ménages dont le revenu déclaré est positif ou nul";
+NUC_DEC_A14;"Nombre d'UC dans les ménages dont le revenu déclaré est positif ou nul /";
+NMTP40_DEC_A14;"Nombre de ménages sous le seuil de 40 % du revenu déclaré par UC médian national (France métropolitaine)";
+NMTP50_DEC_A14;"Nombre de ménages sous le seuil de 50 % du revenu déclaré par UC médian national (France métropolitaine)";
+NMTP60_DEC_A14;"Nombre de ménages sous le seuil de 60 % du revenu déclaré par UC médian national (France métropolitaine)";
+NPTP40_DEC_A14;"Nombre de personnes sous le seuil de 40 % du revenu déclaré par UC médian national (France métropolitaine)";
+NPTP50_DEC_A14;"Nombre de personnes sous le seuil de 50 % du revenu déclaré par UC médian national (France métropolitaine)";
+NPTP60_DEC_A14;"Nombre de personnes sous le seuil de 60 % du revenu déclaré par UC médian national (France métropolitaine)";
+DEC_PTSA_A14;"Part des salaires et traitements hors indemnités de chômage dans le revenu déclaré";
+DEC_PCHO_A14;"Part des indemnités de chômage dans le revenu déclaré";
+DEC_PPEN_A14;"Part des pensions, retraites et rentes dans le revenu déclaré";
+DEC_PBEN_A14;"Part des revenus d’activités non salariées dans le revenu déclaré";
+DEC_PAUT_A14;"Part des autres revenus dans le revenu déclaré";
+TP40_DEC_A14;"Part de la population à bas revenus pour un seuil à 40 % du revenu déclaré par UC médian national (France métropolitaine)";
+TP50_DEC_A14;"Part de la population à bas revenus pour un seuil à 50 % du revenu déclaré par UC médian national (France métropolitaine)";
+TP60_DEC_A14;"Part de la population à bas revenus pour un seuil à 60 % du revenu déclaré par UC médian national (France métropolitaine)";
+DECUC_D1_A14;"Revenu déclaré par UC : décile 1";
+DECUC_D2_A14;"Revenu déclaré par UC : décile 2";
+DECUC_Q1_A14;"Revenu déclaré par UC : quartile 1";
+DECUC_D3_A14;"Revenu déclaré par UC : décile 3";
+DECUC_D4_A14;"Revenu déclaré par UC : décile 4";
+DECUC_Q2_A14;"Revenu déclaré par UC : médiane";
+DECUC_D6_A14;"Revenu déclaré par UC : décile 6";
+DECUC_D7_A14;"Revenu déclaré par UC : décile 7";
+DECUC_Q3_A14;"Revenu déclaré par UC : quartile 3";
+DECUC_D8_A14;"Revenu déclaré par UC : décile 8";
+DECUC_D9_A14;"Revenu déclaré par UC : décile 9";
+DECUC_S80S20_A14;"Revenu déclaré par UC : rapport S80/S20";
+TP60_DECUC_Q2_A14;"Revenu déclaré par UC pour les populations à bas revenus : médiane";
+TP60_DECUC_IP_A14;"Indicateur d’intensité des bas revenus déclarés";
+DECUC_GI_A14;"Revenu déclaré par UC : indice de Gini";
+TP60_DECUC_GI_A14;"Indice de Gini sur les revenus déclarés par UC des populations à bas revenus déclarés";
+TP60_DECUC_SEN_A14;"Indice de Sen du revenu déclaré par UC";
+
+
+
+"O_df1_dc_[zone géographique]_taillem_a14"
+"Tables de revenu déclaré au niveau infra-communal, selon la taille du ménage"
+
+"Nom de la variable";Libellé;Modalités
+"[Zone geographique]";"IRIS ou QPV";"Code IRIS - <a href='https://www.insee.fr/fr/information/2017499' target=""_blank""> cliquer ici</a>";"Code QPV - <a href='https://www.insee.fr/fr/statistiques/2500431?sommaire=2500477' target=""_blank""> cliquer ici</a>"
+taillem;"Taille du ménage";"1 - 1 personne";"2 - 2 personnes";"3 - 3 personnes";"4 - 4 personnes";"5 - 5 personnes et plus"
+NBMEN_A14;"Nombre de ménages fiscaux";
+NBUC_A14;"Nombre d'UC dans les ménages fiscaux";
+NBPERS_A14;"Nombre de personnes dans les ménages fiscaux";
+NM_DEC_A14;"Nombre de ménages dont le revenu déclaré est positif ou nul";
+NP_DEC_A14;"Nombre de personnes dans les ménages dont le revenu déclaré est positif ou nul";
+NUC_DEC_A14;"Nombre d'UC dans les ménages dont le revenu déclaré est positif ou nul /";
+NMTP40_DEC_A14;"Nombre de ménages sous le seuil de 40 % du revenu déclaré par UC médian national (France métropolitaine)";
+NMTP50_DEC_A14;"Nombre de ménages sous le seuil de 50 % du revenu déclaré par UC médian national (France métropolitaine)";
+NMTP60_DEC_A14;"Nombre de ménages sous le seuil de 60 % du revenu déclaré par UC médian national (France métropolitaine)";
+NPTP40_DEC_A14;"Nombre de personnes sous le seuil de 40 % du revenu déclaré par UC médian national (France métropolitaine)";
+NPTP50_DEC_A14;"Nombre de personnes sous le seuil de 50 % du revenu déclaré par UC médian national (France métropolitaine)";
+NPTP60_DEC_A14;"Nombre de personnes sous le seuil de 60 % du revenu déclaré par UC médian national (France métropolitaine)";
+DEC_PTSA_A14;"Part des salaires et traitements hors indemnités de chômage dans le revenu déclaré";
+DEC_PCHO_A14;"Part des indemnités de chômage dans le revenu déclaré";
+DEC_PPEN_A14;"Part des pensions, retraites et rentes dans le revenu déclaré";
+DEC_PBEN_A14;"Part des revenus d’activités non salariées dans le revenu déclaré";
+DEC_PAUT_A14;"Part des autres revenus dans le revenu déclaré";
+TP40_DEC_A14;"Part de la population à bas revenus pour un seuil à 40 % du revenu déclaré par UC médian national (France métropolitaine)";
+TP50_DEC_A14;"Part de la population à bas revenus pour un seuil à 50 % du revenu déclaré par UC médian national (France métropolitaine)";
+TP60_DEC_A14;"Part de la population à bas revenus pour un seuil à 60 % du revenu déclaré par UC médian national (France métropolitaine)";
+DECUC_D1_A14;"Revenu déclaré par UC : décile 1";
+DECUC_D2_A14;"Revenu déclaré par UC : décile 2";
+DECUC_Q1_A14;"Revenu déclaré par UC : quartile 1";
+DECUC_D3_A14;"Revenu déclaré par UC : décile 3";
+DECUC_D4_A14;"Revenu déclaré par UC : décile 4";
+DECUC_Q2_A14;"Revenu déclaré par UC : médiane";
+DECUC_D6_A14;"Revenu déclaré par UC : décile 6";
+DECUC_D7_A14;"Revenu déclaré par UC : décile 7";
+DECUC_Q3_A14;"Revenu déclaré par UC : quartile 3";
+DECUC_D8_A14;"Revenu déclaré par UC : décile 8";
+DECUC_D9_A14;"Revenu déclaré par UC : décile 9";
+DECUC_S80S20_A14;"Revenu déclaré par UC : rapport S80/S20";
+TP60_DECUC_Q2_A14;"Revenu déclaré par UC pour les populations à bas revenus : médiane";
+TP60_DECUC_IP_A14;"Indicateur d’intensité des bas revenus déclarés";
+DECUC_GI_A14;"Revenu déclaré par UC : indice de Gini";
+TP60_DECUC_GI_A14;"Indice de Gini sur les revenus déclarés par UC des populations à bas revenus déclarés";
+TP60_DECUC_SEN_A14;"Indice de Sen du revenu déclaré par UC";
+
+
+
+"O_df1_dc_[zone géographique]_tragerf_a14"
+"Tables de revenu déclaré au niveau infra-communal, selon la tranche d’âge du référent fiscal"
+
+"Nom de la variable";Libellé;Modalités
+"[Zone geographique]";"IRIS ou QPV";"Code IRIS - <a href='https://www.insee.fr/fr/information/2017499' target=""_blank""> cliquer ici</a>";"Code QPV - <a href='https://www.insee.fr/fr/statistiques/2500431?sommaire=2500477' target=""_blank""> cliquer ici</a>"
+trageRF;"Tranche d'âge du référent fiscal";"1 - Moins de 30 ans";"2 - 30-39 ans";"3 - 40-49 ans";"4 - 50-59 ans";"5 - 60-74 ans";"6 - 75 ans et plus"
+NBMEN_A14;"Nombre de ménages fiscaux";
+NBUC_A14;"Nombre d'UC dans les ménages fiscaux";
+NBPERS_A14;"Nombre de personnes dans les ménages fiscaux";
+NM_DEC_A14;"Nombre de ménages dont le revenu déclaré est positif ou nul";
+NP_DEC_A14;"Nombre de personnes dans les ménages dont le revenu déclaré est positif ou nul";
+NUC_DEC_A14;"Nombre d'UC dans les ménages dont le revenu déclaré est positif ou nul /";
+NMTP40_DEC_A14;"Nombre de ménages sous le seuil de 40 % du revenu déclaré par UC médian national (France métropolitaine)";
+NMTP50_DEC_A14;"Nombre de ménages sous le seuil de 50 % du revenu déclaré par UC médian national (France métropolitaine)";
+NMTP60_DEC_A14;"Nombre de ménages sous le seuil de 60 % du revenu déclaré par UC médian national (France métropolitaine)";
+NPTP40_DEC_A14;"Nombre de personnes sous le seuil de 40 % du revenu déclaré par UC médian national (France métropolitaine)";
+NPTP50_DEC_A14;"Nombre de personnes sous le seuil de 50 % du revenu déclaré par UC médian national (France métropolitaine)";
+NPTP60_DEC_A14;"Nombre de personnes sous le seuil de 60 % du revenu déclaré par UC médian national (France métropolitaine)";
+DEC_PTSA_A14;"Part des salaires et traitements hors indemnités de chômage dans le revenu déclaré";
+DEC_PCHO_A14;"Part des indemnités de chômage dans le revenu déclaré";
+DEC_PPEN_A14;"Part des pensions, retraites et rentes dans le revenu déclaré";
+DEC_PBEN_A14;"Part des revenus d’activités non salariées dans le revenu déclaré";
+DEC_PAUT_A14;"Part des autres revenus dans le revenu déclaré";
+TP40_DEC_A14;"Part de la population à bas revenus pour un seuil à 40 % du revenu déclaré par UC médian national (France métropolitaine)";
+TP50_DEC_A14;"Part de la population à bas revenus pour un seuil à 50 % du revenu déclaré par UC médian national (France métropolitaine)";
+TP60_DEC_A14;"Part de la population à bas revenus pour un seuil à 60 % du revenu déclaré par UC médian national (France métropolitaine)";
+DECUC_D1_A14;"Revenu déclaré par UC : décile 1";
+DECUC_D2_A14;"Revenu déclaré par UC : décile 2";
+DECUC_Q1_A14;"Revenu déclaré par UC : quartile 1";
+DECUC_D3_A14;"Revenu déclaré par UC : décile 3";
+DECUC_D4_A14;"Revenu déclaré par UC : décile 4";
+DECUC_Q2_A14;"Revenu déclaré par UC : médiane";
+DECUC_D6_A14;"Revenu déclaré par UC : décile 6";
+DECUC_D7_A14;"Revenu déclaré par UC : décile 7";
+DECUC_Q3_A14;"Revenu déclaré par UC : quartile 3";
+DECUC_D8_A14;"Revenu déclaré par UC : décile 8";
+DECUC_D9_A14;"Revenu déclaré par UC : décile 9";
+DECUC_S80S20_A14;"Revenu déclaré par UC : rapport S80/S20";
+TP60_DECUC_Q2_A14;"Revenu déclaré par UC pour les populations à bas revenus : médiane";
+TP60_DECUC_IP_A14;"Indicateur d’intensité des bas revenus déclarés";
+DECUC_GI_A14;"Revenu déclaré par UC : indice de Gini";
+TP60_DECUC_GI_A14;"Indice de Gini sur les revenus déclarés par UC des populations à bas revenus déclarés";
+TP60_DECUC_SEN_A14;"Indice de Sen du revenu déclaré par UC";
+
+
+
+"O_df1_dc_[zone géographique]_trdec_a14"
+"Tables de revenu déclaré au niveau infra-communal, selon la tranche de revenus"
+
+"Nom de la variable";Libellé;Modalités
+"[Zone geographique]";"IRIS ou QPV";"Code IRIS - <a href='https://www.insee.fr/fr/information/2017499' target=""_blank""> cliquer ici</a>";"Code QPV - <a href='https://www.insee.fr/fr/statistiques/2500431?sommaire=2500477' target=""_blank""> cliquer ici</a>"
+decile_dec;"Tranche de revenu déclaré par UC dans laquelle se trouve le ménage (découpage : déciles)";"1 - Revenus déclarés/disponibles par UC inférieurs au 1er décile";"2 - Revenus déclarés/disponibles par UC compris entre D1 et D2";"3 - Revenus déclarés/disponibles par UC compris entre D2 et D3";"4 - Revenus déclarés/disponibles par UC compris entre D3 et D4";"5 - Revenus déclarés/disponibles par UC compris entre D4 et D5";"6 - Revenus déclarés/disponibles par UC compris entre D5 et D6";"7 - Revenus déclarés/disponibles par UC compris entre D6 et D7";"8 - Revenus déclarés/disponibles par UC compris entre D7 et D8";"9 - Revenus déclarés/disponibles par UC compris entre D8 et D9";"10 - Revenus déclarés/disponibles par UC supérieurs au 9ème décile"
+NM_DEC_A14;"Nombre de ménages dont le revenu déclaré est positif ou nul";
+NP_DEC_A14;"Nombre de personnes dans les ménages dont le revenu déclaré est positif ou nul";
+DEC_PTSA_A14;"Part des salaires et traitements hors indemnités de chômage dans le revenu déclaré";
+DEC_PCHO_A14;"Part des indemnités de chômage dans le revenu déclaré";
+DEC_PPEN_A14;"Part des pensions, retraites et rentes dans le revenu déclaré";
+DEC_PBEN_A14;"Part des revenus d’activités non salariées dans le revenu déclaré";
+DEC_PAUT_A14;"Part des autres revenus dans le revenu déclaré";
+
+
+
+"O_df1_dc_[zone géographique]_typmenr_a14"
+"Tables de revenu déclaré au niveau infra-communal, selon le type de ménage"
+
+"Nom de la variable";Libellé;Modalités
+"[Zone geographique]";"IRIS ou QPV";"Code IRIS - <a href='https://www.insee.fr/fr/information/2017499' target=""_blank""> cliquer ici</a>";"Code QPV - <a href='https://www.insee.fr/fr/statistiques/2500431?sommaire=2500477' target=""_blank""> cliquer ici</a>"
+typmenR;"Type de ménage regroupé";"1 - Homme seul";"2 - Femme seul";"3 - Couple sans enfant";"4 - Couple avec enfant(s)";"5 - Famille monoparentale";"6 - Ménage complexe"
+NBMEN_A14;"Nombre de ménages fiscaux";
+NBUC_A14;"Nombre d'UC dans les ménages fiscaux";
+NBPERS_A14;"Nombre de personnes dans les ménages fiscaux";
+NM_DEC_A14;"Nombre de ménages dont le revenu déclaré est positif ou nul";
+NP_DEC_A14;"Nombre de personnes dans les ménages dont le revenu déclaré est positif ou nul";
+NUC_DEC_A14;"Nombre d'UC dans les ménages dont le revenu déclaré est positif ou nul /";
+NMTP40_DEC_A14;"Nombre de ménages sous le seuil de 40 % du revenu déclaré par UC médian national (France métropolitaine)";
+NMTP50_DEC_A14;"Nombre de ménages sous le seuil de 50 % du revenu déclaré par UC médian national (France métropolitaine)";
+NMTP60_DEC_A14;"Nombre de ménages sous le seuil de 60 % du revenu déclaré par UC médian national (France métropolitaine)";
+NPTP40_DEC_A14;"Nombre de personnes sous le seuil de 40 % du revenu déclaré par UC médian national (France métropolitaine)";
+NPTP50_DEC_A14;"Nombre de personnes sous le seuil de 50 % du revenu déclaré par UC médian national (France métropolitaine)";
+NPTP60_DEC_A14;"Nombre de personnes sous le seuil de 60 % du revenu déclaré par UC médian national (France métropolitaine)";
+DEC_PTSA_A14;"Part des salaires et traitements hors indemnités de chômage dans le revenu déclaré";
+DEC_PCHO_A14;"Part des indemnités de chômage dans le revenu déclaré";
+DEC_PPEN_A14;"Part des pensions, retraites et rentes dans le revenu déclaré";
+DEC_PBEN_A14;"Part des revenus d’activités non salariées dans le revenu déclaré";
+DEC_PAUT_A14;"Part des autres revenus dans le revenu déclaré";
+TP40_DEC_A14;"Part de la population à bas revenus pour un seuil à 40 % du revenu déclaré par UC médian national (France métropolitaine)";
+TP50_DEC_A14;"Part de la population à bas revenus pour un seuil à 50 % du revenu déclaré par UC médian national (France métropolitaine)";
+TP60_DEC_A14;"Part de la population à bas revenus pour un seuil à 60 % du revenu déclaré par UC médian national (France métropolitaine)";
+DECUC_D1_A14;"Revenu déclaré par UC : décile 1";
+DECUC_D2_A14;"Revenu déclaré par UC : décile 2";
+DECUC_Q1_A14;"Revenu déclaré par UC : quartile 1";
+DECUC_D3_A14;"Revenu déclaré par UC : décile 3";
+DECUC_D4_A14;"Revenu déclaré par UC : décile 4";
+DECUC_Q2_A14;"Revenu déclaré par UC : médiane";
+DECUC_D6_A14;"Revenu déclaré par UC : décile 6";
+DECUC_D7_A14;"Revenu déclaré par UC : décile 7";
+DECUC_Q3_A14;"Revenu déclaré par UC : quartile 3";
+DECUC_D8_A14;"Revenu déclaré par UC : décile 8";
+DECUC_D9_A14;"Revenu déclaré par UC : décile 9";
+DECUC_S80S20_A14;"Revenu déclaré par UC : rapport S80/S20";
+TP60_DECUC_Q2_A14;"Revenu déclaré par UC pour les populations à bas revenus : médiane";
+TP60_DECUC_IP_A14;"Indicateur d’intensité des bas revenus déclarés";
+DECUC_GI_A14;"Revenu déclaré par UC : indice de Gini";
+TP60_DECUC_GI_A14;"Indice de Gini sur les revenus déclarés par UC des populations à bas revenus déclarés";
+TP60_DECUC_SEN_A14;"Indice de Sen du revenu déclaré par UC";
+
+
+
+menages14_part1
+"Fichier détail apuré divisé en 4 parties"
+
+"Nom de la variable";Libellé;Modalités
+IDENTIFIANT;Identifiant;
+depcom;"Code commune ou arrondissement municipal";"Code officiel géographique au 1er janvier 2014 - <a href='https://www.insee.fr/fr/information/2560563' target=""_blank""> cliquer ici</a>"
+REG;"Région (ancien découpage)";"Code officiel géographique au 1er janvier 2014 - <a href='https://www.insee.fr/fr/information/2560563' target=""_blank""> cliquer ici</a>"
+REG16;"Région (découpage entré en vigueur au 1er janvier 2016)";"Code officiel géographique au 1er janvier 2014 - <a href='https://www.insee.fr/fr/information/2560563' target=""_blank""> cliquer ici</a>"
+MET_DOM;"France métropolitaine / DOM";"M - Métropole";"D - DOM";"' ' - Hors champ de diffusion"
+COM_ENT;Commune;"Code officiel géographique au 1er janvier 2014 - <a href='https://www.insee.fr/fr/information/2560563' target=""_blank""> cliquer ici</a>"
+ARR;Arrondissement;"Code officiel géographique au 1er janvier 2014 - <a href='https://www.insee.fr/fr/information/2560563' target=""_blank""> cliquer ici</a>"
+AU10;"Aire urbaine 2010";"Codage base des aires urbaines - <a href='https://www.insee.fr/fr/information/2115011' target=""_blank""> cliquer ici</a>"
+UU10;"Unité urbaine 2010";"Codage Base des unités urbaines - <a href='https://www.insee.fr/fr/information/2115018' target=""_blank""> cliquer ici</a>"
+RZE10;"Fraction régionale des zones d'emploi 2010";"Codage Base des zones d'emploi - <a href='https://www.insee.fr/fr/information/2114596' target=""_blank""> cliquer ici</a>"
+ZE10;"Zone d'emploi 2010";"Codage Base des zones d'emploi - <a href='https://www.insee.fr/fr/information/2114596' target=""_blank""> cliquer ici</a>"
+BV12;"Bassin de vie 2012";"Codage Base des bassins de vie - <a href='https://www.insee.fr/fr/information/2115016' target=""_blank""> cliquer ici</a>"
+CATAEU10;"Catégorie de la commune dans le zonage en aires urbaines 2010";"111 - Commune appartenant à un grand pôle (10 000 emplois ou plus)";"112 - Commune appartenant à la couronne d’un grand pôle";"120 - Commune multipolarisée des grandes aires urbaines";"211 - Commune appartenant à un moyen pôle (5 000 à moins de 10 000 emplois)";"212 - Commune appartenant à la couronne d’un moyen pôle";"221 - Commune appartenant à un petit pôle (de 1 500 à moins de 5 000 emplois)";"222 - Commune appartenant à la couronne d’un petit pôle";"300 - Autre commune multipolarisée";"400 - Commune isolée hors influence des pôles";"'' - Hors champ de diffusion"
+CV15;"Canton ou ville 2015";"Canton ou ville 2015 - <a href='https://www.insee.fr/fr/metadonnees/definition/c1725' target=""_blank""> cliquer ici</a>"
+EPCI15;"EPCI au 1er janvier 2015";"Code EPCI - <a href='https://www.insee.fr/fr/information/2510634' target=""_blank""> cliquer ici</a>"
+EPCI16;"EPCI au 1er janvier 2016";"Code EPCI - <a href='https://www.insee.fr/fr/information/2510634' target=""_blank""> cliquer ici</a>"
+PAYS;Pays;"Code officiel géographique au 1er janvier 2014 - <a href='https://www.insee.fr/fr/information/2560563' target=""_blank""> cliquer ici</a>"
+PLM_ARM;"Arrondissement municipal (pour Paris, Lyon et Marseille)";"Code officiel géographique au 1er janvier 2014 - <a href='https://www.insee.fr/fr/information/2560563' target=""_blank""> cliquer ici</a>"
+PROV;"Île-de-France - Province";"1 - Île-de-France";"2 - Province";"' ' - Hors France Métropolitaine"
+R16CATAEU10;"Croisement de la région 2016 avec la catégorie de la commune dans le zonage en aire urbaine 2010 (avec XX = code région)";"XX111 - Commune appartenant à un grand pôle (10 000 emplois ou plus)";"XX112 - Commune appartenant à la couronne d’un grand pôle";"XX120 - Commune multipolarisée des grandes aires urbaines";"XX211 - Commune appartenant à un moyen pôle (5 000 à moins de 10 000 emplois)";"XX212 - Commune appartenant à la couronne d’un moyen pôle";"XX221 - Commune appartenant à un petit pôle (de 1 500 à moins de 5 000 emplois)";"XX222 - Commune appartenant à la couronne d’un petit pôle";"XX300 - Autre commune multipolarisée";"XX400 - Commune isolée hors influence des pôles";"'' - Hors champ de diffusion"
+RCATAEU10;"Croisement de la région avec la catégorie de la commune dans le zonage en aire urbaine 2010 (avec XX = code région)";"XX111 - Commune appartenant à un grand pôle (10 000 emplois ou plus)";"XX112 - Commune appartenant à la couronne d’un grand pôle";"XX120 - Commune multipolarisée des grandes aires urbaines";"XX211 - Commune appartenant à un moyen pôle (5 000 à moins de 10 000 emplois)";"XX212 - Commune appartenant à la couronne d’un moyen pôle";"XX221 - Commune appartenant à un petit pôle (de 1 500 à moins de 5 000 emplois)";"XX222 - Commune appartenant à la couronne d’un petit pôle";"XX300 - Autre commune multipolarisée";"XX400 - Commune isolée hors influence des pôles";"'' - Hors champ de diffusion"
+qp;"Quartier Politique de la ville";"Code QP - <a href='https://www.insee.fr/fr/statistiques/2500431?sommaire=2500477' target=""_blank""> cliquer ici</a>"
+iris;IRIS;"Code IRIS - <a href='https://www.insee.fr/fr/information/2017499' target=""_blank""> cliquer ici</a>"
+statut;"Statut de l'IRIS";"0 - IRIS dans le champ de production de Filosofi";"1 - Code IRIS non renseigné car le ménage géolocalisé est en dehors de la commune";"2 - IRIS exclu car dans une commune de 5 000 à 10 000 habitants (hors RIL)";"3 - IRIS exclu car de moins de 1 000 personnes fiscales";"4 - IRIS exclu car la part des communautés dans la population dépasse 50 %";"5 - IRIS exclu en raison d'un doute sur la qualité de la géolocalisation par comparaison avec le RP"
+qva;"Quartier de Veille Active";"Code QVA - <a href='https://www.data.gouv.fr/datasets/quartiers-de-veille-active/' target=""_blank""> cliquer ici</a>"
+x;"Coordonnée x du lieu de résidence géolocalisé.";
+y;"Coordonnée y du lieu de résidence géolocalisé.";
+occtypR;"Statut d'occupation du logement regroupé";"1 - Propriétaire";"2 - Locataire"
+taillem;"Taille du ménage";"1 - 1 personne";"2 - 2 personnes";"3 - 3 personnes";"4 - 4 personnes";"5 - 5 personnes et plus"
+trageRF;"Tranche d'âge du référent fiscal";"1 - Moins de 30 ans";"2 - 30-39 ans";"3 - 40-49 ans";"4 - 50-59 ans";"5 - 60-74 ans";"6 - 75 ans et plus"
+typmend;"Type de ménage détaillé";"11 - Homme seul sans enfant";"12 - Femme seule sans enfant";"21 - Famille monoparentale avec 1 enfant";"22 - Famille monoparentale avec 2 enfants";"23 - Famille monoparentale avec 3 enfants ou plus";"30 - Couple sans enfant";"31 - Couple avec 1 enfant";"32 - Couple avec 2 enfants";"33 - Couple avec 3 enfants ou plus";"40 - Ménage complexe"
+typmenR;"Type de ménage regroupé";"1 - Homme seul";"2 - Femme seul";"3 - Couple sans enfant";"4 - Couple avec enfant(s)";"5 - Famille monoparentale";"6 - Ménage complexe"
+oprdec;"Origine principale des revenus déclarés";"1 - Salaires et traitements hors indemnités de chômage";"2 - Indemnités de chômage";"3 - Revenus des activités non salariées";"4 - Pensions, retraites et rentes";"5 - Autres revenus";"6 - Revenus déclarés nuls sur le champ des revenus déclarés ou revenus déclarés négatifs ou nuls sur le champ des revenus disponibles"
+inf14m;"Nombre de personnes de moins de 14 ans";
+sup14m;"Nombre de personnes de 14 ans ou plus";
+nbpersm;"Nombre de personnes dans le ménage";
+nberam;"Nombre d'enfants en garde alternée";
+gardem;"Montant des frais de garde d'enfant(s) de moins de 6 ans";
+zalrm;"Pensions alimentaires perçues";
+zalvm;"Pensions alimentaires versées";
+zetrm;"Revenus perçus et imposés à l'étranger (impôt déduit)";
+zperm;"Pensions et retraites, y compris rentes viagères";
+zretm;"Pensions et retraites, hors rentes viagères";
+zrstm;"Pensions et retraites au sens strict";
+zpim;"Pensions d'invalidité connues du ménage";
+csgimpm;"Montant total de CSG imputé";
+crdsm;"Montant total de CRDS";
+csgdm;"Montant total de CSG déductible";
+csgim;"Montant total de CSG imposable";
+logtm;"Montant annuel versé pour les prestations logement";
+pfamm;"Montant annuel versé pour les prestations familiales";
+ageRF;"Âge du référent fiscal, sans imputation";
+sexeRF;"Sexe du référent fiscal du ménage";"1 - Homme";"2 - Femme"
+NBFOYM;"Nombre de foyer(s) du ménage";
+typmen;"Type de ménage";"11 - Homme seul";"12 - Femme seul";"21 - Homme avec enfant(s)";"22 - Femme avec enfant(s)";"30 - Couple sans enfant";"31 - Couple avec 1 enfant";"32 - Couple avec 2 enfants";"33 - Couple avec 3 enfants";"34 - Couple avec plus de 3 enfants";"70 - Ménage complexe"
+nbpac;"Nombre total de personnes à charge";
+typmen9;"Type de ménage";"11 - Homme seul";"12 - Femme seule";"21 - Famille monoparentale avec 1 enfant";"22 - Famille monoparentale 2 enfants ou plus";"30 - Couple sans enfant";"41 - Couple avec 1 enfant";"42 - Couple avec 2 enfants";"43 - Couple avec 3 enfants ou plus";"50 - Ménage complexe";"99 - Autre"
+minim;"Montant annuel versé pour les minima sociaux";
+psocm;"Montant annuel versé pour toutes les prestations";
+nb_UC;"Nombre d'unités de consommation";
+revdecm;"Revenu déclaré (avant imputation des revenus financiers)";
+revperm;"Revenu perçu après imputation des revenus financiers";
+revdispm;"Revenu disponible";
+revinim;"Revenu initial après imputation des revenus financiers";
+nivviem;"Niveau de vie";
+i_champm;"Indicatrice d'appartenance au champ ERFS";
+TU10;"Tranche d'unité urbaine du ménage";"0 - Commune rurale";"1 - Commune appartenant à une unité urbaine de 2 000 à 4 999 habitants";"2 - Commune appartenant à une unité urbaine de 5 000 à 9 999 habitants";"3 - Commune appartenant à une unité urbaine de 10 000 à 19 999 habitants";"4 - Commune appartenant à une unité urbaine de 20 000 à 49 999 habitants";"5 - Commune appartenant à une unité urbaine de 50 000 à 99 999 habitants";"6 - Commune appartenant à une unité urbaine de 100 000 à 199 999 habitants";"7 - Commune appartenant à une unité urbaine de 200 000 à 1 999 999 habitants";"8 - Commune appartenant à l'unité urbaine de Paris"
+centile;"Centile de niveau de vie du ménage";
+zchom;"Montant des indemnités de chômage";
+zimpom;"Montant de l'impôt sur les revenus (sans les plus-values imposables au barème), après changement de millésime";
+zpenm;"Montant des pensions, retraites et rentes, nettes des pensions versées";
+zsalm;"Montant des salaires et traitements";
+revdecucm;"Revenu déclaré par UC";
+P50_REG_DC;"Médiane du revenu déclaré par UC dans la région du ménage (ancien découpage régional)";
+P50_REG16_DC;"Médiane du revenu déclaré par UC dans la région du ménage (découpage régional 2016)";
+decile_dec;"Tranche de revenu déclaré par UC dans laquelle se trouve le ménage (découpage : déciles métropolitains)";"1 - Revenus déclarés/disponibles par UC inférieurs au 1er décile";"2 - Revenus déclarés/disponibles par UC compris entre D1 et D2";"3 - Revenus déclarés/disponibles par UC compris entre D2 et D3";"4 - Revenus déclarés/disponibles par UC compris entre D3 et D4";"5 - Revenus déclarés/disponibles par UC compris entre D4 et D5";"6 - Revenus déclarés/disponibles par UC compris entre D5 et D6";"7 - Revenus déclarés/disponibles par UC compris entre D6 et D7";"8 - Revenus déclarés/disponibles par UC compris entre D7 et D8";"9 - Revenus déclarés/disponibles par UC compris entre D8 et D9";"10 - Revenus déclarés/disponibles par UC supérieurs au 9ème décile"
+zrenm;"Montant des revenus des activités non salariées";
+zautm;"Montant des autres revenus dans le revenu déclaré";
+i_basrevenu60;"Indicatrice d'appartenance à la catégorie des ménages à bas revenus au seuil de 60%";
+i_basrevenu50;"Indicatrice d'appartenance à la catégorie des ménages à bas revenus au seuil de 50%";
+i_basrevenu40;"Indicatrice d'appartenance à la catégorie des ménages à bas revenus au seuil de 40%";
+NBPERS_D1_DC;"Nombre de personnes du ménage si revenu déclaré par UC entre 0 (inclus) et D1 (exclu), 0 sinon";
+NBPERS_D2_DC;"Nombre de personnes du ménage si revenu déclaré par UC entre D1 (inclus) et D2 (exclu), 0 sinon";
+NBPERS_D3_DC;"Nombre de personnes du ménage si revenu déclaré par UC entre D2 (inclus) et D3 (exclu), 0 sinon";
+NBPERS_D4_DC;"Nombre de personnes du ménage si revenu déclaré par UC entre D3 (inclus) et D4 (exclu), 0 sinon";
+NBPERS_D5_DC;"Nombre de personnes du ménage si revenu déclaré par UC entre D4 (inclus) et D5 (exclu), 0 sinon";
+NBPERS_D6_DC;"Nombre de personnes du ménage si revenu déclaré par UC entre D5 (inclus) et D6 (exclu), 0 sinon";
+NBPERS_D7_DC;"Nombre de personnes du ménage si revenu déclaré par UC entre D6 (inclus) et D7 (exclu), 0 sinon";
+NBPERS_D8_DC;"Nombre de personnes du ménage si revenu déclaré par UC entre D7 (inclus) et D8 (exclu), 0 sinon";
+NBPERS_D9_DC;"Nombre de personnes du ménage si revenu déclaré par UC entre D8 (inclus) et D9 (exclu), 0 sinon";
+NBPERS_D10_DC;"Nombre de personnes du ménage si revenu déclaré par UC supérieur ou égal à D9, 0 sinon";
+i_qp;"Indicatrice (0/1) de résidence dans un QP";
+nbenf0_2;"Nombre d'enfant(s) de moins de 3 ans dans le ménage";
+nbenf0_17;"Nombre d'enfant(s) de moins de 18 ans dans le ménage";
+RD_salchom;"Montant des salaires et indemnités de chômage (bruts de CSG)";
+RD_revind;"Montant des revenus des activités non salariées (bruts de CSG)";
+RD_pensret;"Montant des pensions et retraites (brutes de CSG)";
+RD_revpat;"Montant des revenus du patrimoine et autres revenus";
+RD_pfam;"Montant des prestations familiales (brutes de CRDS)";
+RD_logt;"Montant des prestations logement (brutes de CRDS)";
+RD_minim;"Montant des minima sociaux (bruts de CRDS)";
+RD_psoc;"Montant de l'ensemble des prestations sociales (brutes de CRDS)";
+RD_impots;"Montant des impôts directs";
+nivvieavimp;"Revenu disponible par UC avant impôts";
+revdecprodfin_ucm;"Revenu par UC des ménages avant impact du système socio-fiscal";
+P50_REG_DP;"Médiane du revenu disponible par UC dans la région du ménage (ancien découpage régional)";
+P50_REG16_DP;"Médiane du revenu disponible par UC dans la région du ménage (découpage régional 2016)";
+decile_nivvie;"Tranche de niveau de vie dans laquelle se trouve le ménage (découpage : déciles métropolitains)";
+i_pauvre60;"Indicatrice d'appartenance à la catégorie des ménages pauvres au seuil de 60%";
+i_pauvre50;"Indicatrice d'appartenance à la catégorie des ménages pauvres au seuil de 50%";
+i_pauvre40;"Indicatrice d'appartenance à la catégorie des ménages pauvres au seuil de 40%";
+i_ip_mini;"Indicatrice (0/1) des ménages pauvres et bénéficiaires de minima sociaux";
+i_menf0_17;"Indicatrice (0/1) des ménages avec enfant(s) de moins de 18 ans";
+i_pauvre60_menf0_17;"Indicatrice (0/1) des ménages pauvres à 60% avec enfant(s) de moins de 18 ans";
+i_p60avimpprestsoc;"Indicatrice (0/1) des ménages pauvres avant impact du système socio-fiscal";
+i_p60avimpprestsoc_menf0_17;"Indicatrice (0/1) des ménages pauvres avant impact du système socio-fiscal avec enfant(s) de moins de 18 ans";
+i_gardem;"Indicatrice (0/1) des ménages bénéficiant d'une déduction fiscale relative au mode de garde";
+NBPERS_D1_DP;"Nombre de personnes du ménage si revenu disponible par UC entre 0 (inclus) et D1 (exclu), 0 sinon";
+NBPERS_D2_DP;"Nombre de personnes du ménage si revenu disponible par UC entre D1 (inclus) et D2 (exclu), 0 sinon";
+NBPERS_D3_DP;"Nombre de personnes du ménage si revenu disponible par UC entre D2 (inclus) et D3 (exclu), 0 sinon";
+NBPERS_D4_DP;"Nombre de personnes du ménage si revenu disponible par UC entre D3 (inclus) et D4 (exclu), 0 sinon";
+NBPERS_D5_DP;"Nombre de personnes du ménage si revenu disponible par UC entre D4 (inclus) et D5 (exclu), 0 sinon";
+NBPERS_D6_DP;"Nombre de personnes du ménage si revenu disponible par UC entre D5 (inclus) et D6 (exclu), 0 sinon";
+NBPERS_D7_DP;"Nombre de personnes du ménage si revenu disponible par UC entre D6 (inclus) et D7 (exclu), 0 sinon";
+NBPERS_D8_DP;"Nombre de personnes du ménage si revenu disponible par UC entre D7 (inclus) et D8 (exclu), 0 sinon";
+NBPERS_D9_DP;"Nombre de personnes du ménage si revenu disponible par UC entre D8 (inclus) et D9 (exclu), 0 sinon";
+NBPERS_D10_DP;"Nombre de personnes du ménage si revenu disponible par UC supérieur ou égal à D9, 0 sinon";
+clcam_colcam;"Montant annuel versé pour les prestations CLCA et COLCA";
+filtre_revdec;"Indicatrice d'appartenance au champ de production des indicateurs sur le revenu déclaré";
+filtre_revdisp;"Indicatrice d'appartenance au champ de production des indicateurs sur le revenu disponible";
+
+
+
+irisblanc_14_diff3
+"Fichier des Iris Métropole et quatre DOM"
+
+"Nom de la variable";Libellé;Modalités
+DEPCOM;"Code commune ou arrondissement municipal";"Code arrondissement municipal - <a href='https://www.insee.fr/fr/information/2560563' target=""_blank""> cliquer ici</a>"
+IRIS;"Iris sur 9 positions";
+BLANC;"Indicateur de recoupement";"0 - Pas de problème de recoupement";"1 - Iris pour lequel tous les indicateurs additifs doivent être blanchis car il y a un problème de recoupement avec des QP";"2 - Iris pour lequel tous les indicateurs additifs doivent être blanchis car il y a un problème de recoupement avec le niveau communal."
+NBMEN_DEC;"Nombre de ménages fiscaux";
+EXCLUS_DIFF;"Indicateur de diffusion de l'Iris";"0 - Iris dans le champ de diffusion de Filosofi";"1 - Iris en dehors du champ de diffusion de Filosofi"
+EXCLUS_INDIC;"Indicateur de confidentialité";"0 - Iris pour lesquels il n’y a aucun problème de secret statistique direct : tous les critères de confidentialité sont respectés pour tous les indicateurs additifs";"1 - Iris pour lesquels il y a au moins un des indicateurs additifs pour lequel tous les critères de confidentialité ne sont pas respectés"
+
+
+
