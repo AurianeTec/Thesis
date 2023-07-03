@@ -120,7 +120,20 @@ if __name__ == '__main__':
     # Create OD matrix
     def process_node(args):
         start_node, end_node = args
-        global g_igraph
+        # Retrieve edges
+        edges_with_id = pd.read_csv('data/clean/initial_network_edges_complete.csv')
+        edges_with_id["geometry"] = edges_with_id.apply(lambda x: shapely.wkt.loads(x.geometry), axis = 1)
+        edges_with_id = gpd.GeoDataFrame(edges_with_id, geometry = 'geometry', crs = 4326).to_crs(2154)
+        # Retrieve nodes
+        nodes_carbike_centroids_RER_complete = pd.read_csv('data/clean/initial_network_nodes_complete.csv')
+        nodes_carbike_centroids_RER_complete["geometry"] = nodes_carbike_centroids_RER_complete.apply(lambda x: shapely.wkt.loads(x.geometry), axis = 1)
+        nodes_carbike_centroids_RER_complete = gpd.GeoDataFrame(nodes_carbike_centroids_RER_complete, geometry = 'geometry', crs = 2154)
+        
+        G = nx.from_pandas_edgelist(edges_with_id, source='x', target='y', edge_attr=True)
+        G.add_nodes_from(nodes_carbike_centroids_RER_complete.loc[:,["osmid", "attr_dict"]].itertuples(index = False))
+
+        g_igraph = ig.Graph.from_networkx(networkx_graph)
+        
         shortest_path_length = g_igraph.shortest_paths_dijkstra(source=start_node, target=end_node, weights='weight')[0][0]
         return (start_node, end_node, shortest_path_length)
 
