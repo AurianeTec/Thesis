@@ -9,7 +9,7 @@ os.environ['USE_PYGEOS'] = '0'
 import geopandas as gpd
 import matplotlib.pyplot as plt
 pd.options.mode.chained_assignment = None  # default='warn'
-import osmnx as nx
+import networkx as nx
 import shapely
 import multiprocess as mp
 import numpy as np
