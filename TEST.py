@@ -103,9 +103,9 @@ if __name__ == '__main__':
 
     # nids_conv['nx'] = nids_conv['nx'].astype(int)
 
-    # combine the conversion table with nodes_carbike_centroids_RER_complete
-    nodes_carbike_centroids_RER_complete = nodes_carbike_centroids_RER_complete.merge(nids_conv, left_on = "osmid", right_on = "nx", how = "left")
-    nodes_carbike_centroids_RER_complete = nodes_carbike_centroids_RER_complete.drop(columns = ["nx"])
+    # # combine the conversion table with nodes_carbike_centroids_RER_complete
+    # nodes_carbike_centroids_RER_complete = nodes_carbike_centroids_RER_complete.merge(nids_conv, left_on = "osmid", right_on = "nx", how = "left")
+    # nodes_carbike_centroids_RER_complete = nodes_carbike_centroids_RER_complete.drop(columns = ["nx"])
 
 
 
