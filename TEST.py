@@ -91,17 +91,17 @@ if __name__ == '__main__':
     networkx_graph = G
     g_igraph = ig.Graph.from_networkx(networkx_graph)
 
-    # eids: "conversion table" for edge ids from igraph to nx 
-    eids_nx = [tuple(sorted(literal_eval(g_igraph.es(i)["edge_id"][0]))) for i in range(len(g_igraph.es))]
-    eids_ig = [i for i in range(len(g_igraph.es))]
-    eids_conv = pd.DataFrame({"nx": eids_nx, "ig": eids_ig})
+    # # eids: "conversion table" for edge ids from igraph to nx 
+    # eids_nx = [tuple(sorted(literal_eval(g_igraph.es(i)["edge_id"][0]))) for i in range(len(g_igraph.es))]
+    # eids_ig = [i for i in range(len(g_igraph.es))]
+    # eids_conv = pd.DataFrame({"nx": eids_nx, "ig": eids_ig})
 
-    # nids: "conversion table" for node ids from igraph to nx
-    nids_nx = [g_igraph.vs(i)["_nx_name"][0] for i in range(len(g_igraph.vs))]
-    nids_ig = [i for i in range(len(g_igraph.vs))]
-    nids_conv = pd.DataFrame({"nx": nids_nx, "ig": nids_ig})
+    # # nids: "conversion table" for node ids from igraph to nx
+    # nids_nx = [g_igraph.vs(i)["_nx_name"][0] for i in range(len(g_igraph.vs))]
+    # nids_ig = [i for i in range(len(g_igraph.vs))]
+    # nids_conv = pd.DataFrame({"nx": nids_nx, "ig": nids_ig})
 
-    nids_conv['nx'] = nids_conv['nx'].astype(int)
+    # nids_conv['nx'] = nids_conv['nx'].astype(int)
 
     # combine the conversion table with nodes_carbike_centroids_RER_complete
     nodes_carbike_centroids_RER_complete = nodes_carbike_centroids_RER_complete.merge(nids_conv, left_on = "osmid", right_on = "nx", how = "left")
