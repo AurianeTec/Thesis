@@ -132,14 +132,15 @@ if __name__ == '__main__':
         G = nx.from_pandas_edgelist(edges_with_id, source='x', target='y', edge_attr=True)
         G.add_nodes_from(nodes_carbike_centroids_RER_complete.loc[:,["osmid", "attr_dict"]].itertuples(index = False))
 
-        g_igraph = ig.Graph.from_networkx(networkx_graph)
+        g_igraph = ig.Graph.from_networkx(G)
         
         shortest_path_length = g_igraph.shortest_paths_dijkstra(source=start_node, target=end_node, weights='weight')[0][0]
         return (start_node, end_node, shortest_path_length)
 
 
     # Number of processes (cores) to use for parallel processing
-    num_processes = 4
+    num_processes = mp.cpu_count()
+    print(num_processes)
 
     # Create a pool of processes
     pool = mp.Pool(processes=num_processes)
