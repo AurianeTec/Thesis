@@ -447,13 +447,15 @@ if __name__ == '__main__':
         chunks = []
         for chunk in pd.read_csv(file_path, nrows = 150, chunksize=chunk_size):
             chunk['path'] = chunk['path'].apply(eval)
-            for j in range(len(dicts)):
+            j=0
+            while j==0:
                 chunk["B_star"+str(j)] = chunk.apply(lambda x: 
                                         np.sum([dicts[j][g_df.loc[g_df['id'] == i]['edge'].values[0]] * \
                                                 g_igraph.es[i]["length"] \
                                                 for i in x.path]), 
                                         axis=1)
                 chunk["B"+str(j)] = chunk["B_star"+str(j)] / chunk["length"]
+                j+=1
             chunks.append(chunk)
         return chunks
 
